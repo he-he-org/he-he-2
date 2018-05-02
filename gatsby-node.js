@@ -5,7 +5,7 @@ const slug = require(`slug`);
 
 exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   if (node.internal.type === `MarkdownRemark`) {
-    const { createNodeField } = boundActionCreators;
+    const { createNodeField, deleteNode } = boundActionCreators;
 
     const parent = getNode(node.parent);
     const fileSlug = slug(parent.name);
@@ -18,7 +18,7 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
     createNodeField({
       node,
       name: `collection`,
-      value: parent.sourceInstanceName
+      value: parent.name === 'noop' ? 'noop' : parent.sourceInstanceName,
     })
   }
 };

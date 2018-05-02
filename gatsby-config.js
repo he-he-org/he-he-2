@@ -6,13 +6,6 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `noop`,
-        path: `${__dirname}/content/noop.md`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
         name: `blog`,
         path: `${__dirname}/content/blog/`,
       },

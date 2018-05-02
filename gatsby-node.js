@@ -1,19 +1,16 @@
 const { LANGUAGES, DEFAULT_LANGUAGE_CODE } = require(`./src/constants`);
 const path = require(`path`);
 const { createFilePath } = require(`gatsby-source-filesystem`);
-const slug = require(`slug`);
 
 exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   if (node.internal.type === `MarkdownRemark`) {
     const { createNodeField, deleteNode } = boundActionCreators;
 
     const parent = getNode(node.parent);
-    const fileSlug = slug(parent.name);
-
     createNodeField({
       node,
       name: `slug`,
-      value: fileSlug,
+      value: parent.name,
     });
     createNodeField({
       node,
@@ -24,19 +21,19 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
 };
 
 exports.onCreatePage= ({ page, boundActionCreators }) => {
-  const { createPage } = boundActionCreators;
+  const { createPage, deletePage } = boundActionCreators;
 
   // Make pages for all languages, except of default (page for default already created)
+  deletePage(page);
   LANGUAGES.forEach(({ code }) => {
-    if (code !== DEFAULT_LANGUAGE_CODE) {
-      createPage({
-        ...page,
-        path: `/${code}${page.path}`,
-        context: {
-          ...page.context,
-        }
-      })
-    }
+    createPage({
+      ...page,
+      path: `${code === DEFAULT_LANGUAGE_CODE ? '' : `/${code}`}${page.path}`,
+      context: {
+        ...page.context,
+        language: code,
+      }
+    })
   })
 };
 
@@ -52,17 +49,22 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                 slug
                 collection
               }
+              frontmatter {
+                language
+              }
             }
           }
         }
       }
     `).then(result => {
-      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+      result.data.allMarkdownRemark.edges.forEach((edge) => {
+        const { node } = edge;
         if (node.fields.collection !== 'noop') {
           LANGUAGES.forEach(({ code }) => {
             let pagePath = `${node.fields.collection}/${node.fields.slug}`;
-            if (code !== DEFAULT_LANGUAGE_CODE) {
-              pagePath = `/${code}` + pagePath;
+            let language = node.frontmatter.language;
+            if (language !== DEFAULT_LANGUAGE_CODE) {
+              pagePath = `${language}/` + pagePath;
             }
             createPage({
               path: pagePath,

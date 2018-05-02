@@ -20,11 +20,16 @@ export default withLanguage(({ data, language }) => (
 
 
 export const query = graphql`
-  query VacanciesQuery {
+  query VacanciesQuery($language: String!) {
     allMarkdownRemark(
       filter: {
-        fields: {collection: {eq: "vacancies"}}
-      },
+        fields: {
+          collection: {eq: "vacancies"},
+        }
+        frontmatter: {
+          language: {eq: $language}
+        }
+      }
       sort: {
         fields: [frontmatter___date], order: DESC 
       }

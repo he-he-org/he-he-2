@@ -22,11 +22,16 @@ export default withLanguage((props) => {
 })
 
 export const query = graphql`
-  query BlogQuery {
+  query BlogQuery($language: String!) {
     allMarkdownRemark(
       filter: {
-        fields: {collection: {eq: "blog"}}
-      },
+        fields: {
+          collection: {eq: "blog"}
+        }
+        frontmatter: {
+          language: {eq: $language}
+        }
+      }
       sort: {
         fields: [frontmatter___date], order: DESC 
       }

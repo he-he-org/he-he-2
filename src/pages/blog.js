@@ -1,22 +1,25 @@
 import React from "react"
 import Link from "gatsby-link";
+import { withLanguage } from '../helpers/i18n';
+import routes from '../helpers/routes';
 
-
-export default ({ data }) => (
-  <div>
-    <h1>Blog</h1>
+export default withLanguage((props) => {
+  const { data, language } = props;
+  return (
     <div>
-      {data.allMarkdownRemark.edges.map((edge) => {
-        const { node } = edge;
-        const { frontmatter } = node;
-        return (
-          <p key={node.id}><Link to={`/blog/${node.fields.slug}/`}>{frontmatter.date}: {frontmatter.title}</Link></p>
-        );
-      })}
+      <h1>Blog ({language})</h1>
+      <div>
+        {data.allMarkdownRemark.edges.map((edge) => {
+          const { node } = edge;
+          const { frontmatter } = node;
+          return (
+            <p key={node.id}><Link to={routes.blogPost({ language, slug: node.fields.slug })}>{frontmatter.date}: {frontmatter.title}</Link></p>
+          );
+        })}
+      </div>
     </div>
-  </div>
-)
-
+  );
+})
 
 export const query = graphql`
   query BlogQuery {

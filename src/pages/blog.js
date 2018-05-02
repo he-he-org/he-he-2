@@ -2,7 +2,6 @@ import React from "react"
 import Link from "gatsby-link";
 import { withI18n } from '../i18n';
 import routes from '../helpers/routes';
-import { translate } from 'react-i18next';
 
 export default withI18n((props) => {
   const { data, language, t } = props;

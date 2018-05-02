@@ -7,7 +7,7 @@ export default withLanguage(({ data, language }) => (
   <div>
     <h1>Vacancies ({ language })</h1>
     <div>
-      {data.allMarkdownRemark.edges.map((edge) => {
+      {data.allMarkdownRemark && data.allMarkdownRemark.edges.map((edge) => {
         const { node } = edge;
         const { frontmatter } = node;
         return (

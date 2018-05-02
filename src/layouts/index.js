@@ -5,8 +5,6 @@ import routes from '../helpers/routes';
 import { LANGUAGES } from '../constants';
 
 export default withLanguage(({ children, language }) => {
-  console.log("language", language)
-
   return (
     <div>
       <div style={{ display: 'flex', justifyContent: 'space-between' }}>

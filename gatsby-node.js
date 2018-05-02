@@ -58,20 +58,22 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
       }
     `).then(result => {
       result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-        LANGUAGES.forEach(({ code }) => {
-          let pagePath = `${node.fields.collection}/${node.fields.slug}`;
-          if (code !== DEFAULT_LANGUAGE_CODE) {
-            pagePath = `/${code}` + pagePath;
-          }
-          createPage({
-            path: pagePath,
-            component: path.resolve(`./src/templates/${node.fields.collection}.js`),
-            context: {
-              // Data passed to context is available in page queries as GraphQL variables.
-              slug: node.fields.slug,
-            },
-          });
-        })
+        if (node.fields.collection !== 'noop') {
+          LANGUAGES.forEach(({ code }) => {
+            let pagePath = `${node.fields.collection}/${node.fields.slug}`;
+            if (code !== DEFAULT_LANGUAGE_CODE) {
+              pagePath = `/${code}` + pagePath;
+            }
+            createPage({
+              path: pagePath,
+              component: path.resolve(`./src/templates/${node.fields.collection}.js`),
+              context: {
+                // Data passed to context is available in page queries as GraphQL variables.
+                slug: node.fields.slug,
+              },
+            });
+          })
+        }
       });
       resolve()
     })

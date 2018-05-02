@@ -4,9 +4,6 @@ import { DEFAULT_LANGUAGE_CODE, LANGUAGE_CODES } from '../constants';
 export const withLanguage = (WrappedComponent) => {
   return class extends React.Component {
     render() {
-      console.log("this.props", this.props)
-      // const { pathContext } = this.props;
-      // const { language = 'en' } = pathContext;
       const { location } = this.props;
       const { pathname } = location;
 

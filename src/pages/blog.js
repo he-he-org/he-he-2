@@ -9,7 +9,7 @@ export default withLanguage((props) => {
     <div>
       <h1>Blog ({language})</h1>
       <div>
-        {data.allMarkdownRemark.edges.map((edge) => {
+        {data.allMarkdownRemark && data.allMarkdownRemark.edges.map((edge) => {
           const { node } = edge;
           const { frontmatter } = node;
           return (

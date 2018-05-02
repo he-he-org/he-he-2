@@ -1,6 +1,7 @@
 const { LANGUAGES, DEFAULT_LANGUAGE_CODE } = require(`./src/constants`);
 const path = require(`path`);
 const { createFilePath } = require(`gatsby-source-filesystem`);
+const slug = require(`slug`);
 
 exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   if (node.internal.type === `MarkdownRemark`) {
@@ -10,7 +11,7 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
     createNodeField({
       node,
       name: `slug`,
-      value: parent.name,
+      value: slug(parent.name),
     });
     createNodeField({
       node,

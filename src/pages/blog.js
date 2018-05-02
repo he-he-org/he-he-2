@@ -1,10 +1,11 @@
 import React from "react"
 import Link from "gatsby-link";
-import { withLanguage } from '../helpers/i18n';
+import { withI18n } from '../i18n';
 import routes from '../helpers/routes';
+import { translate } from 'react-i18next';
 
-export default withLanguage((props) => {
-  const { data, language } = props;
+export default withI18n((props) => {
+  const { data, language, t } = props;
   return (
     <div>
       <h1>Blog ({language})</h1>

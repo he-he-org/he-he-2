@@ -1,9 +1,9 @@
 import React from "react"
 import Link from "gatsby-link";
-import { withLanguage } from '../helpers/i18n';
+import { withI18n } from '../i18n';
 import routes from '../helpers/routes';
 
-export default withLanguage(({ data, language }) => (
+export default withI18n(({ data, language }) => (
   <div>
     <h1>Vacancies ({ language })</h1>
     <div>

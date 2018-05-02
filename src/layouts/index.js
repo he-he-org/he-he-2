@@ -1,17 +1,17 @@
 import React from 'react'
 import Link from "gatsby-link";
-import { withLanguage } from '../helpers/i18n';
+import { withI18n } from '../i18n';
 import routes from '../helpers/routes';
 import { LANGUAGES } from '../constants';
 
-export default withLanguage(({ children, language }) => {
+export default withI18n(({ children, language, t }) => {
   return (
     <div>
       <div style={{ display: 'flex', justifyContent: 'space-between' }}>
         <div>
-          <Link style={{ marginRight: 20 }} to={routes.index({ language })}>Main</Link>
-          <Link style={{ marginRight: 20 }} to={routes.blog({ language })}>Blog</Link>
-          <Link style={{ marginRight: 20 }} to={routes.vacancies({ language })}>Vacancies</Link>
+          <Link style={{ marginRight: 20 }} to={routes.index({ language })}>{t('layouts_index_menu_main')}</Link>
+          <Link style={{ marginRight: 20 }} to={routes.blog({ language })}>{t('layouts_index_menu_blog')}</Link>
+          <Link style={{ marginRight: 20 }} to={routes.vacancies({ language })}>{t('layouts_index_menu_vacancies')}</Link>
         </div>
         <div>
           {LANGUAGES.map(({ code, title }) => (

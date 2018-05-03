@@ -3,6 +3,7 @@ import React from "react";
 import styles from './blog.module.scss';
 import { format } from '../helpers/date';
 import { withI18n } from '../i18n';
+import MarkdownContent from '../components/MarkdownContent';
 
 export default withI18n(({ data, language }) => {
   const post = data.markdownRemark;
@@ -10,7 +11,7 @@ export default withI18n(({ data, language }) => {
     <div className={styles.root}>
       <div className={styles.title}>{post.frontmatter.title}</div>
       <div className={styles.date}>{format(post.frontmatter.date, language, { format: 'LL' })}</div>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <MarkdownContent html={post.html}/>
     </div>
   );
 });

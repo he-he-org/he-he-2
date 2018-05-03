@@ -1,15 +1,29 @@
 import React from "react";
+import MarkdownContent from '../components/MarkdownContent';
 
-export default ({ data }) => {
-  const post = data.markdownRemark;
+import styles from './vacancies.module.scss';
+import { withI18n } from '../i18n';
+
+const renderPlace = (place, t) => {
+  switch (place) {
+    case 'guatemala': return t('pages_vacancies_group_title_guatemala');
+    case 'nicaragua': return t('pages_vacancies_group_title_nicaragua');
+    case 'online': return t('pages_vacancies_group_title_online');
+    default:
+      return place;
+  }
+};
+
+export default withI18n(({ data, t }) => {
+  const vacancy = data.markdownRemark;
   return (
-    <div>
-      <h1>Vacancy</h1>
-      <h2>{post.frontmatter.title}</h2>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+    <div className={styles.root}>
+      <div className={styles.title}>{vacancy.frontmatter.title}</div>
+      <div className={styles.place}>{renderPlace(vacancy.frontmatter.place, t)}</div>
+      <MarkdownContent html={vacancy.html} />
     </div>
   );
-};
+});
 
 export const query = graphql`
   query VacancyPostQuery($slug: String!) {
@@ -17,6 +31,7 @@ export const query = graphql`
       html
       frontmatter {
         title
+        place
       }
     }
   }

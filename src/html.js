@@ -29,6 +29,8 @@ module.exports = class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
+          <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&amp;subset=cyrillic" rel="stylesheet" />
+          <link href="/styles.css" rel="stylesheet" />
           {this.props.headComponents}
           {css}
         </head>

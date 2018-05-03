@@ -1,0 +1,32 @@
+.logoContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+.menu {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menuItem {
+  padding: 8px 0;
+  text-decoration: none;
+
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  &:hover,
+  &.isActive {
+    border-bottom: 5px solid #ff0000;
+  }
+}
+
+.body {
+  margin-top: 40px;
+}

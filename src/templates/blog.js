@@ -1,11 +1,12 @@
 import React from "react";
 
+import styles from './blog.module.less';
+
 export default ({ data }) => {
   const post = data.markdownRemark;
   return (
-    <div>
-      <h1>Blog post</h1>
-      <h2>{post.frontmatter.title}</h2>
+    <div className={styles.root}>
+      <div className={styles.title}>{post.frontmatter.title}</div>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
     </div>
   );

@@ -2,24 +2,33 @@ import React from "react"
 import Link from "gatsby-link";
 import { withI18n } from '../i18n';
 import routes from '../helpers/routes';
+import { format } from '../helpers/date';
+
+import styles from './blog.module.less';
 
 export default withI18n((props) => {
   const { data, language, t } = props;
   return (
-    <div>
-      <h1>Blog ({language})</h1>
-      <div>
-        {data.allMarkdownRemark && data.allMarkdownRemark.edges.map((edge) => {
-          const { node } = edge;
-          const { frontmatter } = node;
-          return (
-            <p key={node.id}><Link to={routes.blogPost({ language, slug: node.fields.slug })}>{frontmatter.date}: {frontmatter.title}</Link></p>
-          );
-        })}
-      </div>
+    <div className={styles.root}>
+      {data.allMarkdownRemark && data.allMarkdownRemark.edges.map((edge) => {
+        const { node } = edge;
+        const { frontmatter } = node;
+        return (
+          <Link
+            key={node.id}
+            className={styles.item}
+            to={routes.blogPost({ language, slug: node.fields.slug })}
+          >
+            <div className={styles.itemTitle}>{frontmatter.title}</div>
+            <div>{format(frontmatter.date)}</div>
+          </Link>
+        );
+      })}
     </div>
   );
 })
+
+
 
 export const query = graphql`
   query BlogQuery($language: String!) {
@@ -41,7 +50,7 @@ export const query = graphql`
           id
           frontmatter {
             title
-            date(formatString: "DD MMMM, YYYY")
+            date
           }
           fields {
             slug

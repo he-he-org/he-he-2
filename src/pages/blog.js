@@ -4,7 +4,7 @@ import { withI18n } from '../i18n';
 import routes from '../helpers/routes';
 import { format } from '../helpers/date';
 
-import styles from './blog.module.less';
+import styles from './blog.module.scss';
 
 export default withI18n((props) => {
   const { data, language, t } = props;

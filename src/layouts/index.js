@@ -5,7 +5,7 @@ import { withI18n } from '../i18n';
 import routes from '../helpers/routes';
 import { LANGUAGES } from '../constants';
 
-import styles from './index.module.less';
+import styles from './index.module.scss';
 import Logo from './logo.png';
 
 const renderMenuItem = (route, title, isActive) => {

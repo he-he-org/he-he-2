@@ -21,7 +21,7 @@ export default withI18n((props) => {
           >
             <div className={styles.itemTitle}>{frontmatter.title}</div>
             <div className={styles.itemShortDescription}>{frontmatter.shortDescription}</div>
-            <div className={styles.itemDate}>{format(frontmatter.date)}</div>
+            <div className={styles.itemDate}>{format(frontmatter.date, language)}</div>
           </Link>
         );
       })}

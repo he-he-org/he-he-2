@@ -55,6 +55,7 @@ html {
 
 html * {
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 body {

@@ -49,6 +49,10 @@ table {
 /*
     Some global styles
 */
+html {
+  background: #fbfbfb;
+}
+
 html * {
   font-family: 'Roboto', sans-serif;
 }

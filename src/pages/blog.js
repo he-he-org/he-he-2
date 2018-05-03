@@ -20,7 +20,8 @@ export default withI18n((props) => {
             to={routes.blogPost({ language, slug: node.fields.slug })}
           >
             <div className={styles.itemTitle}>{frontmatter.title}</div>
-            <div>{format(frontmatter.date)}</div>
+            <div className={styles.itemShortDescription}>{frontmatter.shortDescription}</div>
+            <div className={styles.itemDate}>{format(frontmatter.date)}</div>
           </Link>
         );
       })}
@@ -51,6 +52,7 @@ export const query = graphql`
           frontmatter {
             title
             date
+            shortDescription
           }
           fields {
             slug

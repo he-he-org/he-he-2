@@ -6,6 +6,8 @@ import routes from '../helpers/routes';
 import { LANGUAGES } from '../constants';
 
 import styles from './index.module.scss';
+import './globals.css';
+
 import Logo from './logo.png';
 
 const renderMenuItem = (route, title, isActive) => {

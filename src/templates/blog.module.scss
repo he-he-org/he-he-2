@@ -34,5 +34,10 @@
       margin: 4px 0;
     }
   }
+
+  img {
+    max-width: 768px;
+    width: calc(100vw - 32px); // todo: use global constants
+  }
 }
 

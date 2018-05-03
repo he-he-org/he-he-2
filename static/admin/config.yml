@@ -22,7 +22,7 @@ collections:
     label: "Vacancies"
     folder: "content/vacancies"
     create: true
-    slug: "{{slug}}"
+    slug: "{{place}}-{{slug}}"
     fields:
       - {label: "Language", name: "language", widget: "select", options: [{ label: "Russian", value: "ru" }, { label: "English", value: "en" }]}
       - {label: "Title", name: "title", widget: "string"}

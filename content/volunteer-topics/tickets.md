@@ -1,5 +1,5 @@
 ---
-name: ticketsmm777 jkjk
+name: tickets
 title: Tickets
 titleRu: Билеты
 ---

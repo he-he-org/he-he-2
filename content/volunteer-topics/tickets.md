@@ -1,5 +1,0 @@
----
-title: Tickets
-titleRu: Билеты
----
-

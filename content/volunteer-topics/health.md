@@ -1,5 +1,0 @@
----
-title: Health
-titleRu: Здоровье
----
-

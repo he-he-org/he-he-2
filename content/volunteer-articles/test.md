@@ -1,5 +1,5 @@
 ---
 title: Test
-topics: 'Tickets, Health'
+topics: Health
 ---
 1111

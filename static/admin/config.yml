@@ -7,7 +7,7 @@ public_folder: /uploads
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
+    label: "Blog Record" # Used in the UI
     folder: "content/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -18,8 +18,8 @@ collections:
       - {label: "Short description", name: "shortDescription", widget: "string"}
       - {label: "Is hidden", name: "layout", widget: "hidden", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "vacancies"
-    label: "Vacancies"
+  - name: "vacancy"
+    label: "Vacancy"
     folder: "content/vacancies"
     create: true
     slug: "{{place}}-{{slug}}"
@@ -30,3 +30,22 @@ collections:
       - {label: "Place", name: "place", widget: "select", options: [{ label: "Guatemala", value: "guatemala" }, { label: "Nicaragua", value: "nicaragua" }, { label: "On-line", value: "online" }]}
       - {label: "Is hidden", name: "layout", widget: "hidden", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "volunteer-topic"
+    label: "For volunteer - Topic"
+    folder: "content/volunteer-topics"
+    create: true
+    slug: "{{name}}"
+    fields:
+      - {label: "Name", name: "name", widget: "string", pattern: ["^[a-z-]+$", "Allowed symbols: a-z, -"]}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Title (ru)", name: "titleRu", widget: "string"}
+  - name: "volunteer-article"
+    label: "For volunteer - Article"
+    folder: "content/volunteer-articles"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Topics", name: "topics", widget: "string", pattern: ["^[a-z-]+(,[a-z-]+)*$", "Should be a comma-separated list of topic names"]}

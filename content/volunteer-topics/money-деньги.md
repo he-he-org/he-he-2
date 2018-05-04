@@ -1,5 +1,5 @@
 ---
-name: money деньг
+name: money
 title: Money
 titleRu: Деньги
 ---

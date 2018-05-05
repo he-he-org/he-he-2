@@ -70,3 +70,13 @@ $border-radius: 8px;
     border-top-right-radius: $border-radius;
   }
 }
+
+@media (max-width: 540px) {
+  .root {
+    width: 100%;
+
+    &:nth-child(even) {
+      margin-left: 0;
+    }
+  }
+}

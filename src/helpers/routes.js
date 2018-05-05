@@ -1,7 +1,7 @@
 import { DEFAULT_LANGUAGE_CODE } from '../constants';
 
 function r(route) {
-  return (params) => {
+  return (params, urlParams) => {
     let result = '/';
     if (params.language && params.language !== DEFAULT_LANGUAGE_CODE) {
       result += `${params.language}/`;
@@ -23,6 +23,14 @@ function r(route) {
       .forEach((part) => (
         result += `${part}/`
       ));
+
+    if (urlParams) {
+      const pairs = Object.keys(urlParams).map((key) => `${key}=${encodeURIComponent(urlParams[key])}`)
+      if (pairs.length > 0) {
+        result += `?${pairs}`;
+      }
+    }
+
     return result;
   }
 }
@@ -32,5 +40,8 @@ export default {
   blog: r('/blog/'),
   blogPost: r('/blog/:slug/'),
   vacancies: r('/vacancies/'),
-  vacanciesItem: r('/vacancies/:slug'),
+  vacanciesItem: r('/vacancies/:slug/'),
+  volunteer: r('/volunteer/'),
+  volunteerTopic: r('/volunteer/topic/:slug/'),
+  volunteerArticle: r('/volunteer/:slug/'),
 }

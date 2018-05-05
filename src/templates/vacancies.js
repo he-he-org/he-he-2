@@ -27,7 +27,12 @@ export default withI18n(({ data, t }) => {
 
 export const query = graphql`
   query VacancyPostQuery($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    markdownRemark(
+      fields: {
+        slug: { eq: $slug }
+        collection: { eq: "vacancies" } 
+      }
+    ) {
       html
       frontmatter {
         title

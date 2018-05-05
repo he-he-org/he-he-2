@@ -1,6 +1,6 @@
 ---
 name: tickets
 title: Tickets
-titleRu: Билеты
+title_ru: Билеты
 ---
 

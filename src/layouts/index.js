@@ -24,6 +24,7 @@ export default withI18n(({ children, language, t, location }) => {
         <div>
           {renderMenuItem(routes.blog({ language }), t('layouts_index_menu_blog'), location.pathname.startsWith(routes.blog({ language })))}
           {renderMenuItem(routes.vacancies({ language }), t('layouts_index_menu_vacancies'), location.pathname.startsWith(routes.vacancies({ language })))}
+          {renderMenuItem(routes.volunteer({ language }), t('layouts_index_menu_volunteer'), location.pathname.startsWith(routes.volunteer({ language })))}
         </div>
         <div>
           {LANGUAGES.map(({ code, title }) => (

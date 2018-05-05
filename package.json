@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "classnames": "^2.2.5",
+    "fs-extra": "^6.0.0",
     "gatsby": "^1.9.250",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-less": "^1.1.8",
@@ -18,6 +19,7 @@
     "gatsby-transformer-remark": "^1.7.40",
     "intl-messageformat": "^2.2.0",
     "netlify-cms": "^1.7.0",
+    "sharp": "^0.20.2",
     "slug": "^0.9.1"
   }
 }

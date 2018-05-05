@@ -1,0 +1,41 @@
+$border-radius: 8px;
+
+.root {
+  $margin: 8px;
+
+  display: inline-flex;
+  flex-direction: column;
+  width: calc(50% - #{$margin / 2});
+  text-decoration: none;
+  box-sizing: border-box;
+  border: 1px solid #efefef;
+  min-height: 150px;
+  border-radius: $border-radius;
+  background: white;
+  margin-bottom: $margin;
+
+  &:nth-child(even) {
+    margin-left: 8px;
+  }
+}
+
+.image {
+  height: 200px;
+  background-size: cover;
+  font-size: 24px;
+  color: white;
+  padding: 8px 16px;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.50);
+  border-top-left-radius: $border-radius;
+  border-top-right-radius: $border-radius;
+
+  &:last-child {
+    border-bottom-left-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+  }
+}
+
+.body {
+  padding: 16px 20px;
+}

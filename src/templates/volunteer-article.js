@@ -5,7 +5,8 @@ import { format } from '../helpers/date';
 import { withI18n } from '../i18n';
 import MarkdownContent from '../components/MarkdownContent';
 
-export default withI18n(({ data, language }) => {
+export default withI18n((props) => {
+  const { data, language } = props;
   const post = data.markdownRemark;
   return (
     <div className={styles.root}>
@@ -17,14 +18,15 @@ export default withI18n(({ data, language }) => {
 });
 
 export const query = graphql`
-  query BlogPostQuery($slug: String!) {
+  query VolunteerArticleQuery($slug: String!) {
     markdownRemark(
       fields: { 
         slug: { eq: $slug }
-        collection: { eq: "blog" } 
+        collection: { eq: "volunteer-articles" }
       }
     ) {
       html
+    	
       frontmatter {
         date
         title

@@ -1,6 +1,5 @@
 ---
 name: health
 title: Health
-titleRu: Здоровье
+title_ru: Здоровье
 ---
-

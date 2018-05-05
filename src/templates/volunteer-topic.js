@@ -36,13 +36,16 @@ class VolunteerTemplate extends React.Component {
   }
 
   renderArticles() {
-    const { language } = this.props;
+    const { language, t } = this.props;
     const { articles } = this.props.pathContext;
+
+    if (articles.length === 0) {
+      return <div className={styles.noItemsMessage}>{t('pages_volunteer_no_articles_yet')}</div>
+    }
 
     return (
       <div className={styles.articles}>
         {articles.map(({ id, fields, frontmatter }) => {
-          console.log("fields", fields)
           return (
             <ItemPreview
               url={routes.volunteerArticle({ language, slug: fields.slug })}
@@ -57,9 +60,6 @@ class VolunteerTemplate extends React.Component {
   }
 
   render() {
-    const { pageContext } = this.props;
-    console.log("this.props", this.props)
-
     return (
       <div className={styles.root}>
         {this.renderTopics()}

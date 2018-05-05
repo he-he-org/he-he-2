@@ -7,4 +7,7 @@ module.exports = {
   "pages_vacancies_group_title_guatemala": "Guatemala",
   "pages_vacancies_group_title_nicaragua": "Nicaragua",
   "pages_vacancies_group_title_online": "Online",
+  "pages_blog_no_posts_yet": "No blog posts yet, sorry :(",
+  "pages_vacancies_no_items_yet": "No vacancies yet, sorry :(",
+  "pages_volunteer_no_articles_yet": "There are no articles here yet, sorry :(",
 };

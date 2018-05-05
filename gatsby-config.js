@@ -31,6 +31,13 @@ module.exports = {
         path: `${__dirname}/content/volunteer-topics/`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/content/pages/`,
+      },
+    },
     'gatsby-transformer-remark',
     'gatsby-plugin-netlify-cms',
     'gatsby-plugin-sass',

@@ -21,70 +21,36 @@ class Vacancies extends React.Component {
     }
   }
 
-  // renderGroup(key, nodes) {
-  //   const { language } = this.props;
-  //   return (
-  //     <div key={key}>
-  //       <div className={styles.groupTitle}>{this.renderPlace(key)}</div>
-  //       <div>
-  //         {nodes.map((node) => {
-  //           const { frontmatter } = node;
-  //
-  //           return (
-  //             <Link
-  //               key={node.id}
-  //               className={styles.item}
-  //               to={routes.vacanciesItem({ language, slug: node.fields.slug })}
-  //             >
-  //               <div className={styles.itemTitle}>{frontmatter.title}</div>
-  //               <div className={styles.itemPlace}>{this.renderPlace(key)}</div>
-  //             </Link>
-  //           );
-  //         })}
-  //       </div>
-  //     </div>
-  //   )
-  // };
+  renderItems() {
+    const { data, language, t } = this.props;
 
-  render() {
-    const { data, language } = this.props;
+    const edges = data.allMarkdownRemark ? data.allMarkdownRemark.edges : [];
 
-    const groups = {};
-
-    if (data.allMarkdownRemark) {
-      data.allMarkdownRemark.edges.forEach((edge) => {
-        const { node } = edge;
-        const { frontmatter } = node;
-
-        const { place } = frontmatter;
-
-        if (!groups[place]) {
-          groups[place] = [];
-        }
-
-        groups[place].push(node);
-      })
+    if (edges.length === 0) {
+      return <div className={styles.noItemsMessage}>{t('pages_vacancies_no_items_yet')}</div>
     }
 
+    return edges.map((edge) => {
+      const { node } = edge;
+      const { fields, frontmatter } = node;
+
+      return (
+        <ItemPreview
+          key={node.id}
+          title={frontmatter.title}
+          url={routes.vacanciesItem({ language, slug: node.fields.slug })}
+          image={fields.image_thumbnail}
+        >
+          <div className={styles.itemPlace}>{this.renderPlace(frontmatter.place)}</div>
+        </ItemPreview>
+      )
+    });
+  }
+
+  render() {
     return (
       <div>
-        {data.allMarkdownRemark && data.allMarkdownRemark.edges.map((edge) => {
-          const { node } = edge;
-          const { fields, frontmatter } = node;
-
-          console.log("node", node)
-
-          return (
-            <ItemPreview
-              key={node.id}
-              title={frontmatter.title}
-              url={routes.vacanciesItem({ language, slug: node.fields.slug })}
-              image={fields.image_thumbnail}
-            >
-              <div className={styles.itemPlace}>{this.renderPlace(frontmatter.place)}</div>
-            </ItemPreview>
-          )
-        })}
+        {this.renderItems()}
       </div>
     )
   }

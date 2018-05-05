@@ -5,6 +5,7 @@ import routes from '../helpers/routes';
 import { format } from '../helpers/date';
 
 import styles from './blog.module.scss';
+import ItemPreview from '../components/ItemPreview';
 
 export default withI18n((props) => {
   const { data, language, t } = props;
@@ -12,17 +13,17 @@ export default withI18n((props) => {
     <div className={styles.root}>
       {data.allMarkdownRemark && data.allMarkdownRemark.edges.map((edge) => {
         const { node } = edge;
-        const { frontmatter } = node;
+        const { fields, frontmatter } = node;
         return (
-          <Link
+          <ItemPreview
             key={node.id}
-            className={styles.item}
-            to={routes.blogPost({ language, slug: node.fields.slug })}
+            title={frontmatter.title}
+            url={routes.blogPost({ language, slug: node.fields.slug })}
+            image={fields.image_thumbnail}
           >
-            <div className={styles.itemTitle}>{frontmatter.title}</div>
-            <div className={styles.itemShortDescription}>{frontmatter.shortDescription}</div>
             <div className={styles.itemDate}>{format(frontmatter.date, language)}</div>
-          </Link>
+            <div className={styles.itemShortDescription}>{frontmatter.shortDescription}</div>
+          </ItemPreview>
         );
       })}
     </div>
@@ -56,6 +57,7 @@ export const query = graphql`
           }
           fields {
             slug
+            image_thumbnail
           }
         }
       }

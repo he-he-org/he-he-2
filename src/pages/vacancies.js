@@ -5,6 +5,7 @@ import routes from '../helpers/routes';
 
 import styles from './vacancies.module.scss';
 import { format } from '../helpers/date';
+import ItemPreview from '../components/ItemPreview';
 
 
 class Vacancies extends React.Component {
@@ -69,17 +70,20 @@ class Vacancies extends React.Component {
       <div>
         {data.allMarkdownRemark && data.allMarkdownRemark.edges.map((edge) => {
           const { node } = edge;
-          const { frontmatter } = node;
+          const { fields, frontmatter } = node;
+
+          console.log("node", node)
+
           return (
-            <Link
+            <ItemPreview
               key={node.id}
-              className={styles.item}
-              to={routes.vacanciesItem({ language, slug: node.fields.slug })}
+              title={frontmatter.title}
+              url={routes.vacanciesItem({ language, slug: node.fields.slug })}
+              image={fields.image_thumbnail}
             >
-              <div className={styles.itemTitle}>{frontmatter.title}</div>
               <div className={styles.itemPlace}>{this.renderPlace(frontmatter.place)}</div>
-            </Link>
-          );
+            </ItemPreview>
+          )
         })}
       </div>
     )
@@ -113,6 +117,7 @@ export const query = graphql`
           }
           fields {
             slug
+            image_thumbnail
           }
         }
       }

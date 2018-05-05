@@ -13,7 +13,7 @@ class ItemPreview extends React.Component {
         className={styles.image}
         style={{ backgroundImage: `url(${this.props.image})` }}
       >
-        {this.props.title}
+        <span>{this.props.title}</span>
       </div>
     )
   }

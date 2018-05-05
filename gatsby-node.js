@@ -173,7 +173,8 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
       return [];
     });
 
-    Promise.all([topicsP, articlesP]).then(([topics, articles]) => {
+    Promise.all([topicsP, articlesP])
+      .then(([topics, articles]) => {
       LANGUAGES.forEach(({ code }) => {
         let baseVolunteersPagePath = `/volunteer/`;
         if (code !== DEFAULT_LANGUAGE_CODE) {
@@ -182,19 +183,25 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 
         const languageArticles = articles.filter(({ frontmatter }) => frontmatter.language === code)
 
+        // Filter out topics without articles
+        const languageTopics = topics.filter((topic) => {
+          return languageArticles
+            .some(({ frontmatter }) => frontmatter.topics.split(',').some((topicName) => topicName === topic.frontmatter.name));
+        });
+
         // Create page with no topic selected
         createPage({
           path: baseVolunteersPagePath,
           component: path.resolve(`./src/templates/volunteer-topic.js`),
           context: {
-            topics,
+            topics: languageTopics,
             topic: null,
             articles: languageArticles,
           },
         });
 
         // Create page for each topic
-        topics.forEach((topic) => {
+        languageTopics.forEach((topic) => {
           const topicArticles = languageArticles
             .filter(({ frontmatter }) => frontmatter.topics.split(',').some((topicName) => topicName === topic.frontmatter.name));
 
@@ -202,8 +209,8 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             path: `${baseVolunteersPagePath}topic/${topic.frontmatter.name}/`,
             component: path.resolve(`./src/templates/volunteer-topic.js`),
             context: {
-              topics,
               topic,
+              topics: languageTopics,
               articles: topicArticles,
             },
           });

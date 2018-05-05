@@ -57,7 +57,7 @@ collections:
   - label: "Pages"
     name: "pages"
     files:
-      - label: "About Page"
+      - label: "Index Page"
         name: "index"
         file: "content/pages/index.md"
         fields:

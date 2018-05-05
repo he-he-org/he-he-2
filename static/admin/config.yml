@@ -54,3 +54,14 @@ collections:
       - {label: "Topics", name: "topics", widget: "string", pattern: ["^[a-z-]+(,[a-z-]+)*$", "Should be a comma-separated list of topic names"]}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Is hidden", name: "is_hidden", widget: "hidden", default: false}
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "About Page"
+        name: "about"
+        file: "content/pages/about.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Title (ru), name: title_ru, widget: string}
+          - {label: Body, name: body, widget: markdown}
+          - {label: Body (ru), name: body_ru, widget: markdown}

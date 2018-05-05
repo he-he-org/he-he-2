@@ -1,5 +1,5 @@
 ---
-title: About
+title: Index page
 title_ru: О проекте
 body_ru: Русское описание проекта
 ---

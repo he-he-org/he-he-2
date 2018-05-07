@@ -63,6 +63,7 @@ body {
   max-width: 768px;
   margin: 0 auto;
   padding: 16px;
+  box-sizing: content-box;
 }
 
 a,

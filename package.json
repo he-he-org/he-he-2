@@ -8,6 +8,7 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "classnames": "^2.2.5",
     "fs-extra": "^6.0.0",
     "gatsby": "^1.9.250",
@@ -17,6 +18,9 @@
     "gatsby-plugin-sass": "^1.0.26",
     "gatsby-source-filesystem": "^1.5.34",
     "gatsby-transformer-remark": "^1.7.40",
+    "hyphenation.en-us": "^0.2.1",
+    "hyphenation.ru": "^0.2.1",
+    "hypher": "^0.2.5",
     "intl-messageformat": "^2.2.0",
     "netlify-cms": "^1.7.0",
     "sharp": "^0.20.2",

@@ -1,9 +1,9 @@
 ---
+language: ru
+date: '2018-05-02T20:17:18+03:00'
 title: Post about tickets
 image: /uploads/image_2.jpg
-topics: tickets
-language: ru
+topics: 'tickets,new-topic,budget'
 is_hidden: false
-date: '2018-05-02T20:17:18+03:00'
 ---
 Body of the post about tickets

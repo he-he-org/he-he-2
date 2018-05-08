@@ -1,10 +1,7 @@
 ---
 title: Index page
-title_ru: О проекте
-body_ru: |-
-  # О проекте
-
-  Русское описание проекта
+name: index
+language: en
 ---
 # About us
 

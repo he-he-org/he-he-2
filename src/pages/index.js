@@ -6,7 +6,6 @@ import MarkdownContent from '../components/MarkdownContent';
 import styles from "./index.module.scss";
 
 export default ({ data }) => {
-  console.log("data", data)
   const post = data.markdownRemark;
   return (
     <div className={styles.styles}>
@@ -16,12 +15,15 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-  query IndexPostQuery {
+  query IndexPostQuery($language: String!) {
     markdownRemark(
       fields: { 
-        slug: { eq: "index" }
-        collection: { eq: "pages" } 
+        collection: { eq: "pages" }
       }
+      frontmatter: {
+        name: { eq: "index" }
+        language: { eq: $language } 
+      }      
     ) {
       html
       frontmatter {

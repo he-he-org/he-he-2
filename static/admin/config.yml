@@ -62,6 +62,10 @@ collections:
         file: "content/pages/index.md"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Title (ru), name: title_ru, widget: string}
           - {label: Body, name: body, widget: markdown}
-          - {label: Body (ru), name: body_ru, widget: markdown}
+      - label: "Index Page (ru)"
+        name: "index_ru"
+        file: "content/pages/index_ru.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}

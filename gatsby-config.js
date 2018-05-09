@@ -34,6 +34,13 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `volunteer-places`,
+        path: `${__dirname}/content/volunteer-places/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         name: `pages`,
         path: `${__dirname}/content/pages/`,
       },

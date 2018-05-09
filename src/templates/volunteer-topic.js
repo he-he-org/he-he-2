@@ -12,20 +12,24 @@ import { DEFAULT_LANGUAGE_CODE } from '../constants';
 class VolunteerTemplate extends React.Component {
   renderTopics() {
     const { language } = this.props;
-    const { topics, topic } = this.props.pathContext;
+    const { topics, topic, place } = this.props.pathContext;
 
-    const currentTopicRoute = topic && routes.volunteerTopic({ language, slug: topic.frontmatter.name })
+    if (topics.length < 2) {
+      return null;
+    }
+
+    const currentTopicRoute = topic && routes.volunteerPlaceTopic({ language, place: place.frontmatter.name, topic: topic.frontmatter.name })
 
     return (
       <div className={styles.topics}>
         {topics.map(({ frontmatter }) => {
-          let route = routes.volunteerTopic({ language, slug: frontmatter.name });
+          let route = routes.volunteerPlaceTopic({ language, place: place.frontmatter.name, topic: frontmatter.name });
           let isActiveTopic = (route === currentTopicRoute);
           return (
             <Link
               className={cn(styles.topic, isActiveTopic && styles.isActive)}
               key={frontmatter.name}
-              to={isActiveTopic ? routes.volunteer({ language }) : route}
+              to={isActiveTopic ? routes.volunteerPlace({ language, place: place.frontmatter.name }) : route}
             >
               {language === DEFAULT_LANGUAGE_CODE ? frontmatter.title : frontmatter[`title_${language}`]}
             </Link>
@@ -37,7 +41,7 @@ class VolunteerTemplate extends React.Component {
 
   renderArticles() {
     const { language, t } = this.props;
-    const { articles } = this.props.pathContext;
+    const { articles, place, topic } = this.props.pathContext;
 
     if (articles.length === 0) {
       return <div className={styles.noItemsMessage}>{t('pages_volunteer_no_articles_yet')}</div>
@@ -48,7 +52,7 @@ class VolunteerTemplate extends React.Component {
         {articles.map(({ id, fields, frontmatter }) => {
           return (
             <ItemPreview
-              url={routes.volunteerArticle({ language, slug: fields.slug })}
+              url={routes.volunteerArticle({ language, place: place.frontmatter.name, slug: fields.slug })}
               key={id}
               image={fields.image_thumbnail}
               title={frontmatter.title}

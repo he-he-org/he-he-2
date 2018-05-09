@@ -27,10 +27,12 @@
 .menu {
   display: flex;
   justify-content: center;
+  margin-left: 32px;
 }
 
 .menuSection {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .menuItem {

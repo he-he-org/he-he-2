@@ -32,6 +32,16 @@ collections:
       - {label: "Place", name: "place", widget: "select", options: [{ label: "Guatemala", value: "guatemala" }, { label: "Nicaragua", value: "nicaragua" }, { label: "On-line", value: "online" }]}
       - {label: "Is hidden", name: "is_hidden", widget: "hidden", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "volunteer-place"
+    label: "For volunteer - Place"
+    folder: "content/volunteer-places"
+    create: true
+    slug: "{{name}}"
+    fields:
+      - {label: "Name", name: "name", widget: "string", pattern: ["^[a-z-]+$", "Allowed symbols: a-z, -"]}
+      - {label: "Order", name: "order", widget: "number", valueType: int, min: 1}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Title (ru)", name: "title_ru", widget: "string"}
   - name: "volunteer-topic"
     label: "For volunteer - Topic"
     folder: "content/volunteer-topics"
@@ -52,6 +62,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Topics", name: "topics", widget: "string", pattern: ["^[a-z-]+(,[a-z-]+)*$", "Should be a comma-separated list of topic names"]}
+      - {label: "Places", name: "places", widget: "string", pattern: ["^[a-z-]+(,[a-z-]+)*$", "Should be a comma-separated list of places names"]}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Is hidden", name: "is_hidden", widget: "hidden", default: false}
   - label: "Pages"

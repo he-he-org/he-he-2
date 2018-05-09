@@ -61,6 +61,9 @@ exports.onCreatePage= ({ page, boundActionCreators }) => {
   })
 };
 
+const articleTopicFilter = (topic) => (article) => article.frontmatter.topics.split(',').some((topicName) => topicName === topic.frontmatter.name);
+const articlePlaceFilter = (place) => (article) => article.frontmatter.places.split(',').some((placeName) => placeName === place.frontmatter.name);
+
 exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators;
 
@@ -105,6 +108,38 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   })
 
   const volunteerPromise = new Promise((resolve, reject) => {
+    const placesP = graphql(`
+      {
+        allMarkdownRemark(
+          filter: {
+            fields: {
+              collection: {eq: "volunteer-places"}
+            }
+          }
+        ) {
+          edges {
+            node {
+              id
+              frontmatter {
+                name
+                title
+                title_ru
+              }
+              fields {
+                slug,
+              }
+            }
+          }
+        }
+      }
+    `).then(result => {
+      if (result.data.allMarkdownRemark) {
+        return result.data.allMarkdownRemark.edges.map(({ node }) => node);
+      }
+
+      return [];
+    });
+
     const topicsP = graphql(`
       {
         allMarkdownRemark(
@@ -137,7 +172,6 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
       return [];
     });
 
-    // todo: filter by language
     const articlesP = graphql(`
       {
         allMarkdownRemark(
@@ -156,6 +190,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                 title
                 image
                 topics
+                places
               }
               fields {
                 slug
@@ -173,60 +208,68 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
       return [];
     });
 
-    Promise.all([topicsP, articlesP])
-      .then(([topics, articles]) => {
+    Promise.all([placesP, topicsP, articlesP])
+      .then(([places, topics, articles]) => {
       LANGUAGES.forEach(({ code }) => {
-        let baseVolunteersPagePath = `/volunteer/`;
+        let baseLanguagePath = `/`;
         if (code !== DEFAULT_LANGUAGE_CODE) {
-          baseVolunteersPagePath = `/${code}` + baseVolunteersPagePath;
+          baseLanguagePath = `/${code}` + baseLanguagePath;
         }
 
-        const languageArticles = articles.filter(({ frontmatter }) => frontmatter.language === code)
+        const languageArticles = articles.filter(({ frontmatter }) => frontmatter.language === code);
+        places.forEach((place) => {
 
-        // Filter out topics without articles
-        const languageTopics = topics.filter((topic) => {
-          return languageArticles
-            .some(({ frontmatter }) => frontmatter.topics.split(',').some((topicName) => topicName === topic.frontmatter.name));
-        });
+          const basePlacePath = baseLanguagePath + `${place.frontmatter.name}/`;
 
-        // Create page with no topic selected
-        createPage({
-          path: baseVolunteersPagePath,
-          component: path.resolve(`./src/templates/volunteer-topic.js`),
-          context: {
-            topics: languageTopics,
-            topic: null,
-            articles: languageArticles,
-          },
-        });
+          const placeArticles = languageArticles.filter(articlePlaceFilter(place));
 
-        // Create page for each topic
-        languageTopics.forEach((topic) => {
-          const topicArticles = languageArticles
-            .filter(({ frontmatter }) => frontmatter.topics.split(',').some((topicName) => topicName === topic.frontmatter.name));
+          // Filter out topics without articles
+          const placeTopics = topics.filter((topic) => {
+            return placeArticles.some(articleTopicFilter(topic)) ;
+          });
 
+          // Create page for place with no topic selected
           createPage({
-            path: `${baseVolunteersPagePath}topic/${topic.frontmatter.name}/`,
+            path: basePlacePath,
             component: path.resolve(`./src/templates/volunteer-topic.js`),
             context: {
-              topic,
-              topics: languageTopics,
-              articles: topicArticles,
+              topic: null,
+              place,
+              topics: placeTopics,
+              articles: placeArticles,
             },
           });
-        })
 
-        // Create page for each article
-        articles.forEach((article) => {
-          createPage({
-            path: `${baseVolunteersPagePath}${article.fields.slug}/`,
-            component: path.resolve(`./src/templates/volunteer-article.js`),
-            context: {
-              slug: article.fields.slug,
-            },
+          // Create page for place for each topic
+          placeTopics.forEach((topic) => {
+            const placeAndTopicArticles = placeArticles.filter(articleTopicFilter(topic));
+
+            let baseTopicPath = basePlacePath + `topic/${topic.frontmatter.name}/`;
+
+            createPage({
+              path: baseTopicPath,
+              component: path.resolve(`./src/templates/volunteer-topic.js`),
+              context: {
+                topic,
+                place,
+                topics: placeTopics,
+                articles: placeAndTopicArticles,
+              },
+            });
+
           });
-        })
 
+          // Create page for each article in topic
+          articles.forEach((article) => {
+            createPage({
+              path: basePlacePath + `${article.fields.slug}/`,
+              component: path.resolve(`./src/templates/volunteer-article.js`),
+              context: {
+                slug: article.fields.slug,
+              },
+            });
+          })
+        })
       });
       resolve();
     })

@@ -41,7 +41,7 @@ export default {
   blogPost: r('/blog/:slug/'),
   vacancies: r('/vacancies/'),
   vacanciesItem: r('/vacancies/:slug/'),
-  volunteer: r('/volunteer/'),
-  volunteerTopic: r('/volunteer/topic/:slug/'),
-  volunteerArticle: r('/volunteer/:slug/'),
+  volunteerPlace: r('/:place/'),
+  volunteerPlaceTopic: r('/:place/topic/:topic/'),
+  volunteerArticle: r('/:place/:slug/'),
 }

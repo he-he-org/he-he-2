@@ -14,17 +14,19 @@ const addHyphens = (text) => {
 
 class MarkdownContent extends React.Component {
   render() {
-    const $ = Cheerio.load(this.props.html, { xmlMode: true });
-    const changeDom = (i, el) => {
-      if (el.type === 'text') {
-        return el.data = addHyphens(el.data);
-      } else if (el.type === 'tag' || el.type === 'root') {
-        return $(el).contents().each(changeDom)
-      }
-      return el;
-    };
-    $.root().each(changeDom);
-    const newHtml = $.html();
+    // const $ = Cheerio.load(this.props.html, { xmlMode: true });
+    // const changeDom = (i, el) => {
+    //   if (el.type === 'text') {
+    //     // return el.data = addHyphens(el.data);
+    //   } else if (el.type === 'tag' || el.type === 'root') {
+    //     return $(el).contents().each(changeDom)
+    //   }
+    //   return el;
+    // };
+    // $.root().each(changeDom);
+    // const newHtml = $.html();
+
+    const newHtml = this.props.html;
 
     return (
       <div className={styles.root} dangerouslySetInnerHTML={{ __html: newHtml }} />

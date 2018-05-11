@@ -20,12 +20,28 @@
 
     font-weight: bold;
     margin: 20px 0 16px;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    @include common-props();
+
+    font-weight: bold;
+    margin: 20px 0 16px;
   }
 
   p {
     @include common-props();
 
     margin: 16px 0;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  em {
+    font-style: italic;
   }
 
   ul {

@@ -2,3 +2,4 @@
 - Open the same route when change language
 - On article page show all topics for article
 - Add google and yandex analitycs
+- Improve video embedding

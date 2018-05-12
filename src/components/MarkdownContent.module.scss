@@ -103,6 +103,20 @@
       padding: .35em 0.9em;
     }
   }
+
+  blockquote {
+    @include font-props();
+
+    border-left: 3px solid #e1001a;
+    padding: 8px 0 8px 20px;
+    color: gray;
+
+    > * {
+      padding: 0;
+      margin: 0;
+      font-style: italic;
+    }
+  }
 }
 
 :global(.gatsby-resp-iframe-wrapper) {

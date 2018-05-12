@@ -131,6 +131,17 @@
     background: #f1f1f1;
     padding: 12px;
   }
+
+  a,
+  a:hover,
+  a:visited,
+  a:active {
+    text-decoration: underline;
+
+    &:hover {
+      color: #e1001a;
+    }
+  }
 }
 
 :global(.gatsby-resp-iframe-wrapper) {

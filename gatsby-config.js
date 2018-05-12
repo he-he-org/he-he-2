@@ -48,5 +48,13 @@ module.exports = {
     'gatsby-transformer-remark',
     'gatsby-plugin-netlify-cms',
     'gatsby-plugin-sass',
+    {
+      resolve: `gatsby-plugin-yandex-metrika`,
+      options: {
+        trackingId: '48836000',
+        webvisor: false,
+        trackHash: false,
+      },
+    },
   ],
 };

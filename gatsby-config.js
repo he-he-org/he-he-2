@@ -45,7 +45,12 @@ module.exports = {
         path: `${__dirname}/content/pages/`,
       },
     },
-    'gatsby-transformer-remark',
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [`gatsby-remark-responsive-iframe`],
+      },
+    },
     'gatsby-plugin-netlify-cms',
     'gatsby-plugin-sass',
     {

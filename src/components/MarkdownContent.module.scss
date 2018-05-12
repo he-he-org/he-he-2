@@ -116,6 +116,21 @@
       font-style: italic;
     }
   }
+
+  code {
+    @include font-props();
+
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.2em;
+    background: #f1f1f1;
+    padding: 2px;
+    border-radius: 3px;
+  }
+
+  pre {
+    background: #f1f1f1;
+    padding: 12px;
+  }
 }
 
 :global(.gatsby-resp-iframe-wrapper) {

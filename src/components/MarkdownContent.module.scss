@@ -44,15 +44,37 @@
     font-style: italic;
   }
 
+  ol,
   ul {
     @include common-props();
-
-    list-style: disc;
-    margin-left: 18px;
+    padding-left: 2em;
 
     li {
       margin: 4px 0;
     }
+  }
+
+  ol {
+    counter-reset: markdown-counter;
+
+    li {
+      text-indent: -1.4em;
+
+      &::before {
+        content: counter(markdown-counter) ".";
+        counter-increment: markdown-counter;
+        width: 1em;
+        display: inline-block;
+        font-size: 0.75em;
+        text-align: right;
+        margin-right: 0.75em;
+        color: gray;
+      }
+    }
+  }
+
+  ul {
+    list-style: disc;
   }
 
   img {

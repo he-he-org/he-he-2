@@ -1,5 +1,5 @@
 .root {
-  @mixin common-props() {
+  @mixin font-props() {
     line-height: 1.4em;
     font-size: 18px;
     font-weight: 300;
@@ -7,7 +7,7 @@
   }
 
   h1 {
-    @include common-props();
+    @include font-props();
 
     font-size: 24px;
     margin: 52px 0 16px;
@@ -16,7 +16,7 @@
   }
 
   h2 {
-    @include common-props();
+    @include font-props();
 
     font-weight: bold;
     margin: 20px 0 16px;
@@ -24,14 +24,14 @@
   }
 
   h3 {
-    @include common-props();
+    @include font-props();
 
     font-weight: bold;
     margin: 20px 0 16px;
   }
 
   p {
-    @include common-props();
+    @include font-props();
 
     margin: 16px 0;
   }
@@ -46,7 +46,7 @@
 
   ol,
   ul {
-    @include common-props();
+    @include font-props();
     padding-left: 2em;
 
     li {
@@ -80,6 +80,28 @@
   img {
     max-width: 768px;
     width: calc(100vw - 32px); // todo: use global constants
+  }
+
+  table {
+    width: calc(100vw - 32px); // todo: use global constants
+    max-width: 768px;
+
+    th {
+      @include font-props();
+
+      font-weight: 700;
+      background: #f7f7f7;
+    }
+
+    td {
+      @include font-props();
+    }
+
+    th,
+    td {
+      border: 1px solid #e8e8e8;
+      padding: .35em 0.9em;
+    }
   }
 }
 

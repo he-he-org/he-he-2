@@ -3,7 +3,7 @@ import Link from 'gatsby-link';
 import cn from 'classnames';
 import { withI18n } from '../i18n';
 import routes from '../helpers/routes';
-import { DEFAULT_LANGUAGE_CODE, LANGUAGES, PLACES } from '../constants';
+import { DEFAULT_LANGUAGE_CODE, LANGUAGES, LANGUAGE_CODES } from '../constants';
 
 import styles from './index.module.scss';
 import './globals.css';
@@ -21,6 +21,39 @@ class Index extends React.Component {
 
   getVolunteerPlaces() {
     return this.getDataEdges().map(({ node }) => node).filter(({ fields }) => fields.collection === 'volunteer-places');
+  }
+
+  renderLanguagesMenu() {
+    const { location, language } = this.props;
+
+    const pathnameParts = location.pathname.split('/').filter((part) => !!part);
+
+    // Remove first part if it's a language
+    if (pathnameParts.length > 0 && LANGUAGE_CODES.some((x) => x === pathnameParts[0])) {
+      pathnameParts.shift();
+    }
+
+    return (
+      <div className={styles.menu}>
+        <div className={styles.menuSection}>
+          {LANGUAGES.map(({ code, title }) => {
+
+            const parts = pathnameParts.slice(0, 1);
+            if (code !== DEFAULT_LANGUAGE_CODE) {
+              parts.unshift(code);
+            }
+
+            return (
+              renderMenuItem(
+                parts.length > 0 ? `/${parts.join('/')}/` : '/',
+                title,
+                code === language && styles.isActive
+              )
+            );
+          })}
+        </div>
+      </div>
+    );
   }
 
   render() {
@@ -52,13 +85,7 @@ class Index extends React.Component {
           </div>
         </div>
         <div className={styles.footer}>
-          <div className={styles.menu}>
-            <div className={styles.menuSection}>
-              {LANGUAGES.map(({ code, title }) => (
-                renderMenuItem(routes.index({ language: code }), title, code === language && styles.isActive )
-              ))}
-            </div>
-          </div>
+          {this.renderLanguagesMenu()}
         </div>
       </div>
     );

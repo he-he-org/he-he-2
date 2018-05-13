@@ -68,6 +68,7 @@ export const query = graphql`
         }
         frontmatter: {
           language: {eq: $language}
+          is_hidden: {ne: true}
         }
       }
       sort: {

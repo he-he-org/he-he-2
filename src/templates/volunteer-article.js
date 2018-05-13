@@ -24,6 +24,9 @@ export const query = graphql`
         slug: { eq: $slug }
         collection: { eq: "volunteer-articles" }
       }
+      frontmatter: {
+        is_hidden: { ne: true }
+      }
     ) {
       html
     	

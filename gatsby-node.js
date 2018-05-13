@@ -70,7 +70,13 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   const blogAndVacanciesPromise = new Promise((resolve, reject) => {
     graphql(`
       {
-        allMarkdownRemark {
+        allMarkdownRemark(
+          filter: {
+            frontmatter: {
+              is_hidden: {ne: true}
+            }
+          }
+        ) {
           edges {
             node {
               fields {
@@ -178,6 +184,9 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           filter: {
             fields: {
               collection: {eq: "volunteer-articles"}
+            }
+            frontmatter: {
+              is_hidden: {ne: true}
             }
           }
         ) {

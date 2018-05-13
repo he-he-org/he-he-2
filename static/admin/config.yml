@@ -17,7 +17,7 @@ collections:
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Short description", name: "shortDescription", widget: "string"}
-      - {label: "Is hidden", name: "is_hidden", widget: "hidden", default: false}
+      - {label: "Is hidden", name: "is_hidden", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "vacancy"
     label: "Vacancy"
@@ -30,7 +30,7 @@ collections:
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Place", name: "place", widget: "select", options: [{ label: "Guatemala", value: "guatemala" }, { label: "Nicaragua", value: "nicaragua" }, { label: "On-line", value: "online" }]}
-      - {label: "Is hidden", name: "is_hidden", widget: "hidden", default: false}
+      - {label: "Is hidden", name: "is_hidden", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "volunteer-place"
     label: "For volunteer - Place"
@@ -64,7 +64,7 @@ collections:
       - {label: "Topics", name: "topics", widget: "string", pattern: ["^[a-z-]+(,[a-z-]+)*$", "Should be a comma-separated list of topic names"]}
       - {label: "Places", name: "places", widget: "string", pattern: ["^[a-z-]+(,[a-z-]+)*$", "Should be a comma-separated list of places names"]}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Is hidden", name: "is_hidden", widget: "hidden", default: false}
+      - {label: "Is hidden", name: "is_hidden", widget: "boolean", default: false}
   - label: "Pages"
     name: "pages"
     files:

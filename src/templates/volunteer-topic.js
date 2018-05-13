@@ -74,15 +74,3 @@ class VolunteerTemplate extends React.Component {
 }
 
 export default withI18n(VolunteerTemplate);
-
-// export const query = graphql`
-//   query ValunteerQuery($topic: String!) {
-//     markdownRemark(fields: { slug: { eq: $slug } }) {
-//       html
-//       frontmatter {
-//         date
-//         title
-//       }
-//     }
-//   }
-// `;

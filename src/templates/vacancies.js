@@ -32,6 +32,9 @@ export const query = graphql`
         slug: { eq: $slug }
         collection: { eq: "vacancies" } 
       }
+      frontmatter: {
+        is_hidden: { ne: true }
+      }
     ) {
       html
       frontmatter {

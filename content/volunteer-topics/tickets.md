@@ -1,6 +1,6 @@
 ---
-name: tickets
-title: Tickets
-title_ru: Билеты
+name: flight
+title: Flight
+title_ru: Полёт
 ---
 

@@ -51,6 +51,7 @@ collections:
       - {label: "Name", name: "name", widget: "string", pattern: ["^[a-z-]+$", "Allowed symbols: a-z, -"]}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Title (ru)", name: "title_ru", widget: "string"}
+      - {label: "Order", name: "order", widget: "number", valueType: int, min: 1, default: 1}
   - name: "volunteer-article"
     label: "For volunteer - Article"
     folder: "content/volunteer-articles"

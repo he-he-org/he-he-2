@@ -154,6 +154,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
               collection: {eq: "volunteer-topics"}
             }
           }
+          sort: {fields: [frontmatter___order], order: ASC},
         ) {
           edges {
             node {

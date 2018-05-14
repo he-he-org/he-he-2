@@ -34,7 +34,7 @@ class Index extends React.Component {
     }
 
     return (
-      <div className={styles.menu}>
+      <div className={styles.languageMenu}>
         <div className={styles.menuSection}>
           {LANGUAGES.map(({ code, title }) => {
 

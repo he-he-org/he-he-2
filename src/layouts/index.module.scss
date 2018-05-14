@@ -57,6 +57,15 @@
   margin-top: 40px;
 }
 
+.footer {
+  margin-top: 40px;
+}
+
+.languageMenu {
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 540px) {
   .logoContainer {
     margin-bottom: 20px;
@@ -68,6 +77,11 @@
   }
 
   .menu {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .languageMenu {
     flex-direction: column;
   }
 
@@ -94,6 +108,3 @@
   }
 }
 
-.footer {
-  margin-top: 40px;
-}

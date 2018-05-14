@@ -2,6 +2,6 @@
 name: budget
 title: Budget
 title_ru: Бюджет
-order: 3
+order: 2
 ---
 

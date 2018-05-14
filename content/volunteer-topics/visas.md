@@ -2,6 +2,6 @@
 name: visas
 title: Visas
 title_ru: Визы
-order: 9
+order: 5
 ---
 

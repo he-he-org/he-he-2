@@ -2,6 +2,6 @@
 name: baggage
 title: Baggage
 title_ru: Багаж
-order: 2
+order: 6
 ---
 

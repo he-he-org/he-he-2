@@ -1,7 +1,7 @@
 ---
-name: budget
-title: Budget
-title_ru: Бюджет
+name: money
+title: Money
+title_ru: Деньги
 order: 2
 ---
 

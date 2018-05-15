@@ -2,6 +2,6 @@
 name: health
 title: Health
 title_ru: Здоровье
-order: 7
+order: 3
 ---
 

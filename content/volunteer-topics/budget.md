@@ -2,6 +2,6 @@
 name: money
 title: Money
 title_ru: Деньги
-order: 2
+order: 3
 ---
 

@@ -156,7 +156,7 @@ It’s sensible not to bring unnecessary stuff you can always buy at the local s
 
 Plan carefully before packing. Make a list of things you need to bring and decide who takes what in case you are travelling with a friend. Pack a mini capsule wardrobe to make your outfits look creative and fresh every day. Pack your stuff, folding, rolling and spreading them to occupy all the space inside the bag. Bring multipurpose items: shampoo can be used as soap and detergent at the same time.
 
-![](/uploads/luggage-packing-f.jpg)
+![null](/uploads/luggage-packing-f.jpg)
 
 Watch some Youtube videos for tips how to pack your bag.
 

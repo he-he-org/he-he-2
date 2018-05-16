@@ -7,28 +7,20 @@ topics: other
 places: guatemala
 is_hidden: false
 ---
-Almost every airline offers 20-25 kilograms of luggage per person as well as 5-10
- kilograms of carry-on luggage included in the price of the ticket. You should double
- check the terms and conditions when buying the ticket. Of course, you can always
- choose the pre-purchase excess baggage option.
+![](/uploads/15748955_920788031354432_1391100833_o.jpg)
+
+Almost every airline offers 20-25 kilograms of luggage per person as well as 5-10  kilograms of carry-on luggage included in the price of the ticket. You should double  check the terms and conditions when buying the ticket. Of course, you can always  choose the pre-purchase excess baggage option.
 
 **15 KILOGRAMS OF DONATIONS**
 
-Every volunteer is obligated to bring 15 kilograms of humanitarian help. Each parcel is
- put together individually. Normally, it includes medical supplies (no restricted items and
- liquids), children’s wear, toys, household goods. Each volunteer is provided with a cover
- letter from Health&amp;Help, explaining the contents of your donation cargo.
+Every volunteer is obligated to bring 15 kilograms of humanitarian help. Each parcel is  put together individually. Normally, it includes medical supplies (no restricted items and  liquids), children’s wear, toys, household goods. Each volunteer is provided with a cover  letter from Health&amp;Help, explaining the contents of your donation cargo.
 
 ![null](/uploads/45177_800.jpg)
 
 **10-15 KILOGRAMS OF PERSONAL BELONGINGS 
 **
 
-You can always buy necessary clothes in Guatemala or use the clothes, left by other
- volunteers. Clothes can be bought at affordable prices ($1-5) at charity shops or at the
- mall. Cosmetics and personal hygiene products are accessible at the local supermarket
- or at the farmer’s market. It makes sense to bring practical and comfortable clothes
- only.
+You can always buy necessary clothes in Guatemala or use the clothes, left by other  volunteers. Clothes can be bought at affordable prices ($1-5) at charity shops or at the  mall. Cosmetics and personal hygiene products are accessible at the local supermarket  or at the farmer’s market. It makes sense to bring practical and comfortable clothes  only.
 
 **WINTER SEASON (OCTOBER-MARCH)**
 

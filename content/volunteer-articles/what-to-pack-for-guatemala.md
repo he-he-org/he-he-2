@@ -3,11 +3,11 @@ language: en
 date: '2018-05-16T11:14:39-04:00'
 title: What to pack for Guatemala
 image: /uploads/15748955_920788031354432_1391100833_o.jpg
-topics: other
+topics: baggage
 places: guatemala
 is_hidden: false
 ---
-![](/uploads/15748955_920788031354432_1391100833_o.jpg)
+![null](/uploads/15748955_920788031354432_1391100833_o.jpg)
 
 Almost every airline offers 20-25 kilograms of luggage per person as well as 5-10  kilograms of carry-on luggage included in the price of the ticket. You should double  check the terms and conditions when buying the ticket. Of course, you can always  choose the pre-purchase excess baggage option.
 
@@ -17,8 +17,7 @@ Every volunteer is obligated to bring 15 kilograms of humanitarian help. Each pa
 
 ![null](/uploads/45177_800.jpg)
 
-**10-15 KILOGRAMS OF PERSONAL BELONGINGS 
-**
+**10-15 KILOGRAMS OF PERSONAL BELONGINGS**
 
 You can always buy necessary clothes in Guatemala or use the clothes, left by other  volunteers. Clothes can be bought at affordable prices ($1-5) at charity shops or at the  mall. Cosmetics and personal hygiene products are accessible at the local supermarket  or at the farmer’s market. It makes sense to bring practical and comfortable clothes  only.
 
@@ -84,19 +83,14 @@ We recommend bringing the following essentials:
 * Charger
 * Kindle
 * Toothbrush
-* 
-
-Toothpaste
-
+* Toothpaste
 * Deodorant
 * First aid kit
 * Feminine care products (can be also bought at the supermarket)
 * Travel electrical EU-US adapter
-* Condoms (can be bought at the supermarket; expectations vs reality in terms of the size
-  may be disappointing)
+* Condoms (can be bought at the supermarket; expectations vs reality in terms of the size   may be disappointing)
 
-**MUST-HAVES
-**
+**MUST-HAVES**
 
 * Airplane tickets
 * Travel document
@@ -106,24 +100,16 @@ Toothpaste
 * Cover letter from Health&Help
 * Credit cards
 * Not more than $100 in cash
-* ‘How to get to the clinic’ instructions, project managers’ contact information, other useful
-  info
-* Black&white passport photos (in case you are planning to stay more than 90 days in
-  Guatemala)
+* ‘How to get to the clinic’ instructions, project managers’ contact information, other useful info
+* Black&white passport photos (in case you are planning to stay more than 90 days in Guatemala)
 
-**WHAT NOT TO PACK FOR GUATEMALA
-**
+**WHAT NOT TO PACK FOR GUATEMALA**
 
-It’s sensible not to bring unnecessary stuff you can always buy at the local supermarket
- or find at the clinic. Being a volunteer means to respect local traditions and lifestyle, so
- please don’t bring any provoking or revealing clothes. There is no need in party dresses
- and designer gowns. It makes absolutely no sense to bring clothes you are barely
- using.
+It’s sensible not to bring unnecessary stuff you can always buy at the local supermarket  or find at the clinic. Being a volunteer means to respect local traditions and lifestyle, so  please don’t bring any provoking or revealing clothes. There is no need in party dresses  and designer gowns. It makes absolutely no sense to bring clothes you are barely  using.
 
 ![null](/uploads/clinica-6-из-165-.jpg)
 
-**We do not recommend bringing:
-**
+**We do not recommend bringing:**
 
 * Revealing or provoking clothes or footwear
 * High heels

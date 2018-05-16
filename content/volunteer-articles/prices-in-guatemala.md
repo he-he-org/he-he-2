@@ -123,6 +123,7 @@ Q499 Internet, 20Gb per month
 
 **MOMOSTENANGO (one-hour away for the clinic)**
 
+
 **FOOD**
 Q45 Sandwich and drink at a cafe with Wi-Fi (Momostipan)
 

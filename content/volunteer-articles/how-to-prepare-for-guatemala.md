@@ -7,6 +7,8 @@ topics: other
 places: guatemala
 is_hidden: false
 ---
+![](/uploads/l35a1940-edit-fb-1-.jpg)
+
 Hey, congrats, welcome on board! You are a part of the most wonderful project in the world and soon enough, with the happiest smile on your face, you'll be on your way to Latin America. But first, take a look at these must-do's before your trip and make sure you're fully prepared for the experience of your lifetime:
 
 1. Pay your fines and debts.

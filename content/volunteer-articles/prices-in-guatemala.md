@@ -69,7 +69,7 @@ Q35 Guatemala City-Momostenango bus
 
 Q7 Momostenango-Xela bus
 
-**CLOTHES **
+**CLOTHES**
 
 Q586 Jeans (Levis 501) 
 
@@ -77,7 +77,7 @@ Q431 Dress (Zara, H&M)
 
 Q714 Sneakers (Nike, Adidas)
 
-**MISCELLANEOUS **
+**MISCELLANEOUS**
 
 Q39 Cold medicine (Tylenol, Frenadol, Coldrex) 
 
@@ -123,8 +123,8 @@ Q499 Internet, 20Gb per month
 
 **MOMOSTENANGO (one-hour away for the clinic)**
 
-**FOOD
-**Q45 Sandwich and drink at a cafe with Wi-Fi (Momostipan)
+**FOOD**
+Q45 Sandwich and drink at a cafe with Wi-Fi (Momostipan)
 
 Q8 Cup of coffee at a cafe with Wi-Fi (Momostipan)
 
@@ -136,8 +136,7 @@ Q12 Milkshake
 
 Q10 Slice of ham pizza
 
-**MARKET FRUIT AND VEGETABLES 
-**
+**MARKET FRUIT AND VEGETABLES**
 
 Q3 Potatoes, 2 lbs
 
@@ -175,13 +174,11 @@ Q15 Coca Cola, 0.5 gal
 
 Q1 Tortillas, 4 pcs
 
-**ACCOMODATION
-**
+**ACCOMODATION**
 
 Q100 hotel, per night
 
-**TRANSPORTATION
-**
+**TRANSPORTATION**
 
 Q30 Momostenango-Health&Help Clinic taxi trip
 

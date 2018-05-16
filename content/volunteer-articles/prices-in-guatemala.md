@@ -174,7 +174,7 @@ Q15 Coca Cola, 0.5 gal
 
 Q1 Tortillas, 4 pcs
 
-**ACCOMODATION**
+**ACCOMMODATION**
 
 Q100 hotel, per night
 

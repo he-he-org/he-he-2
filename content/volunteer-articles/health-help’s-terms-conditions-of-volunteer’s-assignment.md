@@ -7,6 +7,8 @@ topics: clinic
 places: guatemala
 is_hidden: false
 ---
+![](/uploads/001.jpg)
+
 Health&Help seeks to maintain a friendly atmosphere among its volunteers, striving to make it only better. Our offered Term&Conditions are nurtured through good and hard times, aiming to keep the environment at the clinic as healthy as it can be as well as to get you familiar with the line of work we do here every day.
 
 Health&Help sees its mission in delivering medical assistance to the poorest communities, teaching them public healthcare basics along with spreading humanitarian help among those in need.

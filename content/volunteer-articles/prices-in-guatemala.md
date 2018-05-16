@@ -7,9 +7,9 @@ topics: money
 places: guatemala
 is_hidden: false
 ---
+![](/uploads/gtm-set1_f.jpg)
+
 **Exchange rate: 1$ = 7,4Q** 
-
-
 
 **GUATEMALA CITY**
 
@@ -121,10 +121,7 @@ Q1,30 Calls, 1 min
 
 Q499 Internet, 20Gb per month
 
-
-
 **MOMOSTENANGO (one-hour away for the clinic)**
-
 
 **FOOD
 **Q45 Sandwich and drink at a cafe with Wi-Fi (Momostipan)

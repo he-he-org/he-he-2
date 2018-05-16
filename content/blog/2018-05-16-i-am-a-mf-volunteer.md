@@ -88,4 +88,4 @@ Many would be over this feeling soon. They would fight it like a disease. But so
 
 
 
-_ By Viktoria Valikova_
+_By Viktoria Valikova_

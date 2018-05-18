@@ -27,11 +27,78 @@ collections:
     fields:
       - {label: "Language", name: "language", widget: "select", options: [{ label: "Russian", value: "ru" }, { label: "English", value: "en" }]}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Short description", name: "short_description", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Place", name: "place", widget: "select", options: [{ label: "Guatemala", value: "guatemala" }, { label: "Nicaragua", value: "nicaragua" }, { label: "On-line", value: "online" }]}
-      - {label: "Is hidden", name: "is_hidden", widget: "boolean", default: false}
+      - {label: "Participation price", name: "price", widget: "string", required: false}
+      - label: "Humanitarian aid"
+        name: "humanitarian_aid"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "Farmacy by our list", name: "farmacy_by_list", widget: "select", options: [{ label: "Will be given", value: "will_be_given" }, { label: "Pack yourself", value: "pack_yourself" }, { label: "Will be payed", value: "price_compensation" }, { label: "Transportation will be compensated", value: "transport_compensation" }], required: false}
+          - {label: "Medicaly supplies by our list", name: "supplies_by_list", widget: "select", options: [{ label: "Will be given", value: "will_be_given" }, { label: "Pack yourself", value: "pack_yourself" }, { label: "Will be payed", value: "price_compensation" }, { label: "Transportation will be compensated", value: "transport_compensation" }], required: false}
+          - {label: "Equipment", name: "equipment_by_list", widget: "select", options: [{ label: "Will be given", value: "will_be_given" }, { label: "Pack yourself", value: "pack_yourself" }, { label: "Will be payed", value: "price_compensation" }, { label: "Transportation will be compensated", value: "transport_compensation" }], required: false}
+          - {label: "Clothes for children", name: "for_children", widget: "select", options: [{ label: "Will be given", value: "will_be_given" }, { label: "Pack yourself", value: "pack_yourself" }, { label: "Will be payed", value: "price_compensation" }, { label: "Transportation will be compensated", value: "transport_compensation" }], required: false}
+          - {label: "Building materials", name: "building_materials", widget: "select", options: [{ label: "Will be given", value: "will_be_given" }, { label: "Pack yourself", value: "pack_yourself" }, { label: "Will be payed", value: "price_compensation" }, { label: "Transportation will be compensated", value: "transport_compensation" }], required: false}
+      - {label: "Age restrictions", name: "age_restrictions", widget: "select", options: [{ label: "+16", value: "plus_16" }, { label: "+18", value: "plus_18" }], required: false}
+      - label: "Languages"
+        name: "required_languages"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "Spain", name: "spain", widget: "select", options: [{ label: "A", value: "a" }, { label: "A1", value: "a1" }, { label: "A2", value: "a2" }, { label: "B", value: "b" }, { label: "B1", value: "b1" }, { label: "B2", value: "b2" }, { label: "C", value: "c" }, { label: "C1", value: "c1" }, { label: "C2", value: "c2" }], required: false}
+          - {label: "English", name: "english", widget: "select", options: [{ label: "A", value: "a" }, { label: "A1", value: "a1" }, { label: "A2", value: "a2" }, { label: "B", value: "b" }, { label: "B1", value: "b1" }, { label: "B2", value: "b2" }, { label: "C", value: "c" }, { label: "C1", value: "c1" }, { label: "C2", value: "c2" }], required: false}
+          - {label: "Russian", name: "russian", widget: "select", options: [{ label: "A", value: "a" }, { label: "A1", value: "a1" }, { label: "A2", value: "a2" }, { label: "B", value: "b" }, { label: "B1", value: "b1" }, { label: "B2", value: "b2" }, { label: "C", value: "c" }, { label: "C1", value: "c1" }, { label: "C2", value: "c2" }], required: false}
+      - {label: "Education", name: "education", widget: "select", options: [{ label: "MD", value: "md" }, { label: "Nurse", value: "nurse" }, { label: "Higher education", value: "higher_education" }], required: false}
+      - {label: "Volunteer type", name: "volunteer_type", widget: "select", options: [{ label: "Any", value: "any" }, { label: "Family/Pair", value: "family" }, { label: "Group", value: "group" }], required: false}
+      - {label: "Term", name: "term", widget: "select", options: [{ label: "Week", value: "week" }, { label: "Month", value: "month" }, { label: "Several months", value: "several_months" }, { label: "Year", value: "year" }, { label: "Other", value: "custom" }], required: false}
+      - {label: "Term (custom)", name: "term_custom", widget: "date", required: false}
+      - {label: "Work time", name: "work_time", widget: "string", required: false}
+      - {label: "Rest time", name: "rest_time", widget: "string", required: false}
+      - label: "Conditions"
+        name: "conditions"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "Food", name: "food", widget: "boolean", default: false}
+          - {label: "Place to stay", name: "place_to_stay", widget: "boolean", default: false}
+          - {label: "Air tickets, two ways", name: "tickets_two_ways", widget: "boolean", default: false}
+          - {label: "Air tickets, one way", name: "tickets_one_way", widget: "boolean", default: false}
+          - {label: "Travel expencies compensation", name: "travel_compensations", widget: "boolean", default: false}
+          - {label: "Payment", name: "payment", widget: "boolean", default: false}
+          - {label: "Salary", name: "salary", widget: "boolean", default: false}
+          - {label: "Home, paid by a volunteer", name: "home", widget: "boolean", default: false}
+      - label: "Additional skills"
+        name: "additional_skills"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "Driving", name: "driving", widget: "select", options: [{ label: "Must", value: "must" }, { label: "Desirable", value: "desirable" }, { label: "Advantage", value: "advantage" }], required: false}
+          - {label: "Motorcycling", name: "motorcycling", widget: "select", options: [{ label: "Must", value: "must" }, { label: "Desirable", value: "desirable" }, { label: "Advantage", value: "advantage" }], required: false}
+          - {label: "Cooking", name: "cooking", widget: "select", options: [{ label: "Must", value: "must" }, { label: "Desirable", value: "desirable" }, { label: "Advantage", value: "advantage" }], required: false}
+          - {label: "Photo and video shooting", name: "photo_video", widget: "select", options: [{ label: "Must", value: "must" }, { label: "Desirable", value: "desirable" }, { label: "Advantage", value: "advantage" }], required: false}
+      - label: "Other conditions"
+        name: "other_conditions"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "Night shifts", name: "night_shifts", widget: "boolean", default: false}
+          - {label: "Emergencies", name: "emergencies", widget: "boolean", default: false}
+          - {label: "House calls", name: "house_calls", widget: "boolean", default: false}
+          - {label: "Patient escort to the hospital", name: "patient_escort_to_the_hospital", widget: "boolean", default: false}
+          - {label: "Stuff organization", name: "stuff_organization", widget: "boolean", default: false}
+          - {label: "Statistics conducting", name: "statistics_conducting", widget: "boolean", default: false}
+          - {label: "Accounting of medicines", name: "accounting_of_medicines", widget: "boolean", default: false}
+          - {label: "Drugstore logistics", name: "drugstore_logistics", widget: "boolean", default: false}
+          - {label: "Providing of lectures", name: "providing_of_lectures", widget: "boolean", default: false}
+          - {label: "PR within community", name: "pr_within_community", widget: "boolean", default: false}
+          - {label: "Spanish classes", name: "spanish_classes", widget: "boolean", default: false}
+          - {label: "Food and equipment purchases", name: "domestic_purchases", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Additional info", name: "additional_info", widget: "string", required: false}
+      - {label: "Is hidden", name: "is_hidden", widget: "boolean", default: false}
   - name: "volunteer-place"
     label: "For volunteer - Place"
     folder: "content/volunteer-places"

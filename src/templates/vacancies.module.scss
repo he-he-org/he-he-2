@@ -75,22 +75,23 @@
   flex: 1;
 
   .matrixColumn {
-    display: table;
+    display: flex;
+    flex-direction: column;
     flex: 1;
   }
 
   .matrixRow {
-    display: table-row;
+    display: flex;
     line-height: 1.3em;
   }
 
   .matrixKey,
   .matrixValue {
-    display: table-cell;
     padding: 12px 8px;
   }
 
   .matrixKey {
+    flex-basis: 240px;
     text-align: right;
     white-space: nowrap;
   }
@@ -98,5 +99,6 @@
   .matrixValue {
     font-weight: 500;
     background: white;
+    flex: 1;
   }
 }

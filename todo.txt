@@ -2,3 +2,4 @@
 - Make rss feed for blog
 - Add contacts and link to main site
 - Fix missing articles
+- Implement language priority

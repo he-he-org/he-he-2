@@ -1,8 +1,4 @@
 $border-radius: 8px;
-$border-top-left-radius: $border-radius;
-$border-top-right-radius: $border-radius;
-$border-bottom-left-radius: $border-radius;
-$border-bottom-right-radius: $border-radius;
 
 .root {
   $margin: 16px;
@@ -13,7 +9,7 @@ $border-bottom-right-radius: $border-radius;
   text-decoration: none;
   box-sizing: border-box;
   min-height: 150px;
-  border-radius: $border-top-left-radius $border-top-right-radius $border-bottom-right-radius $border-bottom-left-radius;
+  border-radius: $border-radius;
   background: white;
   margin-bottom: $margin;
 
@@ -25,9 +21,9 @@ $border-bottom-right-radius: $border-radius;
 .image {
   height: 200px;
   background-size: cover;
-  padding: 16px 24px;
-  border-top-left-radius: $border-top-left-radius;
-  border-top-right-radius: $border-top-right-radius;
+  padding: 24px 16px;
+  border-top-left-radius: $border-radius;
+  border-top-right-radius: $border-radius;
   position: relative;
 
   &::before {
@@ -40,8 +36,8 @@ $border-bottom-right-radius: $border-radius;
     height: 100%;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.50),rgba(255, 255, 255, 0.1));
     z-index: 1;
-    border-top-left-radius: $border-top-left-radius;
-    border-top-right-radius: $border-top-right-radius;
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
   }
 
   > span {
@@ -56,8 +52,8 @@ $border-bottom-right-radius: $border-radius;
   &:last-child {
     &,
     &::before {
-      border-bottom-left-radius: $border-bottom-left-radius;
-      border-bottom-right-radius: $border-bottom-right-radius;
+      border-bottom-left-radius: $border-radius;
+      border-bottom-right-radius: $border-radius;
     }
   }
 }
@@ -66,12 +62,12 @@ $border-bottom-right-radius: $border-radius;
   flex: 1;
   padding: 16px 20px;
   border: 1px solid #efefef;
-  border-bottom-left-radius: $border-bottom-left-radius;
-  border-bottom-right-radius: $border-bottom-right-radius;
+  border-bottom-left-radius: $border-radius;
+  border-bottom-right-radius: $border-radius;
 
   &:first-child {
-    border-top-left-radius: $border-top-left-radius;
-    border-top-right-radius: $border-top-right-radius;
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
   }
 }
 

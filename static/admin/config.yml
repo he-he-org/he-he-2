@@ -99,6 +99,7 @@ collections:
           - {label: "Spanish classes", name: "spanish_classes", widget: "boolean", default: false}
           - {label: "Cleaning", name: "cleaning", widget: "boolean", default: false}
           - {label: "Food and equipment purchases", name: "domestic_purchases", widget: "boolean", default: false}
+      - {label: "Other conditions, custom (separated by ';' symbol)", name: "other_conditions_custom", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Additional info", name: "additional_info", widget: "string", required: false}
       - {label: "Is hidden", name: "is_hidden", widget: "boolean", default: false}

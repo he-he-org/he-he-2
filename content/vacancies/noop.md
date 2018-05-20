@@ -53,6 +53,7 @@ other_conditions:
   statistics_conducting: true
   cleaning: true
   stuff_organization: true
+other_conditions_custom: ''
 additional_info: Additional info
 is_hidden: true
 ---

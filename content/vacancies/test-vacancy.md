@@ -53,6 +53,7 @@ other_conditions:
   statistics_conducting: true
   stuff_organization: true
   cleaning: true
+other_conditions_custom: 'Много пауков и змей;Отсутствие чистой воды'
 additional_info: Additional info
 is_hidden: false
 ---

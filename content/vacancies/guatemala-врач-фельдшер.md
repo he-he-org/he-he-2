@@ -48,6 +48,7 @@ other_conditions:
   patient_escort_to_the_hospital: true
   pr_within_community: true
   providing_of_lectures: true
+other_conditions_custom: ''
 additional_info: >-
   Если у вас возникли вопросы, вы всегда можете обратиться к вашему координатору
   или по эл.почте: mailbox@he-he.org

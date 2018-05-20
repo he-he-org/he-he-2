@@ -1,5 +1,6 @@
 import React from "react";
 import MarkdownContent from '../components/MarkdownContent';
+import cn from 'classnames';
 
 import styles from './vacancies.module.scss';
 import { withI18n } from '../i18n';
@@ -63,8 +64,14 @@ class Columns extends React.Component {
   }
 
   render() {
+    let childrenCountEven = React.Children.map(this.props.children, (x) => !!x).filter(x => x).length % 2 === 0;
+    let className = cn(
+      styles.columns,
+      styles[`columns-count-${this.props.columns}`],
+      childrenCountEven ? styles.columnsChildrenCountEven : styles.columnsChildrenCountOdd,
+    );
     return (
-      <div className={styles.columns}>
+      <div className={className}>
         {this.renderColumns()}
       </div>
     )
@@ -108,12 +115,25 @@ class Features extends React.Component {
     )
   };
 
+  renderCustom() {
+    if (!this.props.custom) {
+      return null;
+    }
+
+    return this.props.custom.split(/\s*;\s*/).filter((x) => !!x).map((feature, i) => (
+      <div key={`custom_${i}`} className={styles.featureItem}>
+        <TextWithNote text={feature}/>
+      </div>
+    ))
+  }
+
   render() {
     const { map, columns } = this.props;
     return (
       <div className={styles.features}>
         <Columns columns={columns}>
           {Object.keys(map).filter((key) => map[key] === true).map(this.renderItem)}
+          {this.renderCustom()}
         </Columns>
       </div>
     )
@@ -544,6 +564,7 @@ class Vacancies extends React.Component {
           titles={titles}
           map={map}
           columns={2}
+          custom={vacancy.frontmatter.other_conditions_custom}
         />
       </Block>
     )
@@ -645,6 +666,7 @@ export const query = graphql`
           statistics_conducting
           stuff_organization
         }
+        other_conditions_custom
         additional_info
       }
     }

@@ -42,6 +42,7 @@ class Vacancies extends React.Component {
           image={fields.image_thumbnail}
         >
           <div className={styles.itemPlace}>{this.renderPlace(frontmatter.place)}</div>
+          <div className={styles.itemShortDescription}>{frontmatter.short_description}</div>
         </ItemPreview>
       )
     });
@@ -81,6 +82,7 @@ export const query = graphql`
           frontmatter {
             title
             place
+            short_description
           }
           fields {
             slug

@@ -1,20 +1,27 @@
-.root {
-  .title {
-    font-size: 40px;
-    margin-top: 60px;
-    font-weight: bold;
-    line-height: 1.2em;
-    text-align: center;
-  }
-
-  .place {
-    margin-top: 8px;
-    margin-bottom: 20px;
-    font-weight: normal;
-    color: #e1001a;
-    text-align: center;
-  }
+.title {
+  font-size: 40px;
+  margin-top: 60px;
+  font-weight: bold;
+  line-height: 1.2em;
+  text-align: center;
 }
+
+.shortDescription {
+  font-size: 17px;
+  margin: 24px 0 32px 0;
+  line-height: 1.3em;
+  text-align: center;
+  font-style: italic;
+}
+
+.place {
+  margin-top: 8px;
+  margin-bottom: 20px;
+  font-weight: normal;
+  color: #e1001a;
+  text-align: center;
+}
+
 
 .note {
   color: #e1001a;
@@ -51,7 +58,8 @@
 .parametersBlock {
   .parametersBlockTitle {
     text-align: center;
-    font-size: 32px;
+    font-size: 28px;
+    font-weight: 500;
     margin: 32px 0 16px;
   }
 
@@ -72,33 +80,75 @@
 .matrix {
   margin: 20px auto;
   display: flex;
+  justify-content: center;
   flex: 1;
 
   .matrixColumn {
     display: flex;
     flex-direction: column;
-    flex: 1;
+
+    &:not(:first-child) {
+      flex: 1;
+    }
+
+    &:not(:last-child) {
+      flex: 1;
+    }
   }
 
   .matrixRow {
-    display: flex;
     line-height: 1.3em;
+    margin: 12px 8px;
   }
 
   .matrixKey,
   .matrixValue {
-    padding: 12px 8px;
+    display: inline;
   }
 
   .matrixKey {
-    flex-basis: 240px;
     text-align: right;
     white-space: nowrap;
+
+    &::after {
+      content: ' – ';
+    }
   }
 
   .matrixValue {
-    font-weight: 500;
-    background: white;
+    font-weight: 400;
+    flex: 1;
+  }
+}
+
+.features {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+
+  .featuresColumn {
+    flex: 1;
+
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+
+    &:not(:first-child) {
+      margin-left: 10px;
+    }
+  }
+
+  .featureItem {
+    margin-bottom: 18px;
+  }
+}
+
+.columns {
+  display: flex;
+  flex: 1;
+
+  .columnsColumn {
     flex: 1;
   }
 }

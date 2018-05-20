@@ -1,7 +1,7 @@
 ---
 language: en
-title: Empty file
-short_description: Empty short description
+title: Test vacancy
+short_description: Test short description
 image: /uploads/002.jpg
 date: '2017-08-10'
 place: online
@@ -21,8 +21,8 @@ education: md
 volunteer_type: family
 term: week
 term_custom: '2018-05-08'
-work_time: ddas
-rest_time: ad
+work_time: 08:00 - 15:00
+rest_time: Все остальное время
 conditions:
   food: true
   home: true
@@ -34,8 +34,8 @@ conditions:
   travel_compensations: true
 additional_skills:
   cooking: must
-  driving: must
-  motorcycling: must
+  driving: advantage
+  motorcycling: desirable
   photo_video: must
 other_conditions:
   accounting_of_medicines: true
@@ -49,9 +49,9 @@ other_conditions:
   providing_of_lectures: true
   spanish_classes: true
   statistics_conducting: true
-  cleaning: true
   stuff_organization: true
+  cleaning: true
 additional_info: Additional info
-is_hidden: true
+is_hidden: false
 ---
 Empty body

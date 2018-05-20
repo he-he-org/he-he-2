@@ -16,7 +16,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Short description", name: "shortDescription", widget: "string"}
+      - {label: "Short description", name: "short_description", widget: "string"}
       - {label: "Is hidden", name: "is_hidden", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "vacancy"
@@ -48,7 +48,7 @@ collections:
         widget: "object"
         required: false
         fields:
-          - {label: "Spain", name: "spain", widget: "select", options: [{ label: "A", value: "a" }, { label: "A1", value: "a1" }, { label: "A2", value: "a2" }, { label: "B", value: "b" }, { label: "B1", value: "b1" }, { label: "B2", value: "b2" }, { label: "C", value: "c" }, { label: "C1", value: "c1" }, { label: "C2", value: "c2" }], required: false}
+          - {label: "Spain", name: "spanish", widget: "select", options: [{ label: "A", value: "a" }, { label: "A1", value: "a1" }, { label: "A2", value: "a2" }, { label: "B", value: "b" }, { label: "B1", value: "b1" }, { label: "B2", value: "b2" }, { label: "C", value: "c" }, { label: "C1", value: "c1" }, { label: "C2", value: "c2" }], required: false}
           - {label: "English", name: "english", widget: "select", options: [{ label: "A", value: "a" }, { label: "A1", value: "a1" }, { label: "A2", value: "a2" }, { label: "B", value: "b" }, { label: "B1", value: "b1" }, { label: "B2", value: "b2" }, { label: "C", value: "c" }, { label: "C1", value: "c1" }, { label: "C2", value: "c2" }], required: false}
           - {label: "Russian", name: "russian", widget: "select", options: [{ label: "A", value: "a" }, { label: "A1", value: "a1" }, { label: "A2", value: "a2" }, { label: "B", value: "b" }, { label: "B1", value: "b1" }, { label: "B2", value: "b2" }, { label: "C", value: "c" }, { label: "C1", value: "c1" }, { label: "C2", value: "c2" }], required: false}
       - {label: "Education", name: "education", widget: "select", options: [{ label: "MD", value: "md" }, { label: "Nurse", value: "nurse" }, { label: "Higher education", value: "higher_education" }], required: false}
@@ -95,6 +95,7 @@ collections:
           - {label: "Providing of lectures", name: "providing_of_lectures", widget: "boolean", default: false}
           - {label: "PR within community", name: "pr_within_community", widget: "boolean", default: false}
           - {label: "Spanish classes", name: "spanish_classes", widget: "boolean", default: false}
+          - {label: "Cleaning", name: "cleaning", widget: "boolean", default: false}
           - {label: "Food and equipment purchases", name: "domestic_purchases", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Additional info", name: "additional_info", widget: "string", required: false}

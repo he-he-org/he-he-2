@@ -28,7 +28,7 @@ class Blog extends React.Component {
           image={fields.image_thumbnail}
         >
           <div className={styles.itemDate}>{format(frontmatter.date, language)}</div>
-          <div className={styles.itemShortDescription}>{frontmatter.shortDescription}</div>
+          <div className={styles.itemShortDescription}>{frontmatter.short_description}</div>
         </ItemPreview>
       );
     });
@@ -67,7 +67,7 @@ export const query = graphql`
           frontmatter {
             title
             date
-            shortDescription
+            short_description
           }
           fields {
             slug

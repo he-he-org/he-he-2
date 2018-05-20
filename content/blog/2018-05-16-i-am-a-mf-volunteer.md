@@ -3,7 +3,7 @@ language: en
 title: I am a MF volunteer
 image: /uploads/clinica-94-из-119-.jpg
 date: '2018-05-16T10:06:53-04:00'
-shortDescription: How to work as a volunteer and how to work with them
+short_description: How to work as a volunteer and how to work with them
 is_hidden: false
 ---
 I have been doing volunteering jobs for a while and had the opportunity to see charity work from different angles. A few years ago, I have been travelling around the world and volunteering for various charities. Now, I became the founder of my own. This incredible experience helped me realize what is right and that there is something totally confusing in it. I would like to share my ups and downs and my thoughts on this phenomenal line of work.
@@ -36,7 +36,7 @@ I discovered this simple thing only when we started our project. Every time I wa
 
 ![](/uploads/004.jpg)
 
-Be honest with yourself: you are a selfish person. The whole meaning of the word ‘volunteer’ gives you a hint. And there’s nothing wrong with it. You are doing it for your own pleasure: to put an attractive bullet point on your resume, to post a pic on Instagram, to feel yourself a hero. I bet you are bursting with pride inside, awarding yourself with, “What a good girl/boy you are!” and shooting angry looks at your friends, whose satisfaction is to have a highly-paid job, have a second baby or buy an IPhone X. Even if you can’t admit it, deep down inside, you know that all of this will positively affect your karma and you’ll get lucky anyway. Plus, volunteers are, normally, people from all over the world, having made something of themselves already, owning businesses and incredible life experience. Networking with these people is invaluable. 
+Be honest with yourself: you are a selfish person. The whole meaning of the word ‘volunteer’ gives you a hint. And there’s nothing wrong with it. You are doing it for your own pleasure: to put an attractive bullet point on your resume, to post a pic on Instagram, to feel yourself a hero. I bet you are bursting with pride inside, awarding yourself with, “What a good girl/boy you are!” and shooting angry looks at your friends, whose satisfaction is to have a highly-paid job, have a second baby or buy an IPhone X. Even if you can’t admit it, deep down inside, you know that all of this will positively affect your karma and you’ll get lucky anyway. Plus, volunteers are, normally, people from all over the world, having made something of themselves already, owning businesses and incredible life experience. Networking with these people is invaluable.
 
 
 
@@ -60,7 +60,7 @@ There are two types of volunteers: professionals (trained specialists) and train
 
 
 
-We are responsible for our patients. Even experienced doctors sometimes ask for a second opinion, let alone students, who are just starting their careers in such a demanding field. They are not able to provide medical services without assistance: they need to be mentored and guided. Mentorship is a time and energy-consuming work. Students are paying the fee, but, in return, they get a wonderful and invaluable experience: treating patients, receiving letters of recommendation from an international charity organization, obtaining an opportunity to study abroad - no money can buy these life skills and horizons. 
+We are responsible for our patients. Even experienced doctors sometimes ask for a second opinion, let alone students, who are just starting their careers in such a demanding field. They are not able to provide medical services without assistance: they need to be mentored and guided. Mentorship is a time and energy-consuming work. Students are paying the fee, but, in return, they get a wonderful and invaluable experience: treating patients, receiving letters of recommendation from an international charity organization, obtaining an opportunity to study abroad - no money can buy these life skills and horizons.
 
 
 

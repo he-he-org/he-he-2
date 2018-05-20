@@ -158,3 +158,16 @@
     }
   }
 }
+
+.requirementPair {
+  .requirementPairLabel,
+  .requirementPairValue {
+    display: inline;
+  }
+
+  .requirementPairLabel {
+    &::after {
+      content: ' – ';
+    }
+  }
+}

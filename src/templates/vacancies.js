@@ -3,6 +3,7 @@ import MarkdownContent from '../components/MarkdownContent';
 
 import styles from './vacancies.module.scss';
 import { withI18n } from '../i18n';
+import { format } from '../helpers/date';
 
 class TextWithNote extends React.Component {
   render() {
@@ -26,6 +27,17 @@ class TextWithNote extends React.Component {
   }
 }
 
+class RequirementPair extends React.Component {
+  render() {
+    return (
+      <div className={styles.requirementPair}>
+        <div className={styles.requirementPairLabel}>{this.props.label}</div>
+        <div className={styles.requirementPairValue}>{this.props.value}</div>
+      </div>
+    )
+  }
+}
+
 class Block extends React.Component {
   render() {
     return (
@@ -44,7 +56,7 @@ class Columns extends React.Component {
   renderColumns() {
     const { children } = this.props;
     return React.Children.map(children, (child, i) => (
-      <div key={i} className={styles.columnsCell}>
+      child && <div key={i} className={styles.columnsCell}>
         {child}
       </div>
     ));
@@ -151,6 +163,174 @@ class Vacancies extends React.Component {
 
     return (
       <img src={vacancy.frontmatter.image} className={styles.image} />
+    )
+  }
+
+  renderPrice() {
+    const vacancy = this.getVacancy();
+    const { frontmatter } = vacancy;
+
+    if (!frontmatter.price) {
+      return null;
+    }
+
+    return (
+      <RequirementPair
+        label={'Цена участия'}
+        value={frontmatter.price}
+      />
+    );
+  }
+
+  renderAgeRestrictions() {
+    const vacancy = this.getVacancy();
+    const { frontmatter } = vacancy;
+
+    if (!frontmatter.age_restrictions) {
+      return null;
+    }
+
+    const titles = {
+      plus_16: 'от 16 лет',
+      plus_18: 'от 18 лет',
+    };
+
+    return (
+      <RequirementPair
+        label={'Ограничение по возрасту'}
+        value={titles[frontmatter.age_restrictions]}
+      />
+    );
+  }
+
+  renderEducation() {
+    const vacancy = this.getVacancy();
+    const { frontmatter } = vacancy;
+
+    if (!frontmatter.education) {
+      return null;
+    }
+
+    const titles = {
+      md: 'диплом врача',
+      nurse: 'диплом медсестры',
+      higher_education: 'законченное высшее образование',
+    };
+
+    return (
+      <RequirementPair
+        label={'Необходимое образование'}
+        value={titles[frontmatter.education]}
+      />
+    );
+  }
+
+  renderVolunteerType() {
+    const vacancy = this.getVacancy();
+    const { frontmatter } = vacancy;
+
+    if (!frontmatter.volunteer_type) {
+      return null;
+    }
+
+    const titles = {
+      any: 'волонтеров из любой точки мира',
+      family: 'пары/семьи',
+      group: 'группы',
+    };
+
+    return (
+      <RequirementPair
+        label={'Мы готовы принять'}
+        value={titles[frontmatter.volunteer_type]}
+      />
+    )
+  }
+
+  renderTerm() {
+    const { language } = this.props;
+    const vacancy = this.getVacancy();
+    const { frontmatter } = vacancy;
+
+    if (!frontmatter.term) {
+      return null;
+    }
+
+    const titles = {
+      week: 'Познакомиться/привезти донации (не более 1 недели)',
+      month: 'Короткий период (от 2 недель до месяца)',
+      several_months: 'Длинный период (до 1 года)',
+      year: 'Год',
+      custom: 'Конкретные даты',
+    };
+
+    let text;
+    if (frontmatter.term === 'custom') {
+      if (!frontmatter.term_custom_start || !frontmatter.term_custom_end) {
+        return null
+      }
+      const start = format(frontmatter.term_custom_start, language, { format: 'LL' });
+      const end = format(frontmatter.term_custom_end, language, { format: 'LL' });
+      text = `от ${start} до ${end}`
+    } else {
+      text = titles[frontmatter.term]
+    }
+
+    return (
+      <RequirementPair
+        label={'Срок приезда'}
+        value={text}
+      />
+    )
+  }
+
+  renderWorkTime() {
+    const vacancy = this.getVacancy();
+    const { frontmatter } = vacancy;
+
+    if (!frontmatter.work_time) {
+      return null;
+    }
+
+    return (
+      <RequirementPair
+        label={'Часы работы'}
+        value={frontmatter.work_time}
+      />
+    )
+  }
+
+  renderRestTime() {
+    const vacancy = this.getVacancy();
+    const { frontmatter } = vacancy;
+
+    if (!frontmatter.rest_time) {
+      return null;
+    }
+
+    return (
+      <RequirementPair
+        label={'Часы отдыха / отпуск'}
+        value={frontmatter.rest_time}
+      />
+    )
+  }
+
+  renderMainRequirements() {
+    return (
+      <Block
+        title="Основные требования"
+      >
+        <Columns columns={2}>
+          {this.renderPrice()}
+          {this.renderAgeRestrictions()}
+          {this.renderEducation()}
+          {this.renderVolunteerType()}
+          {this.renderTerm()}
+          {this.renderWorkTime()}
+          {this.renderRestTime()}
+        </Columns>
+      </Block>
     )
   }
 
@@ -354,6 +534,7 @@ class Vacancies extends React.Component {
         {this.renderPlace()}
         {this.renderShortDescription()}
         {this.renderImage()}
+        {this.renderMainRequirements()}
         {this.renderAids()}
         {this.renderLanguages()}
         {this.renderAdditionalSkills()}
@@ -404,7 +585,8 @@ export const query = graphql`
         education
         volunteer_type
         term
-        term_custom
+        term_custom_start
+        term_custom_end
         work_time
         rest_time
         conditions {

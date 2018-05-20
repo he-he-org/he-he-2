@@ -9,7 +9,7 @@ short_description: >-
 image: /uploads/0q4a1644.jpg
 date: '2018-05-18T19:03:25-05:00'
 place: guatemala
-price: Нет
+price:
 humanitarian_aid:
   equipment_by_list: will_be_given
   farmacy_by_list: will_be_given
@@ -23,7 +23,8 @@ required_languages:
 education: md
 volunteer_type: any
 term: several_months
-term_custom: '2018-05-18'
+term_custom_start:
+term_custom_end:
 work_time: 'ПН-ПТ: 8:00-16:00; СБ: 8:00-12:00'
 rest_time: 'ПН-СБ: 13:00-14:00; ВС: выходной'
 conditions:

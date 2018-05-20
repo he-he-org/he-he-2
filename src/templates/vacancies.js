@@ -373,6 +373,28 @@ class Vacancies extends React.Component {
     )
   }
 
+  renderMainLanguage() {
+    const vacancy = this.getVacancy();
+    const { frontmatter } = vacancy;
+
+    if (!frontmatter.main_language) {
+      return null;
+    }
+
+    const titles = {
+      spanish: 'испанский',
+      english: 'английский',
+      russian: 'русский',
+    };
+
+    return (
+      <RequirementPair
+        label='Основной язык'
+        value={titles[frontmatter.main_language]}
+      />
+    )
+  }
+
   renderLanguages() {
     const vacancy = this.getVacancy();
 
@@ -411,6 +433,9 @@ class Vacancies extends React.Component {
           map={map}
           columns={1}
         />
+        <div className={styles.mainLanguage}>
+          {this.renderMainLanguage()}
+        </div>
       </Block>
     )
   }
@@ -577,6 +602,7 @@ export const query = graphql`
           supplies_by_list
         }
         age_restrictions
+        main_language
         required_languages {
           english
           russian

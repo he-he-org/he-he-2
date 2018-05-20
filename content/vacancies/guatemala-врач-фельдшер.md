@@ -16,6 +16,7 @@ humanitarian_aid:
   for_children: will_be_given
   supplies_by_list: will_be_given
 age_restrictions: plus_18
+main_language: russian
 required_languages:
   english: a2
   russian: ''

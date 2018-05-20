@@ -81,6 +81,7 @@
 
   .parametersBlockContent {
     display: flex;
+    flex-direction: column;
   }
 }
 
@@ -151,10 +152,12 @@
   .columnsCell {
     display: flex;
     margin-bottom: 16px;
-    flex-basis: calc(50% - 12px);
+    flex-basis: 50%;
+    max-width: 50%;
+    box-sizing: border-box;
 
     &:nth-child(odd) {
-      margin-right: 12px;
+      padding-right: 12px;
     }
   }
 }
@@ -170,4 +173,14 @@
       content: ' – ';
     }
   }
+
+  .requirementPairValue {
+    font-style: italic;
+  }
+}
+
+.mainLanguage {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 20px;
 }

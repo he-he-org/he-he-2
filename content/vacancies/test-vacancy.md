@@ -13,6 +13,7 @@ humanitarian_aid:
   for_children: transport_compensation
   supplies_by_list: pack_yourself
 age_restrictions: plus_16
+main_language: russian
 required_languages:
   english: a
   russian: a

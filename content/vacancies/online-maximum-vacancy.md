@@ -1,7 +1,7 @@
 ---
 language: en
-title: Test vacancy
-short_description: Test short description
+title: Maximum vacancy
+short_description: Maximum vacancy
 image: /uploads/002.jpg
 date: '2017-08-10'
 place: online

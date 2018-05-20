@@ -6,6 +6,18 @@ import styles from './vacancies.module.scss';
 import { withI18n } from '../i18n';
 import { format } from '../helpers/date';
 
+function prepareMap(map) {
+  if (!map) {
+    return {}
+  }
+
+  const result = {};
+  Object.keys(map).filter(key => !!map[key]).forEach((key) => {
+    result[key] = map[key];
+  });
+  return result
+}
+
 class TextWithNote extends React.Component {
   render() {
     let children = [];
@@ -337,19 +349,31 @@ class Vacancies extends React.Component {
   }
 
   renderMainRequirements() {
+    const children = [
+      this.renderPrice(),
+      this.renderAgeRestrictions(),
+      this.renderEducation(),
+      this.renderVolunteerType(),
+      this.renderTerm(),
+      this.renderWorkTime(),
+      this.renderRestTime(),
+    ].filter((x) => !!x);
+
+    if (children.length === 0) {
+      return null;
+    }
+
     return (
       <Block
         title="Основные требования"
       >
-        <Columns columns={2}>
-          {this.renderPrice()}
-          {this.renderAgeRestrictions()}
-          {this.renderEducation()}
-          {this.renderVolunteerType()}
-          {this.renderTerm()}
-          {this.renderWorkTime()}
-          {this.renderRestTime()}
-        </Columns>
+        {React.createElement(
+          Columns,
+          {
+            columns: 2,
+          },
+          ...children
+        )}
       </Block>
     )
   }
@@ -357,9 +381,9 @@ class Vacancies extends React.Component {
   renderAids() {
     const vacancy = this.getVacancy();
 
-    const map = vacancy.frontmatter.humanitarian_aid;
+    const map = prepareMap(vacancy.frontmatter.humanitarian_aid);
 
-    if (!map) {
+    if (Object.keys(map).length === 0) {
       return null;
     }
 
@@ -418,9 +442,9 @@ class Vacancies extends React.Component {
   renderLanguages() {
     const vacancy = this.getVacancy();
 
-    const map = vacancy.frontmatter.required_languages;
+    const map = prepareMap(vacancy.frontmatter.required_languages);
 
-    if (!map) {
+    if (Object.keys(map).length === 0) {
       return null;
     }
 
@@ -463,7 +487,11 @@ class Vacancies extends React.Component {
   renderAdditionalSkills() {
     const vacancy = this.getVacancy();
 
-    const map = vacancy.frontmatter.additional_skills;
+    const map = prepareMap(vacancy.frontmatter.additional_skills);
+
+    if (Object.keys(map).length === 0) {
+      return null;
+    }
 
     if (!map) {
       return null;
@@ -494,20 +522,12 @@ class Vacancies extends React.Component {
     )
   }
 
-  renderBody() {
-    const vacancy = this.getVacancy();
-
-    return (
-      <MarkdownContent html={vacancy.html} />
-    )
-  }
-
   renderConditions() {
     const vacancy = this.getVacancy();
 
-    const map = vacancy.frontmatter.conditions;
+    const map = prepareMap(vacancy.frontmatter.conditions);
 
-    if (!map) {
+    if (Object.keys(map).length === 0) {
       return null;
     }
 
@@ -536,9 +556,9 @@ class Vacancies extends React.Component {
   renderOtherConditions() {
     const vacancy = this.getVacancy();
 
-    const map = vacancy.frontmatter.other_conditions;
+    const map = prepareMap(vacancy.frontmatter.other_conditions);
 
-    if (!map) {
+    if (Object.keys(map).length === 0 && !vacancy.frontmatter.other_conditions_custom) {
       return null;
     }
 
@@ -569,6 +589,15 @@ class Vacancies extends React.Component {
       </Block>
     )
   }
+
+  renderBody() {
+    const vacancy = this.getVacancy();
+
+    return (
+      <MarkdownContent html={vacancy.html} />
+    )
+  }
+
 
   render() {
     const { data, t } = this.props;

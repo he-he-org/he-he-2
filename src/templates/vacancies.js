@@ -146,6 +146,14 @@ class Vacancies extends React.Component {
     )
   };
 
+  renderImage() {
+    const vacancy = this.getVacancy();
+
+    return (
+      <img src={vacancy.frontmatter.image} className={styles.image} />
+    )
+  }
+
   renderAids() {
     const vacancy = this.getVacancy();
 
@@ -345,6 +353,7 @@ class Vacancies extends React.Component {
         {this.renderTitle()}
         {this.renderPlace()}
         {this.renderShortDescription()}
+        {this.renderImage()}
         {this.renderAids()}
         {this.renderLanguages()}
         {this.renderAdditionalSkills()}

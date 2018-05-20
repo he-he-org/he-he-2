@@ -1,3 +1,5 @@
+@import '../variables';
+
 .root {
   @mixin font-props() {
     line-height: 1.4em;
@@ -78,13 +80,13 @@
   }
 
   img {
-    max-width: 768px;
-    width: calc(100vw - 32px); // todo: use global constants
+    max-width: $body-width;
+    width: calc(100vw - #{$body-padding * 2});
   }
 
   table {
-    width: calc(100vw - 32px); // todo: use global constants
-    max-width: 768px;
+    max-width: $body-width;
+    width: calc(100vw - #{$body-padding * 2});
 
     th {
       @include font-props();

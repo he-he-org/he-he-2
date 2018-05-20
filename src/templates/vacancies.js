@@ -51,9 +51,14 @@ class Columns extends React.Component {
     const result = [];
 
     for (let i = 0; i < columnsCount; i += 1) {
+      let columnChildren = childrenArray.slice(i * itemsPerColumn, i * itemsPerColumn + itemsPerColumn);
       result.push(
         <div className={styles.columnsColumn} key={`column_${i}`}>
-          {childrenArray.slice(i * itemsPerColumn, i * itemsPerColumn + itemsPerColumn)}
+          {columnChildren.map((child, i) => (
+            <div key={i} className={styles.columnsCell}>
+              {child}
+            </div>
+          ))}
         </div>
       )
     }
@@ -82,30 +87,15 @@ class Matrix extends React.Component {
     )
   };
 
-  renderColumns() {
-    const { map, columns } = this.props;
-
-    const columnsCount = columns || 1;
-    const keys = Object.keys(map).filter((key) => !!map[key]);
-    const itemsPerColumn = Math.ceil(keys.length / columnsCount);
-
-    const result = [];
-
-    for (let i = 0; i < columnsCount; i += 1) {
-      result.push(
-        <div className={styles.matrixColumn} key={`column_${i}`}>
-          {keys.slice(i * itemsPerColumn, i * itemsPerColumn + itemsPerColumn).map(this.renderPair)}
-        </div>
-      )
-    }
-
-    return result;
-  }
-
   render() {
+    const { map } = this.props;
+    const keys = Object.keys(map).filter((key) => !!map[key]);
+
     return (
       <div className={styles.matrix}>
-        {this.renderColumns()}
+        <Columns columns={this.props.columns}>
+          {keys.map(this.renderPair)}
+        </Columns>
       </div>
     )
   }

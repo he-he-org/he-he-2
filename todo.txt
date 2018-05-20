@@ -2,4 +2,5 @@
 - Make rss feed for blog
 - Add contacts and link to main site
 - Fix missing articles
-- Implement language priority
+- Implement language priority in vacancies
+- Don't show empty features and matrixes in vacancies

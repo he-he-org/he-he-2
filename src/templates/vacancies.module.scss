@@ -98,7 +98,7 @@
 
   .matrixRow {
     line-height: 1.3em;
-    margin: 12px 8px;
+    //margin: 12px 8px;
   }
 
   .matrixKey,
@@ -127,20 +127,8 @@
   justify-content: center;
   flex: 1;
 
-  .featuresColumn {
-    flex: 1;
-
-    &:not(:last-child) {
-      margin-right: 10px;
-    }
-
-    &:not(:first-child) {
-      margin-left: 10px;
-    }
-  }
-
   .featureItem {
-    margin-bottom: 18px;
+    //margin-bottom: 18px;
   }
 }
 
@@ -150,5 +138,10 @@
 
   .columnsColumn {
     flex: 1;
+  }
+
+  .columnsCell {
+    margin-right: 0px;
+    margin-bottom: 16px;
   }
 }

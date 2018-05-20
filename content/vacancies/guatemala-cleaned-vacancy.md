@@ -53,7 +53,6 @@ other_conditions:
   statistics_conducting: false
   stuff_organization: false
 other_conditions_custom: ''
-additional_info: ''
 is_hidden: false
 ---
 Body of cleaned vacancy

@@ -696,7 +696,6 @@ export const query = graphql`
           stuff_organization
         }
         other_conditions_custom
-        additional_info
       }
     }
   }

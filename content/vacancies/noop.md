@@ -54,7 +54,6 @@ other_conditions:
   cleaning: true
   stuff_organization: true
 other_conditions_custom: ''
-additional_info: Additional info
 is_hidden: true
 ---
 Empty body

@@ -49,9 +49,6 @@ other_conditions:
   pr_within_community: true
   providing_of_lectures: true
 other_conditions_custom: ''
-additional_info: >-
-  Если у вас возникли вопросы, вы всегда можете обратиться к вашему координатору
-  или по эл.почте: mailbox@he-he.org
 is_hidden: false
 ---
 # Опыт:
@@ -285,3 +282,6 @@ is_hidden: false
 Формы яиц гельминтов в кале
 
 **Быть медицинским волонтером в Health&Help — непросто. Но то, что вы делаете с нами, — меняет этот мир.**
+
+Если у вас возникли вопросы, вы всегда можете обратиться к вашему координатору
+или по эл.почте: mailbox@he-he.org

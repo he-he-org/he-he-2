@@ -134,6 +134,7 @@
 
 .columns {
   display: flex;
+  flex-wrap: wrap;
   flex: 1;
 
   .columnsColumn {
@@ -141,7 +142,12 @@
   }
 
   .columnsCell {
-    margin-right: 0px;
+    display: flex;
     margin-bottom: 16px;
+    flex-basis: calc(50% - 12px);
+
+    &:nth-child(odd) {
+      margin-right: 12px;
+    }
   }
 }

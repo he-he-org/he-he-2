@@ -42,28 +42,12 @@ class Block extends React.Component {
 
 class Columns extends React.Component {
   renderColumns() {
-    const { children, columns } = this.props;
-
-    const childrenArray = React.Children.toArray(children);
-    const columnsCount = columns || 1;
-    const itemsPerColumn = Math.ceil(childrenArray.length / columnsCount);
-
-    const result = [];
-
-    for (let i = 0; i < columnsCount; i += 1) {
-      let columnChildren = childrenArray.slice(i * itemsPerColumn, i * itemsPerColumn + itemsPerColumn);
-      result.push(
-        <div className={styles.columnsColumn} key={`column_${i}`}>
-          {columnChildren.map((child, i) => (
-            <div key={i} className={styles.columnsCell}>
-              {child}
-            </div>
-          ))}
-        </div>
-      )
-    }
-
-    return result;
+    const { children } = this.props;
+    return React.Children.map(children, (child, i) => (
+      <div key={i} className={styles.columnsCell}>
+        {child}
+      </div>
+    ));
   }
 
   render() {

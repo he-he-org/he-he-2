@@ -108,25 +108,25 @@
     line-height: 1.3em;
     //margin: 12px 8px;
   }
-
-  .matrixKey,
-  .matrixValue {
-    display: inline;
-  }
-
-  .matrixKey {
-    text-align: right;
-    white-space: nowrap;
-
-    &::after {
-      content: ' – ';
-    }
-  }
-
-  .matrixValue {
-    font-weight: 400;
-    flex: 1;
-  }
+  //
+  //.matrixKey,
+  //.matrixValue {
+  //  display: inline;
+  //}
+  //
+  //.matrixKey {
+  //  text-align: right;
+  //  white-space: nowrap;
+  //
+  //  &::after {
+  //    content: ' – ';
+  //  }
+  //}
+  //
+  //.matrixValue {
+  //  font-weight: 400;
+  //  flex: 1;
+  //}
 }
 
 .features {

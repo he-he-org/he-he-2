@@ -44,7 +44,7 @@ class RequirementPair extends React.Component {
   render() {
     return (
       <div className={styles.requirementPair}>
-        <div className={styles.requirementPairLabel}>{this.props.label}</div>
+        <div className={styles.requirementPairLabel}><TextWithNote text={this.props.label}/></div>
         <div className={styles.requirementPairValue}>{this.props.value}</div>
       </div>
     )
@@ -95,10 +95,10 @@ class Matrix extends React.Component {
     const { keyTitles, valueTitles, map } = this.props;
 
     return (
-      <div key={key} className={styles.matrixRow}>
-        <div className={styles.matrixKey}><TextWithNote text={keyTitles[key]}/></div>
-        <div className={styles.matrixValue}>{valueTitles[map[key]]}</div>
-      </div>
+      <RequirementPair
+        label={keyTitles[key]}
+        value={valueTitles[map[key]]}
+      />
     )
   };
 

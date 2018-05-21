@@ -11,4 +11,4 @@ is_hidden: false
 
 Take a look at the schedule to find out who you are going to meet at our project!
 
-<iframe width="100%" height="600px"  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRmntlkjeqOx82CFnUY_vK66PANCgtijzxAh4rOB3HIM25bFeW_HF0YOUyIENvQ9MHsCnkkGkGt74V_/pubhtml?gid=1009369787&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe width="100%" height="600px"   src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRmntlkjeqOx82CFnUY_vK66PANCgtijzxAh4rOB3HIM25bFeW_HF0YOUyIENvQ9MHsCnkkGkGt74V_/pubhtml?gid=1009369787&amp;single=true&amp;widget=true&amp;headers=false"></iframe>

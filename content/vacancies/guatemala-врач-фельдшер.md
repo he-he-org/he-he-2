@@ -32,11 +32,12 @@ conditions:
   travel_compensations: true
 additional_skills:
   cooking: must
-  driving: desirable
+  driving: advantage
   motorcycling: advantage
   photo_video: advantage
 other_conditions:
   accounting_of_medicines: true
+  domestic_purchases: true
   drugstore_logistics: true
   emergencies: true
   house_calls: true
@@ -44,6 +45,9 @@ other_conditions:
   patient_escort_to_the_hospital: true
   pr_within_community: true
   providing_of_lectures: true
+  spanish_classes: true
+  statistics_conducting: true
+  stuff_organization: true
 is_hidden: false
 ---
 # Опыт:

@@ -13,7 +13,7 @@ is_hidden: false
 
 ![](/uploads/img_6148-1190x712.jpg)
 
-**Clear the passport control **(there is no visa fee to be paid). You will be informed that you are allowed to stay in Guatemala for 3 months; an entry stamp will be put into your passport. 
+**Clear the passport control** (there is no visa fee to be paid). You will be informed that you are allowed to stay in Guatemala for 3 months; an entry stamp will be put into your passport. 
 
 ![](/uploads/0_e9653_f58b8c76_x5l.jpeg)
 
@@ -39,7 +39,7 @@ You need to give this document to the customs officer when leaving the airport. 
 
 ![](/uploads/1024x1024.jpg)
 
-**Don’t panic; **
+**Don’t panic;**
 
 **Inform the officers that you are a volunteer and helping the Guatemalan citizens pro bono** (Please, I am helping citizens of Guatemala pro bono - Por favor. Soy voluntario y ayudo a la gente de Guatemala sin ganar dinero); 
 
@@ -47,7 +47,7 @@ You need to give this document to the customs officer when leaving the airport. 
 
 **Try hard to stay calm and assure the officers you came with good intentions** (Please, it’s for a good cause - Por favor, es por una buena causa); 
 
-**If it doesn’t work, please contact your coordinator; **
+**If it doesn’t work, please contact your coordinator;**
 
 **Under no circumstances leave donations at the airport. Insist on having no money and being a volunteer, working pro bono** (I am a volunteer, I don’t have money - Soy voluntario, no tengo más dinero).
 
@@ -57,7 +57,7 @@ You need to give this document to the customs officer when leaving the airport. 
 
 ![](/uploads/mw-ev219_nerd_b_20160901180208_zh-1-.jpg)
 
-You need to **exchange dollars into quetzales **(local currency) in order to hail a taxi or take the bus to Momostenango. Please note that the exchange rate at the airport is not as good as at the bank. 
+You need to **exchange dollars into quetzales** (local currency) in order to hail a taxi or take the bus to Momostenango. Please note that the exchange rate at the airport is not as good as at the bank. 
 
 1$ = 7,35Q
 

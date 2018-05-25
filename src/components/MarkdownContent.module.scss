@@ -52,7 +52,7 @@
     padding-left: 2em;
 
     li {
-      margin: 4px 0;
+      margin: 8px 0;
     }
   }
 
@@ -76,7 +76,17 @@
   }
 
   ul {
-    list-style: disc;
+    li {
+      position: relative;
+
+      &::before {
+        content: '—';
+        display: inline;
+        position: absolute;
+        left: -0.6em;
+        transform: translateX(-100%);
+      }
+    }
   }
 
   img {

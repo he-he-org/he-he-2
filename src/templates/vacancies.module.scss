@@ -179,15 +179,11 @@
 
     &::before {
       display: inline-block;
-      content: " ";
-      padding-top: 5px;
+      content: "—";
       margin-right: 10px;
       margin-left: -22px;
-      width: 13px;
-      border-top: 1px solid black;
       flex-shrink: 0;
       position: relative;
-      top: 9px;
     }
   }
 }

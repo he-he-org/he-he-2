@@ -1,3 +1,6 @@
 - On article page show all topics for article
 - Make rss feed for blog
 - Add contacts and link to main site
+- Fix misprints
+- Change main language caption
+- Make a list of term

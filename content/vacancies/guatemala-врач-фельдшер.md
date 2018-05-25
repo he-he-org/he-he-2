@@ -9,23 +9,19 @@ short_description: >-
 image: /uploads/0q4a1644.jpg
 date: '2018-05-18T19:03:25-05:00'
 place: guatemala
-price:
 humanitarian_aid:
-  equipment_by_list: will_be_given
-  farmacy_by_list: will_be_given
-  for_children: will_be_given
+  building_materials: transport_compensation
+  equipment_by_list: pack_yourself
+  farmacy_by_list: ''
+  for_children: price_compensation
   supplies_by_list: will_be_given
 age_restrictions: plus_18
-main_language: russian
 required_languages:
   english: a2
   russian: ''
-  spanish: b2
 education: md
 volunteer_type: any
 term: several_months
-term_custom_start:
-term_custom_end:
 work_time: 'ПН-ПТ: 8:00-16:00; СБ: 8:00-12:00'
 rest_time: 'ПН-СБ: 13:00-14:00; ВС: выходной'
 conditions:
@@ -36,11 +32,12 @@ conditions:
   travel_compensations: true
 additional_skills:
   cooking: must
-  driving: desirable
+  driving: advantage
   motorcycling: advantage
   photo_video: advantage
 other_conditions:
   accounting_of_medicines: true
+  domestic_purchases: true
   drugstore_logistics: true
   emergencies: true
   house_calls: true
@@ -48,7 +45,9 @@ other_conditions:
   patient_escort_to_the_hospital: true
   pr_within_community: true
   providing_of_lectures: true
-other_conditions_custom: ''
+  spanish_classes: true
+  statistics_conducting: true
+  stuff_organization: true
 is_hidden: false
 ---
 # Опыт:

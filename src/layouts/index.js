@@ -75,7 +75,7 @@ class Index extends React.Component {
                     location.pathname.startsWith(routes.volunteerPlace({ language, place: frontmatter.name }))
                   )
                 ))}
-                {renderMenuItem(routes.vacancies({ language }), t('layouts_index_menu_vacancies'), location.pathname.startsWith(routes.vacancies({ language })))}
+                {/* renderMenuItem(routes.vacancies({ language }), t('layouts_index_menu_vacancies'), location.pathname.startsWith(routes.vacancies({ language }))) */}
                 {renderMenuItem(routes.blog({ language }), t('layouts_index_menu_blog'), location.pathname.startsWith(routes.blog({ language })))}
               </div>
             </div>

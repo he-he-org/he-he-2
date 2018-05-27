@@ -96,6 +96,7 @@ class Matrix extends React.Component {
 
     return (
       <RequirementPair
+        key={key}
         label={keyTitles[key]}
         value={valueTitles[map[key]]}
       />
@@ -199,6 +200,7 @@ class Vacancies extends React.Component {
   }
 
   renderPrice() {
+    const { t } = this.props;
     const vacancy = this.getVacancy();
     const { frontmatter } = vacancy;
 
@@ -208,13 +210,14 @@ class Vacancies extends React.Component {
 
     return (
       <RequirementPair
-        label={'Цена участия'}
+        label={t('vacancies_price_label')}
         value={frontmatter.price}
       />
     );
   }
 
   renderAgeRestrictions() {
+    const { t } = this.props;
     const vacancy = this.getVacancy();
     const { frontmatter } = vacancy;
 
@@ -223,19 +226,20 @@ class Vacancies extends React.Component {
     }
 
     const titles = {
-      plus_16: 'от 16 лет',
-      plus_18: 'от 18 лет',
+      plus_16: t('vacancies_age_titles_plus_16'),
+      plus_18: t('vacancies_age_titles_plus_18'),
     };
 
     return (
       <RequirementPair
-        label={'Ограничение по возрасту'}
+        label={t('vacancies_age_label')}
         value={titles[frontmatter.age_restrictions]}
       />
     );
   }
 
   renderEducation() {
+    const { t } = this.props;
     const vacancy = this.getVacancy();
     const { frontmatter } = vacancy;
 
@@ -244,20 +248,21 @@ class Vacancies extends React.Component {
     }
 
     const titles = {
-      md: 'диплом врача',
-      nurse: 'диплом медсестры',
-      higher_education: 'законченное высшее образование',
+      md: t('vacancies_education_titles_md'),
+      nurse: t('vacancies_education_titles_nurse'),
+      higher_education: t('vacancies_education_titles_higher_education'),
     };
 
     return (
       <RequirementPair
-        label={'Необходимое образование'}
+        label={t('vacancies_education_label')}
         value={titles[frontmatter.education]}
       />
     );
   }
 
   renderVolunteerType() {
+    const { t } = this.props;
     const vacancy = this.getVacancy();
     const { frontmatter } = vacancy;
 
@@ -266,20 +271,21 @@ class Vacancies extends React.Component {
     }
 
     const titles = {
-      any: 'волонтеров из любой точки мира',
-      family: 'пары/семьи',
-      group: 'группы',
+      any: t('vacancies_volunteer_type_any'),
+      family: t('vacancies_volunteer_type_family'),
+      group: t('vacancies_volunteer_type_group'),
     };
 
     return (
       <RequirementPair
-        label={'Мы принимаем'}
+        label={t('vacancies_volunteer_type_label')}
         value={titles[frontmatter.volunteer_type]}
       />
     )
   }
 
   renderTerm() {
+    const { t } = this.props;
     const { language } = this.props;
     const vacancy = this.getVacancy();
     const { frontmatter } = vacancy;
@@ -289,11 +295,11 @@ class Vacancies extends React.Component {
     }
 
     const titles = {
-      week: 'познакомиться/привезти донации (не более 1 недели)',
-      month: 'короткий период (от 2 недель до месяца)',
-      several_months: 'длинный период (до 1 года)',
-      year: 'год',
-      custom: 'конкретные даты',
+      week: t('vacancies_term_titles_week'),
+      month: t('vacancies_term_titles_month'),
+      several_months: t('vacancies_term_titles_several_months'),
+      year: t('vacancies_term_titles_year'),
+      custom: t('vacancies_term_titles_custom'),
     };
 
     let text;
@@ -310,13 +316,14 @@ class Vacancies extends React.Component {
 
     return (
       <RequirementPair
-        label={'Срок приезда'}
+        label={t('vacancies_term_label')}
         value={text}
       />
     )
   }
 
   renderWorkTime() {
+    const { t } = this.props;
     const vacancy = this.getVacancy();
     const { frontmatter } = vacancy;
 
@@ -326,13 +333,14 @@ class Vacancies extends React.Component {
 
     return (
       <RequirementPair
-        label={'Часы работы'}
+        label={t('vacancies_work_time_label')}
         value={frontmatter.work_time}
       />
     )
   }
 
   renderRestTime() {
+    const { t } = this.props;
     const vacancy = this.getVacancy();
     const { frontmatter } = vacancy;
 
@@ -342,13 +350,15 @@ class Vacancies extends React.Component {
 
     return (
       <RequirementPair
-        label={'Часы отдыха / отпуск'}
+        label={t('vacancies_rest_time_label')}
         value={frontmatter.rest_time}
       />
     )
   }
 
   renderMainRequirements() {
+    const { t } = this.props;
+
     const children = [
       this.renderPrice(),
       this.renderAgeRestrictions(),
@@ -365,7 +375,7 @@ class Vacancies extends React.Component {
 
     return (
       <Block
-        title="Основные требования"
+        title={t('vacancies_main_requirements')}
       >
         {React.createElement(
           Columns,
@@ -379,6 +389,7 @@ class Vacancies extends React.Component {
   }
 
   renderAids() {
+    const { t } = this.props;
     const vacancy = this.getVacancy();
 
     const map = prepareMap(vacancy.frontmatter.humanitarian_aid);
@@ -388,24 +399,24 @@ class Vacancies extends React.Component {
     }
 
     const keysTitles = {
-      farmacy_by_list: 'Медикаменты[по списку от проекта H&H]',
-      supplies_by_list: 'Медицинские расходники[по списку от проекта H&H]',
-      equipment_by_list: 'Медицинское оборудование[по списку от проекта H&H]',
-      for_children: 'Детские вещи',
-      building_materials: 'Строительные материалы',
+      farmacy_by_list: t('vacancies_humanitarian_aid_key_titles_farmacy_by_list'),
+      supplies_by_list: t('vacancies_humanitarian_aid_key_titles_supplies_by_list'),
+      equipment_by_list: t('vacancies_humanitarian_aid_key_titles_equipment_by_list'),
+      for_children: t('vacancies_humanitarian_aid_key_titles_for_children'),
+      building_materials: t('vacancies_humanitarian_aid_key_titles_building_materials'),
     };
 
     const valuesTitles = {
-      'will_be_given': 'будет выдано проектом H&H, не возмещаются расходы на провоз багажа',
-      'pack_yourself': 'собрать самостоятельно, не возмещаются расходы на покупку гум.помощи и провоз багажа',
-      'price_compensation': 'проект H&H возместит расходы на покупки',
-      'transport_compensation': 'проект H&H возместит расходы на провоз багажа',
+      will_be_given: t('vacancies_humanitarian_aid_value_titles_will_be_given'),
+      pack_yourself: t('vacancies_humanitarian_aid_value_titles_pack_yourself'),
+      price_compensation: t('vacancies_humanitarian_aid_value_titles_price_compensation'),
+      transport_compensation: t('vacancies_humanitarian_aid_value_titles_transport_compensation'),
     };
 
     return (
       <Block
-        title="Гуманитарная помощь"
-        description="Для большинства волонтеров действует правило - необходимо привезти с собой некоторое количество гуманитарной помощи. Ниже расположен список того, что мы хотели бы получить от соискателя на эту вакансию"
+        title={t('vacancies_humanitarian_aid_label')}
+        description={t('vacancies_humanitarian_aid_description')}
       >
         <Matrix
           keyTitles={keysTitles}
@@ -417,7 +428,8 @@ class Vacancies extends React.Component {
     )
   }
 
-  renderMainLanguage() {
+  renderAdvantageLanguage() {
+    const { t } = this.props;
     const vacancy = this.getVacancy();
     const { frontmatter } = vacancy;
 
@@ -426,20 +438,23 @@ class Vacancies extends React.Component {
     }
 
     const titles = {
-      spanish: 'испанский',
-      english: 'английский',
-      russian: 'русский',
+      spanish: t('vacancies_languages_advantage_titles_spanish'),
+      english: t('vacancies_languages_advantage_titles_english'),
+      russian: t('vacancies_languages_advantage_titles_russian'),
     };
 
     return (
-      <RequirementPair
-        label='Преимущество: '
-        value={titles[frontmatter.main_language]}
-      />
+      <div className={styles.mainLanguage}>
+        <RequirementPair
+          label={t('vacancies_languages_advantage_label')}
+          value={titles[frontmatter.main_language]}
+        />
+      </div>
     )
   }
 
   renderLanguages() {
+    const { t } = this.props;
     const vacancy = this.getVacancy();
 
     const map = prepareMap(vacancy.frontmatter.required_languages);
@@ -449,27 +464,27 @@ class Vacancies extends React.Component {
     }
 
     const keysTitles = {
-      spanish: 'Испанский',
-      english: 'Английский',
-      russian: 'Русский',
+      spanish: t('vacancies_languages_key_titles_spanish'),
+      english: t('vacancies_languages_key_titles_english'),
+      russian: t('vacancies_languages_key_titles_russian'),
     };
 
     const valuesTitles = {
-      'a': 'A (элементарное владение)',
-      'a1': 'A1 (уровень выживания)',
-      'a2': 'A2 (предпороговый уровень)',
-      'b': 'B (самодостаточное владение)',
-      'b1': 'B1 (пороговый уровень)',
-      'b2': 'B2 (пороговый продвинутый уровень)',
-      'c': 'C (свободное владение)',
-      'c1': 'C1 (уровень профессионального владения)',
-      'c2': 'C2 (уровень владения в совершенстве)',
+      a: t('vacancies_languages_value_titles_a'),
+      a1: t('vacancies_languages_value_titles_a1'),
+      a2: t('vacancies_languages_value_titles_a2'),
+      b: t('vacancies_languages_value_titles_b'),
+      b1: t('vacancies_languages_value_titles_b1'),
+      b2: t('vacancies_languages_value_titles_b2'),
+      c: t('vacancies_languages_value_titles_c'),
+      c1: t('vacancies_languages_value_titles_c1'),
+      c2: t('vacancies_languages_value_titles_c2'),
     };
 
     return (
       <Block
-        title="Владение языками"
-        description="В клинике мы используем несколько основных языков общения, ниже приведены минимальные требования по владению ими"
+        title={t('vacancies_languages_block_label')}
+        description={t('vacancies_languages_block_description')}
       >
         <Matrix
           keyTitles={keysTitles}
@@ -477,14 +492,13 @@ class Vacancies extends React.Component {
           map={map}
           columns={1}
         />
-        <div className={styles.mainLanguage}>
-          {this.renderMainLanguage()}
-        </div>
+        {this.renderAdvantageLanguage()}
       </Block>
     )
   }
 
   renderAdditionalSkills() {
+    const { t } = this.props;
     const vacancy = this.getVacancy();
 
     const map = prepareMap(vacancy.frontmatter.additional_skills);
@@ -498,20 +512,20 @@ class Vacancies extends React.Component {
     }
 
     const keysTitles = {
-      driving: 'Вождение автомобиля',
-      motorcycling: 'Вождение мотоцикла',
-      cooking: 'Приготовление пищи',
-      photo_video: 'Съемка фото и видео[на полу- или профессиональную камеру]',
+      driving: t('vacancies_additional_skills_key_titles_driving'),
+      motorcycling: t('vacancies_additional_skills_key_titles_motorcycling'),
+      cooking: t('vacancies_additional_skills_key_titles_cooking'),
+      photo_video: t('vacancies_additional_skills_key_titles_photo_video'),
     };
 
     const valuesTitles = {
-      'must': 'обязательно',
-      'desirable': 'желательно',
-      'advantage': 'преимущество',
+      must: t('vacancies_additional_skills_value_titles_must'),
+      desirable: t('vacancies_additional_skills_value_titles_desirable'),
+      advantage: t('vacancies_additional_skills_value_titles_advantage'),
     };
 
     return (
-      <Block title="Дополнительные навыки">
+      <Block title={t('vacancies_additional_skills_block_label')}>
         <Matrix
           keyTitles={keysTitles}
           valueTitles={valuesTitles}
@@ -523,6 +537,7 @@ class Vacancies extends React.Component {
   }
 
   renderConditions() {
+    const { t } = this.props;
     const vacancy = this.getVacancy();
 
     const map = prepareMap(vacancy.frontmatter.conditions);
@@ -532,18 +547,18 @@ class Vacancies extends React.Component {
     }
 
     const titles = {
-      food: 'Питание[вегетарианское] 3 раза в день',
-      place_to_stay: 'Размещение: вместе с другими волонтерами[2-3 человека в комнате]',
-      tickets_two_ways: 'Компенсация авиабилетов в обе стороны[Уточнить у координатора]',
-      tickets_one_way: 'Компенсация авиабилетов в одну сторону[Уточнить у координатора]',
-      travel_compensations: 'Космпенсация стоимости дорожных расходов[Уточнить у координатора]',
-      payment: 'Денежное вознаграждение',
-      salary: 'Зарплата',
-      home: 'Жилье индивидуальное, оплачивается волонтером[Цену можно уточнить у координатора]',
+      food: t('vacancies_conditions_titles_food'),
+      place_to_stay: t('vacancies_conditions_titles_place_to_stay'),
+      tickets_two_ways: t('vacancies_conditions_titles_tickets_two_ways'),
+      tickets_one_way: t('vacancies_conditions_titles_tickets_one_way'),
+      travel_compensations: t('vacancies_conditions_titles_travel_compensations'),
+      payment: t('vacancies_conditions_titles_payment'),
+      salary: t('vacancies_conditions_titles_salary'),
+      home: t('vacancies_conditions_titles_home'),
     };
 
     return (
-      <Block title="Условия">
+      <Block title={t('vacancies_conditions_block_label')}>
         <Features
           titles={titles}
           map={map}
@@ -554,6 +569,8 @@ class Vacancies extends React.Component {
   }
 
   renderOtherConditions() {
+    const { t } = this.props;
+
     const vacancy = this.getVacancy();
 
     const map = prepareMap(vacancy.frontmatter.other_conditions);
@@ -563,23 +580,23 @@ class Vacancies extends React.Component {
     }
 
     const titles = {
-      night_shifts: 'Ночная смена',
-      emergencies: 'Неотложные ситуации',
-      house_calls: 'Выезд на дом',
-      patient_escort_to_the_hospital: 'Сопровождение пациентов в госпиталь',
-      stuff_organization: 'Организация работы среднего и младшего медицинского персонала',
-      statistics_conducting: 'Ведение медицинской документации и сбор статистики',
-      accounting_of_medicines: 'Учет использования и хранения медикаментов',
-      drugstore_logistics: 'Логистика аптеки',
-      providing_of_lectures: 'Организация и проведение образовательных лекций',
-      pr_within_community: 'Создание и поддержание благоприятного имиджа проекта в глазах коммьюнити',
-      spanish_classes: 'Организация и проведения занятий по испанскому для волонтёров[с разными языковыми уровнями минимум 3 раза в неделю 1 час и более]',
-      cleaning: 'Уборка личных комнат волонтеров и хозяйственного блока[мытье посуды, стирка и т.д.]',
-      domestic_purchases: 'Осуществление оптовых закупок еды и хозяйственного инвентаря',
+      night_shifts: t('vacancies_other_conditions_titles_night_shifts'),
+      emergencies: t('vacancies_other_conditions_titles_emergencies'),
+      house_calls: t('vacancies_other_conditions_titles_house_calls'),
+      patient_escort_to_the_hospital: t('vacancies_other_conditions_titles_patient_escort_to_the_hospital'),
+      stuff_organization: t('vacancies_other_conditions_titles_stuff_organization'),
+      statistics_conducting: t('vacancies_other_conditions_titles_statistics_conducting'),
+      accounting_of_medicines: t('vacancies_other_conditions_titles_accounting_of_medicines'),
+      drugstore_logistics: t('vacancies_other_conditions_titles_drugstore_logistics'),
+      providing_of_lectures: t('vacancies_other_conditions_titles_providing_of_lectures'),
+      pr_within_community: t('vacancies_other_conditions_titles_pr_within_community'),
+      spanish_classes: t('vacancies_other_conditions_titles_spanish_classes'),
+      cleaning: t('vacancies_other_conditions_titles_cleaning'),
+      domestic_purchases: t('vacancies_other_conditions_titles_domestic_purchases'),
     };
 
     return (
-      <Block title="Дополнительные условия">
+      <Block title={t('vacancies_other_conditions_block_label')}>
         <Features
           titles={titles}
           map={map}

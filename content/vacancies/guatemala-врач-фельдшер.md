@@ -10,25 +10,28 @@ image: /uploads/0q4a1644.jpg
 date: '2018-05-18T19:03:25-05:00'
 place: guatemala
 humanitarian_aid:
-  building_materials: transport_compensation
-  equipment_by_list: pack_yourself
-  farmacy_by_list: ''
-  for_children: price_compensation
+  building_materials: ''
+  equipment_by_list: ''
+  farmacy_by_list: will_be_given
+  for_children: ''
   supplies_by_list: will_be_given
 age_restrictions: plus_18
 required_languages:
   english: a2
   russian: ''
+  spanish: b2
 education: md
 volunteer_type: any
 term: several_months
+term_custom_start: '2018-06-01'
+term_custom_end: '2018-05-31'
 work_time: 'ПН-ПТ: 8:00-16:00; СБ: 8:00-12:00'
 rest_time: 'ПН-СБ: 13:00-14:00; ВС: выходной'
 conditions:
   food: true
   place_to_stay: true
-  tickets_one_way: true
-  tickets_two_ways: true
+  tickets_one_way: false
+  tickets_two_ways: false
   travel_compensations: true
 additional_skills:
   cooking: must
@@ -98,7 +101,7 @@ is_hidden: false
 
 # Обязанности
 
-##
+## 
 
 ## Врачебные:
 
@@ -143,8 +146,6 @@ is_hidden: false
 Осуществление оптовых закупок еды и хозяйственного инвентаря наравне с другими волонтерами
 
 Медицинский волонтер умеет лечить, купировать следующие состояния и проводить следующие манипуляции:
-
-
 
 # Общая терапия:
 
@@ -282,5 +283,4 @@ is_hidden: false
 
 **Быть медицинским волонтером в Health&Help — непросто. Но то, что вы делаете с нами, — меняет этот мир.**
 
-Если у вас возникли вопросы, вы всегда можете обратиться к вашему координатору
-или по эл.почте: mailbox@he-he.org
+Если у вас возникли вопросы, вы всегда можете обратиться к вашему координатору или по эл.почте: mailbox@he-he.org

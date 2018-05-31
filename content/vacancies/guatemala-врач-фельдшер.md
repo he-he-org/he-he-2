@@ -22,7 +22,7 @@ required_languages:
   spanish: b2
 education: md
 volunteer_type: any
-term: several_months
+term: year
 term_custom_start: '2018-06-01'
 term_custom_end: '2018-05-31'
 work_time: 'ПН-ПТ: 8:00-16:00; СБ: 8:00-12:00'

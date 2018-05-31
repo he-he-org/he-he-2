@@ -26,7 +26,7 @@ module.exports = {
   "vacancies_term_label": "Срок приезда",
   "vacancies_term_titles_week": "познакомиться/привезти донации (не более 1 недели)",
   "vacancies_term_titles_month": "короткий период (от 2 недель до месяца)",
-  "vacancies_term_titles_several_months": "длинный период (до 1 года)",
+  "vacancies_term_titles_several_months": "от полугода и дольше",
   "vacancies_term_titles_year": "год",
   "vacancies_term_titles_custom": "конкретные даты",
   "vacancies_work_time_label": "Часы работы",

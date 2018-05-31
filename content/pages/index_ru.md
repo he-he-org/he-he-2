@@ -1,7 +1,9 @@
 ---
 title: 'О Health&Help '
+language: ru
+name: index
 ---
-# О Health&Help 
+# О Health&Help
 
 Health&Help — это некоммерческая организация, помогающая беднейшему населению планеты.
 

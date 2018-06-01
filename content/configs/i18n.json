@@ -1,3 +1,14 @@
 {
-  "data": {}
+  "data": [
+    {
+      "key": "layouts_index_menu_volunteer",
+      "ru": "Волонтеру",
+      "en": "For volunteer"
+    },
+    {
+      "key": "test_key",
+      "ru": "Тестовый ключ",
+      "en": "Test key"
+    }
+  ]
 }

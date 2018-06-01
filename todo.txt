@@ -4,5 +4,4 @@
 - Fix misprints
 - Change main language caption
 - Make a list of term
-- Move languages to the top
 - Make translations from the admin page

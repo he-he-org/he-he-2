@@ -1,24 +1,18 @@
 import React from 'react';
 import { DEFAULT_LANGUAGE_CODE, LANGUAGE_CODES } from '../constants';
 import IntlMessageFormat from 'intl-messageformat';
-import ruTexts from './ru';
-import enTexts from './en';
+import texts from '../../content/configs/i18n.json';
 
 function translate(language, key, params) {
-  let texts = null;
-  if (language === 'ru') {
-    texts = ruTexts
-  } else if (language === 'en') {
-    texts = enTexts
-  } else {
+  if (language !== 'ru' && language !== 'en') {
     throw new Error(`Unknown language: ${language}`)
   }
 
-  let result = texts[key];
+  let result = texts.data.find((item) => item.key === key);
   if (result === null || result === 'undefined') {
     throw new Error(`Unknown key: ${key}`)
   }
-  return new IntlMessageFormat(result, language).format(params);
+  return new IntlMessageFormat(result[language], language).format(params);
 }
 
 export const withI18n = (WrappedComponent) => {

@@ -1,6 +1,7 @@
 import React from "react";
 
-import styles from './I18nWidget.module.scss';
+// import styles from './I18nWidget.module.scss';
+import styles from './I18nWidget.styles';
 import { List } from 'immutable';
 
 const ruToEn = ['фисвуапршолдьтщзйкыегмцчня', 'abcdefghijklmnopqrstuvwxyz'];
@@ -22,9 +23,10 @@ export default class extends React.Component {
 
   renderSearch() {
     return (
-      <div className={styles.search}>
+      <div style={styles.search}>
         <span>Search: </span>
         <input
+          style={styles.searchInput}
           onChange={(e) => { this.setState({ search: e.target.value }) }}
           value={this.state.search}
         />
@@ -47,21 +49,23 @@ export default class extends React.Component {
 
   renderItem(item) {
     return (
-      <div key={item.key} className={styles.item}>
-        <div className={styles.itemKey}>
+      <div key={item.key} style={styles.item}>
+        <div style={styles.itemKey}>
           {item.key}
         </div>
-        <div className={styles.itemText}>
-          <span>English:</span>
+        <div style={styles.itemText}>
+          <span style={styles.itemTextSpan}>English:</span>
           <input
+            style={styles.itemTextInput}
             onChange={(e) => this.handleChangeText(item.key, 'en', e.target.value)}
             type="text"
             value={item.en}
           />
         </div>
-        <div className={styles.itemText}>
-          <span>Russian:</span>
+        <div style={styles.itemText}>
+          <span style={styles.itemTextSpan}>Russian:</span>
           <input
+            style={styles.itemTextInput}
             onChange={(e) => this.handleChangeText(item.key, 'ru', e.target.value)}
             type="text"
             value={item.ru}
@@ -100,7 +104,7 @@ export default class extends React.Component {
     const { value, field } = this.props;
 
     return (
-      <div className={styles.root}>
+      <div style={styles.root}>
         {this.renderSearch()}
         {this.renderItems(value.toJS())}
       </div>

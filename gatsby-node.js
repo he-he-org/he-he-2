@@ -190,6 +190,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
               is_hidden: {ne: true}
             }
           }
+          sort: {fields: [frontmatter___date], order: DESC},
         ) {
           edges {
             node {

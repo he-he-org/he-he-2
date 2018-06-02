@@ -155,3 +155,12 @@ collections:
           - {label: Language, name: language, widget: "select", options: [{ label: "Russian", value: "ru" }, { label: "English", value: "en" }], default: "ru"}
           - {label: Name, name: name, widget: "hidden", default: "index"}
           - {label: Body, name: body, widget: markdown}
+  - label: "Config files"
+    name: "config-files"
+    format: "json"
+    files:
+      - label: "Internationalization config"
+        name: "index"
+        file: "content/configs/i18n.json"
+        fields:
+          - {label: Data, name: data, widget: i18n}

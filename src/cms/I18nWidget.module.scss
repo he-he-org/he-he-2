@@ -1,0 +1,52 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  border: solid 2px #dfdfe3;
+  padding: 32px;
+}
+
+.item {
+  margin-bottom: 20px;
+  border: solid 2px #dfdfe3;
+  border-radius: 3px;
+}
+
+.itemKey {
+  padding: 4px 8px;
+}
+
+.itemKey {
+  background: #dfdfe3;
+}
+
+.itemText {
+  display: flex;
+
+  &:not(:last-child) {
+    border-bottom: solid 2px #dfdfe3;
+  }
+
+  span {
+    flex-basis: 80px;
+    padding: 4px 8px;
+  }
+
+  input {
+    flex: 1;
+    border-left: solid 2px #dfdfe3;
+    padding: 4px 8px;
+  }
+}
+
+.search {
+  display: flex;
+  margin-bottom: 32px;
+  align-items: center;
+
+  input {
+    margin-left: 8px;
+    flex: 1;
+    border: solid 2px #dfdfe3;
+    padding: 4px 8px;
+  }
+}

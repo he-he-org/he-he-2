@@ -361,13 +361,13 @@ class Vacancies extends React.Component {
     const vacancy = this.getVacancy();
     const { frontmatter } = vacancy;
 
-    if (!frontmatter.aid_transportation) {
+    if (!frontmatter.aids_transportation) {
       return null;
     }
 
     return (
       <RequirementPair
-        value={t('vacancies_aid_transportation')}
+        value={t('vacancies_aids_transportation')}
       />
     )
   }
@@ -408,6 +408,10 @@ class Vacancies extends React.Component {
   renderAids() {
     const { t } = this.props;
     const vacancy = this.getVacancy();
+
+    if (!vacancy.frontmatter.aids_transportation) {
+      return null;
+    }
 
     const map = prepareMap(vacancy.frontmatter.humanitarian_aid);
 
@@ -699,7 +703,7 @@ export const query = graphql`
         term_custom_end
         work_time
         rest_time
-        aid_transportation
+        aids_transportation
         conditions {
           food
           home

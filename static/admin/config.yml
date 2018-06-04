@@ -49,7 +49,7 @@ collections:
       - {label: "Custom time period start", name: "term_custom_end", widget: "date", required: false}
       - {label: "Work time", name: "work_time", widget: "string", required: false}
       - {label: "Rest time", name: "rest_time", widget: "string", required: false}
-      - {label: "Transportation of humanitarian aid", name: "aid_transportation", widget: "boolean", required: false}
+      - {label: "Transportation of humanitarian aid", name: "aids_transportation", widget: "boolean", required: false}
       - label: "Conditions"
         name: "conditions"
         widget: "object"

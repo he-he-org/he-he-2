@@ -25,7 +25,7 @@ term_custom_start: '2018-05-08'
 term_custom_end: '2018-08-08'
 work_time: 08:00 - 15:00
 rest_time: все остальное время
-aid_transportation: true
+aids_transportation: true
 conditions:
   food: true
   home: true

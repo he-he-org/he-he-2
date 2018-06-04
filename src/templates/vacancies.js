@@ -44,8 +44,8 @@ class RequirementPair extends React.Component {
   render() {
     return (
       <div className={styles.requirementPair}>
-        <div className={styles.requirementPairLabel}><TextWithNote text={this.props.label}/></div>
-        <div className={styles.requirementPairValue}>{this.props.value}</div>
+        {this.props.label && <div className={styles.requirementPairLabel}><TextWithNote text={this.props.label}/></div>}
+        {this.props.value && <div className={styles.requirementPairValue}>{this.props.value}</div>}
       </div>
     )
   }
@@ -356,6 +356,22 @@ class Vacancies extends React.Component {
     )
   }
 
+  renderAidTransportation() {
+    const { t } = this.props;
+    const vacancy = this.getVacancy();
+    const { frontmatter } = vacancy;
+
+    if (!frontmatter.aid_transportation) {
+      return null;
+    }
+
+    return (
+      <RequirementPair
+        value={t('vacancies_aid_transportation')}
+      />
+    )
+  }
+
   renderMainRequirements() {
     const { t } = this.props;
 
@@ -367,6 +383,7 @@ class Vacancies extends React.Component {
       this.renderTerm(),
       this.renderWorkTime(),
       this.renderRestTime(),
+      this.renderAidTransportation()
     ].filter((x) => !!x);
 
     if (children.length === 0) {
@@ -627,11 +644,11 @@ class Vacancies extends React.Component {
         {this.renderShortDescription()}
         {this.renderImage()}
         {this.renderMainRequirements()}
-        {this.renderAids()}
         {this.renderLanguages()}
         {this.renderAdditionalSkills()}
         {this.renderConditions()}
         {this.renderOtherConditions()}
+        {this.renderAids()}
         {this.renderBody()}
       </div>
     );
@@ -682,6 +699,7 @@ export const query = graphql`
         term_custom_end
         work_time
         rest_time
+        aid_transportation
         conditions {
           food
           home

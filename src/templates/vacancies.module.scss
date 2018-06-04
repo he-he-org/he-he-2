@@ -185,8 +185,10 @@
   }
 
   .requirementPairLabel {
-    &::after {
-      content: ': ';
+    &:not(:last-child) {
+      &::after {
+        content: ': ';
+      }
     }
   }
 

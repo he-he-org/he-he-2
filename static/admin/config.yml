@@ -32,16 +32,6 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Place", name: "place", widget: "select", options: [{ label: "Guatemala", value: "guatemala" }, { label: "Nicaragua", value: "nicaragua" }, { label: "On-line", value: "online" }]}
       - {label: "Participation price", name: "price", widget: "string", required: false}
-      - label: "Humanitarian aid"
-        name: "humanitarian_aid"
-        widget: "object"
-        required: false
-        fields:
-          - {label: "Farmacy by our list", name: "farmacy_by_list", widget: "select", options: [{ label: "Will be given", value: "will_be_given" }, { label: "Pack yourself", value: "pack_yourself" }, { label: "Will be payed", value: "price_compensation" }, { label: "Transportation will be compensated", value: "transport_compensation" }], required: false}
-          - {label: "Medicaly supplies by our list", name: "supplies_by_list", widget: "select", options: [{ label: "Will be given", value: "will_be_given" }, { label: "Pack yourself", value: "pack_yourself" }, { label: "Will be payed", value: "price_compensation" }, { label: "Transportation will be compensated", value: "transport_compensation" }], required: false}
-          - {label: "Equipment", name: "equipment_by_list", widget: "select", options: [{ label: "Will be given", value: "will_be_given" }, { label: "Pack yourself", value: "pack_yourself" }, { label: "Will be payed", value: "price_compensation" }, { label: "Transportation will be compensated", value: "transport_compensation" }], required: false}
-          - {label: "Clothes for children", name: "for_children", widget: "select", options: [{ label: "Will be given", value: "will_be_given" }, { label: "Pack yourself", value: "pack_yourself" }, { label: "Will be payed", value: "price_compensation" }, { label: "Transportation will be compensated", value: "transport_compensation" }], required: false}
-          - {label: "Building materials", name: "building_materials", widget: "select", options: [{ label: "Will be given", value: "will_be_given" }, { label: "Pack yourself", value: "pack_yourself" }, { label: "Will be payed", value: "price_compensation" }, { label: "Transportation will be compensated", value: "transport_compensation" }], required: false}
       - {label: "Age restrictions", name: "age_restrictions", widget: "select", options: [{ label: "+16", value: "plus_16" }, { label: "+18", value: "plus_18" }], required: false}
       - label: "Languages"
         name: "required_languages"
@@ -59,6 +49,7 @@ collections:
       - {label: "Custom time period start", name: "term_custom_end", widget: "date", required: false}
       - {label: "Work time", name: "work_time", widget: "string", required: false}
       - {label: "Rest time", name: "rest_time", widget: "string", required: false}
+      - {label: "Transportation of humanitarian aid", name: "aid_transportation", widget: "boolean", required: false}
       - label: "Conditions"
         name: "conditions"
         widget: "object"
@@ -99,6 +90,16 @@ collections:
           - {label: "Spanish classes", name: "spanish_classes", widget: "boolean", default: false}
           - {label: "Cleaning", name: "cleaning", widget: "boolean", default: false}
           - {label: "Food and equipment purchases", name: "domestic_purchases", widget: "boolean", default: false}
+      - label: "Humanitarian aid"
+        name: "humanitarian_aid"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "Farmacy by our list", name: "farmacy_by_list", widget: "select", options: [{ label: "Will be given", value: "will_be_given" }, { label: "Pack yourself", value: "pack_yourself" }, { label: "Will be payed", value: "price_compensation" }, { label: "Transportation will be compensated", value: "transport_compensation" }], required: false}
+          - {label: "Medicaly supplies by our list", name: "supplies_by_list", widget: "select", options: [{ label: "Will be given", value: "will_be_given" }, { label: "Pack yourself", value: "pack_yourself" }, { label: "Will be payed", value: "price_compensation" }, { label: "Transportation will be compensated", value: "transport_compensation" }], required: false}
+          - {label: "Equipment", name: "equipment_by_list", widget: "select", options: [{ label: "Will be given", value: "will_be_given" }, { label: "Pack yourself", value: "pack_yourself" }, { label: "Will be payed", value: "price_compensation" }, { label: "Transportation will be compensated", value: "transport_compensation" }], required: false}
+          - {label: "Clothes for children", name: "for_children", widget: "select", options: [{ label: "Will be given", value: "will_be_given" }, { label: "Pack yourself", value: "pack_yourself" }, { label: "Will be payed", value: "price_compensation" }, { label: "Transportation will be compensated", value: "transport_compensation" }], required: false}
+          - {label: "Building materials", name: "building_materials", widget: "select", options: [{ label: "Will be given", value: "will_be_given" }, { label: "Pack yourself", value: "pack_yourself" }, { label: "Will be payed", value: "price_compensation" }, { label: "Transportation will be compensated", value: "transport_compensation" }], required: false}
       - {label: "Other conditions, custom (separated by ';' symbol)", name: "other_conditions_custom", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Is hidden", name: "is_hidden", widget: "boolean", default: false}

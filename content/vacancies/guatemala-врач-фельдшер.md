@@ -9,6 +9,7 @@ short_description: >-
 image: /uploads/0q4a1644.jpg
 date: '2018-05-18T19:03:25-05:00'
 place: guatemala
+price: бесплатно
 humanitarian_aid:
   building_materials: ''
   equipment_by_list: ''

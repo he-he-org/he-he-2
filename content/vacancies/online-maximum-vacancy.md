@@ -6,6 +6,7 @@ image: /uploads/002.jpg
 date: '2017-08-10'
 place: online
 price: 300$
+aids_transportation: true
 humanitarian_aid:
   building_materials: will_be_given
   equipment_by_list: price_compensation
@@ -25,7 +26,6 @@ term_custom_start: '2018-05-08'
 term_custom_end: '2018-08-08'
 work_time: 08:00 - 15:00
 rest_time: все остальное время
-aids_transportation: true
 conditions:
   food: true
   home: true

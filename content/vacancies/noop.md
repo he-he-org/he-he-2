@@ -6,6 +6,7 @@ image: /uploads/002.jpg
 date: '2017-08-10'
 place: online
 price: will_be_given
+aids_transportation: false
 humanitarian_aid:
   building_materials: will_be_given
   equipment_by_list: price_compensation

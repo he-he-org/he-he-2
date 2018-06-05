@@ -52,6 +52,7 @@ other_conditions:
   spanish_classes: true
   statistics_conducting: true
   stuff_organization: true
+questionnaire_link: https://goo.gl/forms/NPdoVEnnBvKCwSbO2
 is_hidden: false
 ---
 ## Опыт:

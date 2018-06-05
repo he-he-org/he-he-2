@@ -638,10 +638,16 @@ class Vacancies extends React.Component {
 
   renderSubmitButton() {
     const { t } = this.props;
+    const vacancy = this.getVacancy();
+    const { frontmatter } = vacancy;
+
+    if (!frontmatter.questionnaire_link) {
+      return null;
+    }
 
     return (
       <div className={styles.submitFormButton} >
-        <a href="https://goo.gl/forms/NPdoVEnnBvKCwSbO2" target="_blank">
+        <a href={frontmatter.questionnaire_link} target="_blank">
           {t('vacancies_submit_form_button')}
         </a>
       </div>
@@ -649,9 +655,6 @@ class Vacancies extends React.Component {
   }
 
   render() {
-    const { data, t } = this.props;
-    const vacancy = this.getVacancy();
-    const { frontmatter } = vacancy;
     return (
       <div className={styles.root}>
         {this.renderTitle()}
@@ -747,6 +750,7 @@ export const query = graphql`
           stuff_organization
         }
         other_conditions_custom
+        questionnaire_link
       }
     }
   }

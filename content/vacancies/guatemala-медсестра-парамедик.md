@@ -41,6 +41,7 @@ humanitarian_aid:
   farmacy_by_list: will_be_given
   supplies_by_list: will_be_given
 other_conditions_custom: ''
+questionnaire_link: 'https://goo.gl/forms/UOXKmBLs89ZLYgn13'
 is_hidden: false
 ---
 ## Опыт

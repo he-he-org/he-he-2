@@ -10,9 +10,6 @@ image: /uploads/clinica-10-из-55-.jpg
 date: '2018-06-05T09:40:53-04:00'
 place: guatemala
 price: бесплатно
-humanitarian_aid:
-  farmacy_by_list: will_be_given
-  supplies_by_list: will_be_given
 age_restrictions: plus_18
 required_languages:
   english: b1
@@ -40,6 +37,9 @@ other_conditions:
   night_shifts: true
   patient_escort_to_the_hospital: true
   providing_of_lectures: true
+humanitarian_aid:
+  farmacy_by_list: will_be_given
+  supplies_by_list: will_be_given
 other_conditions_custom: ''
 is_hidden: false
 ---
@@ -88,5 +88,7 @@ is_hidden: false
 
 * Поддержание благоприятной обстановки в коллективе
 * Построение и поддержание доверительных отношений с комьюнити деревни
+
+Если у вас воз­ник­ли во­про­сы, вы все­гда мо­же­те об­ра­тить­ся к ва­ше­му ко­ор­ди­на­то­ру или по эл.по­чте: mail­box@he-he.org
 
 **Быть медицинским волонтером в Health&Help -  непросто. Но то, что вы делаете с нами, меняет этот мир.**

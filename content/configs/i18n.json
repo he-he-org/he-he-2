@@ -464,6 +464,11 @@
       "key": "vacancies_other_conditions_titles_domestic_purchases",
       "ru": "Осуществление оптовых закупок еды и хозяйственного инвентаря",
       "en": "Осуществление оптовых закупок еды и хозяйственного инвентаря"
+    },
+    {
+      "key": "vacancies_submit_form_button",
+      "ru": "Заполнить анкету",
+      "en": "Submit form"
     }
   ]
 }

@@ -636,6 +636,17 @@ class Vacancies extends React.Component {
     )
   }
 
+  renderSubmitButton() {
+    const { t } = this.props;
+
+    return (
+      <div className={styles.submitFormButton} >
+        <a href="https://goo.gl/forms/NPdoVEnnBvKCwSbO2" target="_blank">
+          {t('vacancies_submit_form_button')}
+        </a>
+      </div>
+    )
+  }
 
   render() {
     const { data, t } = this.props;
@@ -654,6 +665,7 @@ class Vacancies extends React.Component {
         {this.renderOtherConditions()}
         {this.renderAids()}
         {this.renderBody()}
+        {this.renderSubmitButton()}
       </div>
     );
   }

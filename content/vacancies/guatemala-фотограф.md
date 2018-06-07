@@ -15,7 +15,7 @@ required_languages:
   english: b1
   spanish: b1
 volunteer_type: any
-term: week
+term: month
 term_custom_start: '2018-07-01'
 term_custom_end: '2018-06-07'
 conditions:

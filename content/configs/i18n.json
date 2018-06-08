@@ -423,22 +423,22 @@
     {
       "key": "vacancies_other_conditions_titles_stuff_organization",
       "ru": "Организация работы среднего и младшего медицинского персонала",
-      "en": "Организация работы среднего и младшего медицинского персонала"
+      "en": "Organization of nursing and ancillary medical personnel"
     },
     {
       "key": "vacancies_other_conditions_titles_statistics_conducting",
       "ru": "Ведение медицинской документации и сбор статистики",
-      "en": "Keeping documentation in order"
+      "en": "Medical documentation and gathering medical data"
     },
     {
       "key": "vacancies_other_conditions_titles_accounting_of_medicines",
       "ru": "Учет использования и хранения медикаментов, закупки",
-      "en": "Distributing medications and purchasing medical supplies"
+      "en": "Supervision of medication use and storage, ordering new medications"
     },
     {
       "key": "vacancies_other_conditions_titles_drugstore_logistics",
       "ru": "Логистика аптеки",
-      "en": "Drugstore logistic"
+      "en": "Pharmacy logistics"
     },
     {
       "key": "vacancies_other_conditions_titles_providing_of_lectures",
@@ -448,12 +448,12 @@
     {
       "key": "vacancies_other_conditions_titles_pr_within_community",
       "ru": "Создание и поддержание благоприятного имиджа проекта в глазах коммьюнити",
-      "en": "Создание и поддержание благоприятного имиджа проекта в глазах коммьюнити"
+      "en": "Networking within the local community, establishing and fostering existing relationships"
     },
     {
       "key": "vacancies_other_conditions_titles_spanish_classes",
       "ru": "Организация и проведения занятий по испанскому для волонтёров[с разными языковыми уровнями минимум 3 раза в неделю 1 час и более]",
-      "en": "Организация и проведения занятий по испанскому для волонтёров[с разными языковыми уровнями минимум 3 раза в неделю 1 час и более]"
+      "en": "Spanish classes for volunteers[different levels, 3 times a week]"
     },
     {
       "key": "vacancies_other_conditions_titles_cleaning",
@@ -463,7 +463,7 @@
     {
       "key": "vacancies_other_conditions_titles_domestic_purchases",
       "ru": "Осуществление оптовых закупок еды и хозяйственного инвентаря",
-      "en": "Осуществление оптовых закупок еды и хозяйственного инвентаря"
+      "en": "Purchasing food and household supplies for clinic volunteers"
     },
     {
       "key": "vacancies_submit_form_button",

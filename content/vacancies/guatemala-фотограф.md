@@ -10,25 +10,38 @@ image: /uploads/_aws3800.jpg
 date: '2018-06-07T09:53:18-04:00'
 place: guatemala
 price: бесплатно
-age_restrictions: plus_16
+age_restrictions: plus_18
 required_languages:
-  english: b1
-  spanish: b1
+  english: a2
+  spanish: b
 volunteer_type: any
 term: month
 term_custom_start: '2018-07-01'
 term_custom_end: '2018-06-07'
+work_time: 'ПН-ПТ: 8:00-16:00; СБ: 8:00-12:00'
+rest_time: 'ПН-СБ: 13:00-14:00; ВС: выходной'
 conditions:
   food: true
   place_to_stay: true
 additional_skills:
   cooking: must
-  driving: advantage
+  driving: desirable
   motorcycling: advantage
   photo_video: must
 other_conditions:
-  domestic_purchases: true
+  cleaning: true
+  domestic_purchases: false
+  emergencies: true
+  house_calls: true
+  night_shifts: true
+  patient_escort_to_the_hospital: true
   pr_within_community: true
+aids_transportation: true
+humanitarian_aid:
+  equipment_by_list: will_be_given
+  farmacy_by_list: will_be_given
+  for_children: pack_yourself
+  supplies_by_list: will_be_given
 questionnaire_link: 'https://goo.gl/forms/uT6sUtjO0ysieEml2'
 is_hidden: false
 ---

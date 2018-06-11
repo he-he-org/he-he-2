@@ -5,7 +5,6 @@ title: What to pack for Nicaragua
 image: /uploads/15748955_920788031354432_1391100833_o.jpg
 topics: baggage
 places: nicaragua
-is_pinned: false
 is_hidden: false
 ---
 ![null](/uploads/15748955_920788031354432_1391100833_o.jpg)
@@ -108,7 +107,7 @@ We recommend bringing the following essentials:
 * Cover letter from Health&Help
 * Credit cards
 * Not more than $200 in cash
-* ‘How to get to the clinic’ instructions, project managers’ contact information, other useful info
+* ‘How to get to the project H&H’ instructions, project managers’ contact information, other useful info
 * Black&white passport photos (in case you are planning to stay more than 90 days in Nicaragua)
 * Sleeping bag
 * Insect repellent
@@ -117,9 +116,9 @@ We recommend bringing the following essentials:
 
 **WHAT NOT TO PACK FOR NICARAGUA**
 
-It’s sensible not to bring unnecessary stuff you can always buy at the local supermarket  or find at the clinic. Being a volunteer means to respect local traditions and lifestyle, so  please don’t bring any provoking or revealing clothes. There is no need in party dresses  and designer gowns. It makes absolutely no sense to bring clothes you are barely  using.
+It’s sensible not to bring unnecessary stuff you can always buy at the local supermarket. Being a volunteer means to respect local traditions and lifestyle, so  please don’t bring any provoking or revealing clothes. There is no need in party dresses  and designer gowns. It makes absolutely no sense to bring clothes you are barely  using.
 
-![null](/uploads/clinica-6-из-165-.jpg)
+![null](/uploads/img_2193-fb-1-.jpg)
 
 **We do not recommend bringing:**
 

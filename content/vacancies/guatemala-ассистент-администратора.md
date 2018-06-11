@@ -1,6 +1,6 @@
 ---
 language: ru
-title: Ассистент администратора
+title: Ассистент администратора/помощник
 short_description: >-
   Разделить обязанности администратора проекта, уметь в нужный момент прийти на
   выручку любому другому волонтеру, оценить ситуацию и принять мгновенное
@@ -13,28 +13,31 @@ price: $600 в месяц
 age_restrictions: plus_16
 required_languages:
   english: a1
+  russian: a1
   spanish: a1
 volunteer_type: any
-term: month
+term: week
 term_custom_start: '2018-06-07'
 term_custom_end: '2018-06-07'
+work_time: 'ПН-ПТ: 8:00-16:00; СБ: 8:00-12:00'
+rest_time: 'ПН-СБ: 13:00-14:00; ВС: выходной'
 conditions:
   food: true
   place_to_stay: true
 additional_skills:
   cooking: must
-  driving: advantage
+  driving: desirable
   motorcycling: advantage
-  photo_video: advantage
+  photo_video: desirable
 other_conditions:
   cleaning: true
   domestic_purchases: true
 aids_transportation: true
 humanitarian_aid:
-  equipment_by_list: will_be_given
-  farmacy_by_list: will_be_given
+  equipment_by_list: pack_yourself
+  farmacy_by_list: pack_yourself
   for_children: pack_yourself
-  supplies_by_list: will_be_given
+  supplies_by_list: pack_yourself
 questionnaire_link: 'https://goo.gl/forms/1NhjzYH1bFn4Vs1t1'
 is_hidden: false
 ---

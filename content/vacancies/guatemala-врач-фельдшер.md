@@ -47,6 +47,7 @@ other_conditions:
   spanish_classes: false
   statistics_conducting: true
   stuff_organization: true
+aids_transportation: true
 humanitarian_aid:
   building_materials: ''
   equipment_by_list: will_be_given

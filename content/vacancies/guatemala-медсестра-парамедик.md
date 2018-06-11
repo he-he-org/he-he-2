@@ -19,26 +19,35 @@ volunteer_type: any
 term: several_months
 term_custom_start: '2018-08-01'
 term_custom_end: '2018-06-05'
+work_time: 'ПН-ПТ: 8:00-16:00; СБ: 8:00-12:00'
+rest_time: 'ПН-СБ: 13:00-14:00; ВС: выходной'
 conditions:
   food: true
   place_to_stay: true
-  travel_compensations: false
+  travel_compensations: true
 additional_skills:
   cooking: must
-  driving: desirable
+  driving: must
   motorcycling: advantage
   photo_video: advantage
 other_conditions:
   accounting_of_medicines: true
+  cleaning: true
   domestic_purchases: true
   drugstore_logistics: true
   emergencies: true
   house_calls: true
   night_shifts: true
   patient_escort_to_the_hospital: true
+  pr_within_community: true
   providing_of_lectures: true
+  statistics_conducting: true
+  stuff_organization: true
+aids_transportation: true
 humanitarian_aid:
+  equipment_by_list: will_be_given
   farmacy_by_list: will_be_given
+  for_children: pack_yourself
   supplies_by_list: will_be_given
 other_conditions_custom: ''
 questionnaire_link: 'https://goo.gl/forms/UOXKmBLs89ZLYgn13'

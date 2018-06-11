@@ -10,18 +10,12 @@ image: /uploads/0q4a1644.jpg
 date: '2018-05-18T19:03:25-05:00'
 place: guatemala
 price: бесплатно
-humanitarian_aid:
-  building_materials: ''
-  equipment_by_list: ''
-  farmacy_by_list: will_be_given
-  for_children: ''
-  supplies_by_list: will_be_given
 age_restrictions: plus_18
 required_languages:
   english: a2
   russian: ''
   spanish: b2
-education: md
+education: ''
 volunteer_type: any
 term: several_months
 term_custom_start: '2018-08-01'
@@ -36,11 +30,12 @@ conditions:
   travel_compensations: true
 additional_skills:
   cooking: must
-  driving: advantage
+  driving: must
   motorcycling: advantage
   photo_video: advantage
 other_conditions:
   accounting_of_medicines: true
+  cleaning: true
   domestic_purchases: true
   drugstore_logistics: true
   emergencies: true
@@ -49,10 +44,16 @@ other_conditions:
   patient_escort_to_the_hospital: true
   pr_within_community: true
   providing_of_lectures: true
-  spanish_classes: true
+  spanish_classes: false
   statistics_conducting: true
   stuff_organization: true
-questionnaire_link: https://goo.gl/forms/NPdoVEnnBvKCwSbO2
+humanitarian_aid:
+  building_materials: ''
+  equipment_by_list: will_be_given
+  farmacy_by_list: will_be_given
+  for_children: pack_yourself
+  supplies_by_list: will_be_given
+questionnaire_link: 'https://goo.gl/forms/NPdoVEnnBvKCwSbO2'
 is_hidden: false
 ---
 ## Опыт:

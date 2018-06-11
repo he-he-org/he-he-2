@@ -1,7 +1,7 @@
 - On article page show all topics for article
 - Make rss feed for blog
 - Add contacts and link to main site
-- Fix misprints
 - Change main language caption
 - Make a list of term
-- Make translations from the admin page
+- Fix font sizes in vacancies
+- Implement articles pinning

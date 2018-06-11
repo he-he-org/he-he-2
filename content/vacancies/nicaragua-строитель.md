@@ -12,25 +12,36 @@ place: nicaragua
 price: бесплатно
 age_restrictions: plus_18
 required_languages:
-  english: a1
-  spanish: a1
+  english: a2
+  russian: a2
+  spanish: a2
+main_language: ''
 volunteer_type: any
 term: several_months
 term_custom_start: '2019-02-01'
 term_custom_end: '2018-06-07'
-work_time: пн.-сб. 8-часовой рабочий день
-rest_time: 'воскресенье, отпуск оговаривается индивидуально'
+work_time: 'ПН-СБ: 8:00-16:00; '
+rest_time: 'ПН-СБ: 13:00-14:00; ВС: выходной'
 conditions:
   food: true
   place_to_stay: true
 additional_skills:
-  cooking: advantage
-  driving: desirable
-  motorcycling: advantage
+  cooking: desirable
+  driving: must
+  motorcycling: desirable
+  photo_video: desirable
+other_conditions:
+  cleaning: true
+  domestic_purchases: true
+  stuff_organization: true
 aids_transportation: true
 humanitarian_aid:
-  building_materials: pack_yourself
-other_conditions_custom: желателен опыт в строительстве
+  building_materials: price_compensation
+  equipment_by_list: will_be_given
+  farmacy_by_list: will_be_given
+  for_children: pack_yourself
+  supplies_by_list: will_be_given
+other_conditions_custom: Желателен опыт в строительстве
 questionnaire_link: 'https://goo.gl/forms/4V0qnRxll3QcNDmN2'
 is_hidden: false
 ---

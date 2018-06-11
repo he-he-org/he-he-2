@@ -5,11 +5,12 @@ title: Prices in Guatemala
 image: /uploads/gtm-set1_f.jpg
 topics: money
 places: guatemala
+is_pinned: false
 is_hidden: false
 ---
 ![](/uploads/gtm-set1_f.jpg)
 
-**Exchange rate: 1$ = 7,4Q** 
+**Exchange rate: 1$ = 7,4Q**
 
 **GUATEMALA CITY**
 
@@ -17,7 +18,7 @@ is_hidden: false
 
 Q42 Lunch with drinks at a cafe in the city centre
 
-Q43 Fast food Combo Menu 
+Q43 Fast food Combo Menu
 
 Q27 Chicken breasts, 1lbs
 
@@ -27,17 +28,17 @@ Q15 Chicken eggs, 12 psc
 
 Q9 Tomatoes, 2 lbs
 
-Q40 Goat cheese, 1 lbs 
+Q40 Goat cheese, 1 lbs
 
 Q22 Apples, 2 lbs
 
-Q8 Potatoes, 2 lbs 
+Q8 Potatoes, 2 lbs
 
-Q11 Meat, 1 lbs 
+Q11 Meat, 1 lbs
 
-Q91 Fine red wine, bottle 
+Q91 Fine red wine, bottle
 
-Q 28 Red wine, bottle 
+Q 28 Red wine, bottle
 
 Q15 Coca Cola, 0.5 gal
 
@@ -45,13 +46,13 @@ Q8 Bread
 
 **ACCOMODATION**
 
-Q1,450 4-star hotel in the city centre, per night 
+Q1,450 4-star hotel in the city centre, per night
 
-Q360 3-star hotel near the airport, per night 
+Q360 3-star hotel near the airport, per night
 
 Q72 Hostel, per night
 
-Q54 Laundry, 1 load 
+Q54 Laundry, 1 load
 
 **TRANSPORTATION**
 
@@ -71,7 +72,7 @@ Q7 Momostenango-Xela bus
 
 **CLOTHES**
 
-Q586 Jeans (Levis 501) 
+Q586 Jeans (Levis 501)
 
 Q431 Dress (Zara, H&M)
 
@@ -79,7 +80,7 @@ Q714 Sneakers (Nike, Adidas)
 
 **MISCELLANEOUS**
 
-Q39 Cold medicine (Tylenol, Frenadol, Coldrex) 
+Q39 Cold medicine (Tylenol, Frenadol, Coldrex)
 
 Q106 Antibiotics, 12 tbl
 
@@ -133,7 +134,7 @@ Q25 Luch at a cafe (Comedor)
 
 Q8 Street food (chicken leg/corn on the cob/fries
 
-Q12 Milkshake 
+Q12 Milkshake
 
 Q10 Slice of ham pizza
 

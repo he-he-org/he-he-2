@@ -5,6 +5,7 @@ title: Правила проекта Health&Help в Гватемале
 image: /uploads/plo_7413-1-.jpg
 topics: clinic
 places: guatemala
+is_pinned: false
 is_hidden: false
 ---
 ![](/uploads/plo_7413-1-.jpg)

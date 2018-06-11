@@ -8,6 +8,7 @@ short_description: >-
   didn’t pay first. This was one of the reasons why I left the monastery where
   the mission took place. The situation was hard to look at, but I couldn’t do
   anything.
+is_pinned: false
 is_hidden: false
 ---
 ![](/uploads/copy-of-1-2-1-.jpg)

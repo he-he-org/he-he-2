@@ -469,6 +469,11 @@
       "key": "vacancies_submit_form_button",
       "ru": "Заполнить анкету",
       "en": "Submit form"
+    },
+    {
+      "key": "blog_post_is_pinned",
+      "ru": "Пост закреплен",
+      "en": "Post is pinned"
     }
   ]
 }

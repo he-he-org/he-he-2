@@ -5,6 +5,7 @@ title: Vaccination for Nicaragua
 image: /uploads/0q4a1305.jpg
 topics: health
 places: nicaragua
+is_pinned: false
 is_hidden: false
 ---
 ![null](/uploads/0q4a1305.jpg)

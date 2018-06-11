@@ -5,6 +5,7 @@ title: How to help us?
 image: /uploads/clinica_1.jpg
 topics: clinic
 places: guatemala
+is_pinned: false
 is_hidden: false
 ---
 ![](/uploads/clinica-156-из-165-.jpg)

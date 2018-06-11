@@ -5,6 +5,7 @@ title: Volunteer's schedule 2018
 image: /uploads/l35a2895-fb-1-.jpg
 topics: clinic
 places: guatemala
+is_pinned: false
 is_hidden: false
 ---
 ![](/uploads/l35a2895-fb-1-.jpg)

@@ -3,7 +3,6 @@
 - Add contacts and link to main site
 - Change main language caption
 - Make a list of term
-- Implement articles pinning
 - Vacancies: fix font sizes
 - Vacancies: change columns layout
 - Vacancies: remove bold for required aids transportation flag

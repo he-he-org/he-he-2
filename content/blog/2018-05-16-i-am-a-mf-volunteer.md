@@ -4,6 +4,7 @@ title: I am a MF volunteer
 image: /uploads/clinica-94-из-119-.jpg
 date: '2018-05-16T10:06:53-04:00'
 short_description: How to work as a volunteer and how to work with them
+is_pinned: false
 is_hidden: false
 ---
 I have been doing volunteering jobs for a while and had the opportunity to see charity work from different angles. A few years ago, I have been travelling around the world and volunteering for various charities. Now, I became the founder of my own. This incredible experience helped me realize what is right and that there is something totally confusing in it. I would like to share my ups and downs and my thoughts on this phenomenal line of work.

@@ -190,7 +190,6 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
               is_hidden: {ne: true}
             }
           }
-          sort: {fields: [frontmatter___date], order: DESC},
         ) {
           edges {
             node {
@@ -202,6 +201,8 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                 image
                 topics
                 places
+                date
+                is_pinned
               }
               fields {
                 slug
@@ -213,10 +214,27 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
       }
     `).then(result => {
       if (result.data.allMarkdownRemark) {
-        return result.data.allMarkdownRemark.edges.map(({ node }) => node);
+        let nodes = result.data.allMarkdownRemark.edges.map(({ node }) => node);
+        return nodes;
       }
 
       return [];
+    }).then((nodes) => {
+      const sortedNodes = [...nodes];
+      sortedNodes.sort((x, y) => {
+        const xIsPinned = x.frontmatter.is_pinned;
+        const yIsPinned = y.frontmatter.is_pinned;
+        const xDate = new Date(x.frontmatter.date);
+        const yDate = new Date(y.frontmatter.date);
+        if (xIsPinned !== yIsPinned) {
+          return xIsPinned ? -1 : 1;
+        }
+        if (xDate !== yDate) {
+          return xDate > yDate ? -1 : 1;
+        }
+        return 0;
+      });
+      return sortedNodes;
     });
 
     Promise.all([placesP, topicsP, articlesP])

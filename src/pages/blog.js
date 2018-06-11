@@ -17,7 +17,23 @@ class Blog extends React.Component {
       return <div className={styles.noItemsMessage}>{t('pages_blog_no_posts_yet')}</div>
     }
 
-    return edges.map((edge) => {
+    // Sort items manually, because gatsby doesn't support sorting by multiple fields :(
+    const sortedEdges = [...edges];
+    sortedEdges.sort((x, y) => {
+      const xIsPinned = x.node.frontmatter.is_pinned;
+      const yIsPinned = y.node.frontmatter.is_pinned;
+      const xDate = new Date(x.node.frontmatter.date);
+      const yDate = new Date(y.node.frontmatter.date);
+      if (xIsPinned !== yIsPinned) {
+        return xIsPinned ? -1 : 1;
+      }
+      if (xDate !== yDate) {
+        return xDate > yDate ? -1 : 1;
+      }
+      return 0;
+    });
+
+    return sortedEdges.map((edge) => {
       const { node } = edge;
       const { fields, frontmatter } = node;
       return (
@@ -27,8 +43,14 @@ class Blog extends React.Component {
           url={routes.blogPost({ language, slug: node.fields.slug })}
           image={fields.image_thumbnail}
         >
-          <div className={styles.itemDate}>{format(frontmatter.date, language)}</div>
-          <div className={styles.itemShortDescription}>{frontmatter.short_description}</div>
+          <div className={styles.itemDate}>
+            {frontmatter.is_pinned
+              ? t('blog_post_is_pinned')
+              : format(frontmatter.date, language)}
+          </div>
+          <div className={styles.itemShortDescription}>
+            {frontmatter.short_description}
+          </div>
         </ItemPreview>
       );
     });
@@ -57,9 +79,6 @@ export const query = graphql`
           is_hidden: {ne: true}
         }
       }
-      sort: {
-        fields: [frontmatter___date], order: DESC 
-      }
     ) {
       edges {
         node {
@@ -68,6 +87,7 @@ export const query = graphql`
             title
             date
             short_description
+            is_pinned
           }
           fields {
             slug

@@ -5,6 +5,7 @@ title: What to pack for Nicaragua
 image: /uploads/15748955_920788031354432_1391100833_o.jpg
 topics: baggage
 places: nicaragua
+is_pinned: false
 is_hidden: false
 ---
 ![null](/uploads/15748955_920788031354432_1391100833_o.jpg)
@@ -25,7 +26,7 @@ You can always buy necessary clothes in Nicaragua or use the clothes, left by ot
 
 ![null](/uploads/l35a3716-fb-1-.jpg)
 
-It’s chilly in winter, +20…+25'C, no rain. 
+It’s chilly in winter, +20…+25'C, no rain.
 
 We recommend bringing the following essentials:
 
@@ -127,7 +128,7 @@ It’s sensible not to bring unnecessary stuff you can always buy at the local s
 * More than two pairs of boots
 * More than two pairs of pants
 * More than one jacket
-* Laptop 
+* Laptop
 * More than $200 in cash (those might be lost or stolen)
 * Personal hygiene products (those may be bought at the local shops)
 * Camera (your phone camera is more practical)

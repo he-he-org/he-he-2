@@ -5,11 +5,12 @@ title: Cheap flights to Nicaragua
 image: /uploads/1482111610.jpg
 topics: road
 places: nicaragua
+is_pinned: false
 is_hidden: false
 ---
 ![](/uploads/1482111610.jpg)
 
-The best time to buy tickets to Latin America is eighty days before the trip. The tickets are the most reasonably-priced as the cost is properly calculated, based on the demand. 
+The best time to buy tickets to Latin America is eighty days before the trip. The tickets are the most reasonably-priced as the cost is properly calculated, based on the demand.
 
 The ultimate bargain would be a red-eye flight on Wednesday, at 1 am (local time). The middle-of-the-week flights are generally cheaper as there are not much passengers travelling.
 
@@ -17,7 +18,7 @@ If you haven’t set a date, search for tickets with a range of three to five da
 
 ![](/uploads/avyabylety_onlain_800.jpg)
 
-Be sure to look over the conditions to find out if the fare includes bag and luggage fees. In case it doesn’t, visit the airline’s website and check out if you can purchase those services. Avoid paying baggage fees at the airport - you will waste a ton of money. 
+Be sure to look over the conditions to find out if the fare includes bag and luggage fees. In case it doesn’t, visit the airline’s website and check out if you can purchase those services. Avoid paying baggage fees at the airport - you will waste a ton of money.
 
 Make certain you’ve chosen correct dates: low-cost carriers usually sell non-refundable cheap tickets.
 

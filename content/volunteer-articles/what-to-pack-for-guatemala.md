@@ -5,6 +5,7 @@ title: What to pack for Guatemala
 image: /uploads/15748955_920788031354432_1391100833_o.jpg
 topics: baggage
 places: guatemala
+is_pinned: false
 is_hidden: false
 ---
 ![null](/uploads/15748955_920788031354432_1391100833_o.jpg)
@@ -25,7 +26,7 @@ You can always buy necessary clothes in Guatemala or use the clothes, left by ot
 
 ![null](/uploads/l35a3716-fb-1-.jpg)
 
-It’s chilly in winter, +15…+5C, rain can be expected. 
+It’s chilly in winter, +15…+5C, rain can be expected.
 
 We recommend bringing the following essentials:
 
@@ -33,7 +34,7 @@ We recommend bringing the following essentials:
 * Water proof jacket
 * Hat
 * Sweater
-* Thermal underwear 
+* Thermal underwear
 * Casual and/or sportswear
 * Sneakers
 * T-shirt

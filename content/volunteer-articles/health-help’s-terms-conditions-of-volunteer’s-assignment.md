@@ -5,6 +5,7 @@ title: Health&Help’s Terms&Conditions of Volunteer’s Assignment
 image: /uploads/001.jpg
 topics: clinic
 places: guatemala
+is_pinned: false
 is_hidden: false
 ---
 ![](/uploads/001.jpg)

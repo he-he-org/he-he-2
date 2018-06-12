@@ -62,13 +62,13 @@
     },
     {
       "key": "vacancies_education_titles_md",
-      "ru": "диплом врача",
-      "en": "MD"
+      "ru": "медицинский специалист",
+      "en": "medical professional"
     },
     {
       "key": "vacancies_education_titles_nurse",
-      "ru": "диплом медсестры",
-      "en": "Certified nurse/paramedic"
+      "ru": "медицинский специалист",
+      "en": "medical professional"
     },
     {
       "key": "vacancies_education_titles_higher_education",
@@ -107,7 +107,7 @@
     },
     {
       "key": "vacancies_volunteer_type_any",
-      "ru": "волонтеров из любой точки земли",
+      "ru": "волонтеров из любой точки мира",
       "en": "volunteers from all over the world"
     },
     {
@@ -137,7 +137,7 @@
     },
     {
       "key": "vacancies_term_titles_several_months",
-      "ru": "от полугода и дольше",
+      "ru": "6-12 месяцев",
       "en": "6-12 months"
     },
     {
@@ -207,7 +207,7 @@
     },
     {
       "key": "vacancies_humanitarian_aid_value_titles_pack_yourself",
-      "ru": "собрать самостоятельно, не возмещаются расходы на покупку гум.помощи и провоз багажа",
+      "ru": "собрать самостоятельно, не возмещаются расходы на покупку и провоз багажа",
       "en": "pack yourself, transportation expenses are covered by volunteer"
     },
     {
@@ -367,17 +367,17 @@
     },
     {
       "key": "vacancies_conditions_titles_tickets_two_ways",
-      "ru": "Компенсация авиабилетов в обе стороны[Уточнить у координатора]",
+      "ru": "Компенсация авиабилетов в обе стороны[Более подробную информацию можно уточнить у координатора проекта]",
       "en": "Round trip travel reimbursement[Ask your coordinator]"
     },
     {
       "key": "vacancies_conditions_titles_tickets_one_way",
-      "ru": "Компенсация авиабилетов в одну сторону[Уточнить у координатора]",
+      "ru": "Компенсация авиабилетов в одну сторону[Более подробную информацию можно уточнить у координатора проекта]",
       "en": "one-way trip travel reimbursement[Ask your coordinator]"
     },
     {
       "key": "vacancies_conditions_titles_travel_compensations",
-      "ru": "Компенсация стоимости дорожных расходов[Уточнить у координатора]",
+      "ru": "Компенсация стоимости дорожных расходов[Более подробную информацию можно уточнить у координатора проекта]",
       "en": "Travel expenses reimbursment[Ask your coordinator]"
     },
     {
@@ -392,7 +392,7 @@
     },
     {
       "key": "vacancies_conditions_titles_home",
-      "ru": "Жилье индивидуальное, оплачивается волонтером[Цену можно уточнить у координатора]",
+      "ru": "Жилье индивидуальное, оплачивается волонтером[Более подробную информацию можно уточнить у координатора проекта]",
       "en": "Single apartment[Ask your coordinator]"
     },
     {

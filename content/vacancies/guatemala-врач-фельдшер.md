@@ -6,7 +6,7 @@ short_description: >-
   Ведь именно от вас зависит, насколько пациенты будут доверять клинике,
   насколько четко они будут следовать лечению и насколько лучше они будут себя
   чувствовать после консультации.
-image: /uploads/0q4a1644.jpg
+image: /uploads/clinica-10-из-55-.jpg
 date: '2018-05-18T19:03:25-05:00'
 place: guatemala
 price: бесплатно
@@ -15,7 +15,7 @@ required_languages:
   english: a2
   russian: ''
   spanish: b2
-education: ''
+education: md
 volunteer_type: any
 term: several_months
 term_custom_start: '2018-08-01'

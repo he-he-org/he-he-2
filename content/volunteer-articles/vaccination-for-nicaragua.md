@@ -63,3 +63,40 @@ Screening of windows, doors and eaves reduces exposure to flying insects.
 Accommodation with these features should be sought where available.
 
 Air-conditioning is a highly effective means of keeping mosquitoes and other insects out of a room as long as the room has no gaps around windows or doors. In air-conditioned hotels, other precautions are not necessary indoors
+
+## Eat and drink safely
+
+Unclean food and water can cause travelers' diarrhea and other diseases. Reduce your risk by sticking to safe food and water habits.
+
+**Eat**
+
+* Food that is cooked and served hot
+* Hard-cooked eggs
+* Fruits and vegetables you have washed in clean water or peeled yourself
+* Pasteurized dairy products
+
+**Don't Eat**
+
+* Food served at room temperature
+* Food from street vendors
+* Raw or soft-cooked (runny) eggs
+* Raw or undercooked (rare) meat or fish
+* Unwashed or unpeeled raw fruits and vegetables
+* Unpasteurized dairy products
+* ”Bushmeat” (monkeys, bats, or other wild game)
+
+**Drink**
+
+* Bottled water that is sealed
+* Water that has been disinfected
+* Ice made with bottled or disinfected water
+* Carbonated drinks
+* Hot coffee or tea
+* Pasteurized milk
+
+**Don’t Drink**
+
+* Tap or well water
+* Ice made with tap or well water
+* Drinks made with tap or well water (such as reconstituted juice)
+* Unpasteurized milk

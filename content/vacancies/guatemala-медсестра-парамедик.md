@@ -6,21 +6,21 @@ short_description: >-
   только от вас зависит, насколько пациенты будут доверять клинике, насколько
   они будут следовать лечению и насколько лучше они будут себя чувствовать после
   консультации. 
-image: /uploads/clinica-10-из-55-.jpg
+image: /uploads/clinica-3-из-119-.jpg
 date: '2018-06-05T09:40:53-04:00'
 place: guatemala
 price: бесплатно
 age_restrictions: plus_18
 required_languages:
-  english: b1
-  spanish: b1
+  english: a2
+  spanish: b2
 education: nurse
 volunteer_type: any
 term: several_months
 term_custom_start: '2018-08-01'
 term_custom_end: '2018-06-05'
 work_time: 'ПН-ПТ: 8:00-16:00; СБ: 8:00-12:00'
-rest_time: 'ПН-СБ: 13:00-14:00; ВС: выходной'
+rest_time: 'ПН-СБ: 13:00-14:00; ВС: выходной; Отпуск: каждые 8 недель'
 conditions:
   food: true
   place_to_stay: true

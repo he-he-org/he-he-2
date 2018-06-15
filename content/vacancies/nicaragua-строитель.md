@@ -45,6 +45,7 @@ humanitarian_aid:
   supplies_by_list: will_be_given
 other_conditions_custom: Желателен опыт в строительстве
 questionnaire_link: 'https://goo.gl/forms/4V0qnRxll3QcNDmN2'
+is_pinned: false
 is_hidden: false
 ---
 ## опыт

@@ -103,8 +103,9 @@ collections:
           - {label: "Building materials", name: "building_materials", widget: "select", options: [{ label: "Will be given", value: "will_be_given" }, { label: "Pack yourself", value: "pack_yourself" }, { label: "Will be payed", value: "price_compensation" }, { label: "Transportation will be compensated", value: "transport_compensation" }], required: false}
       - {label: "Other conditions, custom (separated by ';' symbol)", name: "other_conditions_custom", widget: "string", required: false}
       - {label: "Link to questionnaire", name: "questionnaire_link", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Is pinned", name: "is_pinned", widget: "boolean", default: false}
       - {label: "Is hidden", name: "is_hidden", widget: "boolean", default: false}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "volunteer-place"
     label: "For volunteer - Place"
     folder: "content/volunteer-places"

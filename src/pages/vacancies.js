@@ -30,7 +30,24 @@ class Vacancies extends React.Component {
       return <div className={styles.noItemsMessage}>{t('pages_vacancies_no_items_yet')}</div>
     }
 
-    return edges.map((edge) => {
+    // Sort items manually, because gatsby doesn't support sorting by multiple fields :(
+    const sortedEdges = [...edges];
+    sortedEdges.sort((x, y) => {
+      const xIsPinned = x.node.frontmatter.is_pinned;
+      const yIsPinned = y.node.frontmatter.is_pinned;
+      const xDate = new Date(x.node.frontmatter.date);
+      const yDate = new Date(y.node.frontmatter.date);
+      if (xIsPinned !== yIsPinned) {
+        return xIsPinned ? -1 : 1;
+      }
+      if (xDate !== yDate) {
+        return xDate > yDate ? -1 : 1;
+      }
+      return 0;
+    });
+
+
+    return sortedEdges.map((edge) => {
       const { node } = edge;
       const { fields, frontmatter } = node;
 
@@ -72,9 +89,6 @@ export const query = graphql`
           is_hidden: {ne: true}
         }
       }
-      sort: {
-        fields: [frontmatter___date], order: DESC 
-      }
     ) {
       edges {
         node {
@@ -83,6 +97,8 @@ export const query = graphql`
             title
             place
             short_description
+            is_pinned
+            date
           }
           fields {
             slug

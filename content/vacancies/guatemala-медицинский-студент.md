@@ -49,6 +49,7 @@ humanitarian_aid:
   for_children: pack_yourself
   supplies_by_list: pack_yourself
 questionnaire_link: 'https://goo.gl/forms/KXxtgfzL49mXeCvj2'
+is_pinned: false
 is_hidden: false
 ---
 ## Опыт:

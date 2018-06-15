@@ -20,6 +20,7 @@ term_custom_end: '2018-06-07'
 work_time: гибкие
 rest_time: гибкие
 questionnaire_link: 'https://goo.gl/forms/b1KsCRI4amQeiSrQ2'
+is_pinned: false
 is_hidden: false
 ---
 ## Наш идеальный волонтер:

@@ -45,6 +45,7 @@ humanitarian_aid:
   farmacy_by_list: will_be_given
   supplies_by_list: will_be_given
 questionnaire_link: 'https://goo.gl/forms/ol9XHitL5rv9c8AQ2'
+is_pinned: false
 is_hidden: false
 ---
 You will be expected to see patients in the clinic on a daily basis, working along with volunteers, and handle paperwork. You should be comfortable making medical decisions and dealing with cases of different levels of complexity.
@@ -63,7 +64,8 @@ The responsibilities include:
 * Distributing medications and purchasing medical supplies;
 * Keeping up with the documentation.
 
-**We offer:**
+**We offer:
+**
 
 * Shared accommodations and three meals a day free of charge;
 * A letter of recommendation upon request;
@@ -72,4 +74,5 @@ The responsibilities include:
 * Endless love and gratitude from the locals, fellow volunteers and all over the world;
 * A 6-8 hours working day, 6 days a week.
 
-**Being a part of Health&Help medical team is an exceptional experience, which gives you the opportunity to make this world a better place at this exact moment.**
+**Being a part of Health&Help medical team is an exceptional experience, which gives you the opportunity to make this world a better place at this exact moment.
+**

@@ -56,6 +56,7 @@ other_conditions:
   stuff_organization: true
 other_conditions_custom: ''
 questionnaire_link:
+is_pinned: false
 is_hidden: true
 ---
 Empty body

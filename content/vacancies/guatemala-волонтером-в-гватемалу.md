@@ -13,7 +13,7 @@ term_custom_start: '2018-06-11'
 term_custom_end: '2018-06-11'
 other_conditions_custom: ''
 questionnaire_link: 'https://help.he-he.org/ru/vacancies/'
-is_pinned: false
+is_pinned: true
 is_hidden: false
 ---
 Клиника Health&Help работает 24/7. Для многих людей мы являемся единственной возможностью получить медицинскую помощь. Мы спасаем жизни и делаем это без перерывов и выходных.

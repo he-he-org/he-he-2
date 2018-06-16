@@ -45,34 +45,22 @@ humanitarian_aid:
   farmacy_by_list: will_be_given
   supplies_by_list: will_be_given
 questionnaire_link: 'https://goo.gl/forms/ol9XHitL5rv9c8AQ2'
-is_pinned: false
 is_hidden: false
 ---
 You will be expected to see patients in the clinic on a daily basis, working along with volunteers, and handle paperwork. You should be comfortable making medical decisions and dealing with cases of different levels of complexity.
 
-A desired candidate is:
+**Personal qualities**
 
-* Expected to stay 3-6 months to a year;
-* Always ready to help and skilled in his/her own field;
-* Attentive to details and goal-oriented;
-* A team player, who respects other members of the multiprofessional team;
-* A trained professional, who speaks Spanish (C1) and/or English/Russian.
-
-The responsibilities include:
-
-* Examining patients on site and in the field;
-* Distributing medications and purchasing medical supplies;
-* Keeping up with the documentation.
-
-**We offer:
-**
-
-* Shared accommodations and three meals a day free of charge;
-* A letter of recommendation upon request;
-* A friendly team of professionals;
-* An opportunity to develop your skills and discover more about yourself and other people and cultures;
-* Endless love and gratitude from the locals, fellow volunteers and all over the world;
-* A 6-8 hours working day, 6 days a week.
+* **Initiative.** Striving to improve business processes;
+* **Self-learning.** Able to find the necessary information and acquire new skills along with maintaining professionalism;
+* **Adaptable.** Able to feel comfortable and confident in various situations, with new people and in unusual life and work conditions;
+* **Diplomatic, kind, intelligent.** Able to deal with all team members and the local community, solve and prevent conflicts. Have respect for other positions and opinions, different from their own;
+* **Well-organized, responsible, punctual and diligent**;
+* **Able to perform work in a high-quality and timely manner**, as well as ready to make complex decisions;
+* **Leadership skills.** Able to guide and inspire the team in order to achieve common goals and objectives;
+* **Loyal, calm and endurant.** Tolerant attitude towards people of other race, nationality, religion, sexual orientation, political views, etc.
+* **Empathic and responsive.** With a caring attitude, as well as a willingness to help in a difficult situation;
+* **Willing to maintain a healthy lifestyle** as an example for the local community and other volunteers.
 
 **Being a part of Health&Help medical team is an exceptional experience, which gives you the opportunity to make this world a better place at this exact moment.
 **

@@ -1,6 +1,6 @@
 ---
 language: en
-title: 'Nurse '
+title: Nurse or Paramedic
 short_description: >-
   Nurses are an important part of the communication between doctor and patient.
   Your actions and professionalism affect our patients’ loyalty to the clinic
@@ -45,6 +45,7 @@ humanitarian_aid:
   farmacy_by_list: will_be_given
   supplies_by_list: will_be_given
 questionnaire_link: 'https://goo.gl/forms/mKwXL7IAmKxmMfgV2'
+is_pinned: false
 is_hidden: false
 ---
 You will be expected to see patients in the clinic on a daily basis, working along with volunteers, and handle paperwork. You should be comfortable making medical decisions and dealing with cases of different levels of complexity.

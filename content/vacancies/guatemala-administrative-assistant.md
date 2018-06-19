@@ -55,7 +55,7 @@ In this role you will be expected to assist the Administrative Coordinator in th
 * **Empathic and responsive.** With a caring attitude, as well as a willingness to help in a difficult situation;
 * **Willing to maintain a healthy lifestyle** as an example for the local community and other volunteers.
 
-**The responsibilities of the role include:**
+**The responsibilities of the role include:**
 
 * Handling newly arrived volunteers, their schedule; assisting and working together with other volunteers;
 * Being a facilitator between the volunteers and local communities, dissolving problems and neutralizing conflicts;

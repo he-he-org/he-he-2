@@ -9,7 +9,7 @@ short_description: >-
   strength to provide medical attention 24/7. Your actions and professionalism
   affect our patients’ loyalty to the clinic and course of treatment. Their
   well-being is in your hands.
-image: /uploads/clinica-8-из-119-.jpg
+image: /uploads/clinica-3-из-119-.jpg
 date: '2018-06-19T12:13:23-04:00'
 place: guatemala
 price: $600/month

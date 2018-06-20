@@ -1,13 +1,13 @@
 ---
 language: en
-title: Nurse or Paramedic
+title: Nurse/Paramedic
 short_description: >-
   Nurses are an important part of the communication between doctor and patient.
   Your actions and professionalism affect our patients’ loyalty to the clinic
   and course of treatment. Their well-being is in your hands.  Health&Help’s
   nurses are not afraid to take responsibility on, finding the strength to
   provide medical attention 24/7.
-image: /uploads/clinica-3-из-119-.jpg
+image: /uploads/0q4a1542.jpg
 date: '2018-06-19T10:45:33-04:00'
 place: guatemala
 price: no fee

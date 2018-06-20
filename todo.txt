@@ -6,4 +6,3 @@
 - Vacancies: fix font sizes
 - Vacancies: change columns layout
 - Vacancies: remove bold for required aids transportation flag
-- Vacancies: implement is_pinned

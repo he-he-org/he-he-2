@@ -1,7 +1,0 @@
-- On article page show all topics for article
-- Make rss feed for blog
-- Add contacts and link to main site
-- Change main language caption
-- Make a list of term
-- Vacancies: change columns layout
-- Vacancies: remove bold for required aids transportation flag

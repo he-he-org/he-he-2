@@ -14,7 +14,7 @@
 }
 
 .shortDescription {
-  font-size: 17px;
+  font-size: 18px;
   margin: 24px 0 32px 0;
   line-height: 1.3em;
   text-align: left;
@@ -28,7 +28,6 @@
   color: #e1001a;
   text-align: left;
 }
-
 
 .note {
   color: #e1001a;
@@ -75,6 +74,7 @@
   .parametersBlockDescription {
     text-align: left;
     margin-top: 16px;
+    font-size: $basic-font-size;
   }
 
   .parametersBlockContent {
@@ -164,6 +164,7 @@
 
   .columnsCell {
     display: flex;
+    font-size: $basic-font-size;
     margin-bottom: 16px;
     box-sizing: border-box;
 
@@ -181,6 +182,7 @@
 .requirementPair {
   .requirementPairLabel,
   .requirementPairValue {
+    font-size: $basic-font-size;
     display: inline;
   }
 

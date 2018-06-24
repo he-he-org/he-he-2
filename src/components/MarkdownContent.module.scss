@@ -3,7 +3,7 @@
 .root {
   @mixin font-props() {
     line-height: 1.4em;
-    font-size: 18px;
+    font-size: $basic-font-size;
     font-weight: 300;
     hyphens: manual;
   }

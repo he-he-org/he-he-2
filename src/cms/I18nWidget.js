@@ -71,6 +71,15 @@ export default class extends React.Component {
             value={item.ru}
           />
         </div>
+        <div style={styles.itemText}>
+          <span style={styles.itemTextSpan}>Spanish:</span>
+          <input
+            style={styles.itemTextInput}
+            onChange={(e) => this.handleChangeText(item.key, 'es', e.target.value)}
+            type="text"
+            value={item.es}
+          />
+        </div>
       </div>
     )
   }

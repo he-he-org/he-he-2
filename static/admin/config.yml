@@ -12,7 +12,7 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Language", name: "language", widget: "select", options: ["ru", "en"]}
+      - {label: "Language", name: "language", widget: "select", options: ["ru", "en", "es"]}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
@@ -26,7 +26,7 @@ collections:
     create: true
     slug: "{{place}}-{{slug}}"
     fields:
-      - {label: "Language", name: "language", widget: "select", options: [{ label: "Russian", value: "ru" }, { label: "English", value: "en" }]}
+      - {label: "Language", name: "language", widget: "select", options: [{ label: "Russian", value: "ru" }, { label: "English", value: "en" }, { label: "Spanish", value: "es" }]}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Short description", name: "short_description", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
@@ -42,7 +42,7 @@ collections:
           - {label: "Spain", name: "spanish", widget: "select", options: [{ label: "A", value: "a" }, { label: "A1", value: "a1" }, { label: "A2", value: "a2" }, { label: "B", value: "b" }, { label: "B1", value: "b1" }, { label: "B2", value: "b2" }, { label: "C", value: "c" }, { label: "C1", value: "c1" }, { label: "C2", value: "c2" }], required: false}
           - {label: "English", name: "english", widget: "select", options: [{ label: "A", value: "a" }, { label: "A1", value: "a1" }, { label: "A2", value: "a2" }, { label: "B", value: "b" }, { label: "B1", value: "b1" }, { label: "B2", value: "b2" }, { label: "C", value: "c" }, { label: "C1", value: "c1" }, { label: "C2", value: "c2" }], required: false}
           - {label: "Russian", name: "russian", widget: "select", options: [{ label: "A", value: "a" }, { label: "A1", value: "a1" }, { label: "A2", value: "a2" }, { label: "B", value: "b" }, { label: "B1", value: "b1" }, { label: "B2", value: "b2" }, { label: "C", value: "c" }, { label: "C1", value: "c1" }, { label: "C2", value: "c2" }], required: false}
-      - {label: "Main language", name: "main_language", widget: "select", options: [{ label: "Spain", value: "spanish" }, { label: "English", value: "english" }, { label: "Russian", value: "russian" }], required: false}
+      - {label: "Main language", name: "main_language", widget: "select", options: [{ label: "Spanish", value: "spanish" }, { label: "English", value: "english" }, { label: "Russian", value: "russian" }], required: false}
       - {label: "Education", name: "education", widget: "select", options: [{ label: "MD", value: "md" }, { label: "Nurse", value: "nurse" }, { label: "Higher education", value: "higher_education" }], required: false}
       - {label: "Volunteer type", name: "volunteer_type", widget: "select", options: [{ label: "Any", value: "any" }, { label: "Family/Pair", value: "family" }, { label: "Group", value: "group" }], required: false}
       - {label: "Time period", name: "term", widget: "select", options: [{ label: "Week", value: "week" }, { label: "Month", value: "month" }, { label: "Several months", value: "several_months" }, { label: "Year", value: "year" }, { label: "Other", value: "custom" }], required: false}
@@ -132,7 +132,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Language", name: "language", widget: "select", options: [{ label: "Russian", value: "ru" }, { label: "English", value: "en" }]}
+      - {label: "Language", name: "language", widget: "select", options: [{ label: "Russian", value: "ru" }, { label: "English", value: "en" }, { label: "Spanish", value: "es" }]}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
@@ -148,7 +148,7 @@ collections:
         file: "content/pages/index.md"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: "Language", name: "language", widget: "select", options: [{ label: "Russian", value: "ru" }, { label: "English", value: "en" }], default: "en"}
+          - {label: "Language", name: "language", widget: "select", options: [{ label: "Russian", value: "ru" }, { label: "English", value: "en" }, { label: "Spanish", value: "es" }], default: "en"}
           - {label: "Name", name: "name", widget: "hidden", default: "index"}
           - {label: Body, name: body, widget: markdown}
       - label: "Index Page (ru)"
@@ -156,7 +156,7 @@ collections:
         file: "content/pages/index_ru.md"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Language, name: language, widget: "select", options: [{ label: "Russian", value: "ru" }, { label: "English", value: "en" }], default: "ru"}
+          - {label: Language, name: language, widget: "select", options: [{ label: "Russian", value: "ru" }, { label: "English", value: "en" }, { label: "Spanish", value: "es" }], default: "ru"}
           - {label: Name, name: name, widget: "hidden", default: "index"}
           - {label: Body, name: body, widget: markdown}
   - label: "Config files"

@@ -66,6 +66,22 @@ class Block extends React.Component {
 }
 
 class Columns extends React.Component {
+  renderCell = (child, i) => {
+    return (
+      <div key={i} className={styles.columnsCell}>
+        {child}
+      </div>
+    )
+  };
+
+  renderColumn = (children, i) => {
+    return (
+      <div key={i} className={styles.columnsColumn}>
+        {children.map(this.renderCell)}
+      </div>
+    )
+  };
+
   renderColumns() {
     const { children } = this.props;
     return React.Children.map(children, (child, i) => (
@@ -76,15 +92,17 @@ class Columns extends React.Component {
   }
 
   render() {
-    let childrenCountEven = React.Children.map(this.props.children, (x) => !!x).filter(x => x).length % 2 === 0;
-    let className = cn(
-      styles.columns,
-      styles[`columns-count-${this.props.columns}`],
-      childrenCountEven ? styles.columnsChildrenCountEven : styles.columnsChildrenCountOdd,
-    );
+    const childrenArray = React.Children.toArray(this.props.children);
+    const childPerColumn = Math.ceil(childrenArray.length / this.props.columns);
+
+    const columns = [];
+    for(let i = 0; i < childrenArray.length; i += childPerColumn) {
+      columns.push(childrenArray.slice(i, i + childPerColumn));
+    }
+
     return (
-      <div className={className}>
-        {this.renderColumns()}
+      <div className={styles.columns}>
+        {columns.map(this.renderColumn)}
       </div>
     )
   }

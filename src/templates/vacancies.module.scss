@@ -122,6 +122,32 @@
   flex-wrap: wrap;
   flex: 1;
 
+  .columnsColumn {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    &:not(:first-child) {
+      margin-left: 32px;
+    }
+  }
+
+  .columnsCell {
+    display: flex;
+    font-size: $basic-font-size;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+
+    &::before {
+      display: inline-block;
+      content: "—";
+      margin-right: 10px;
+      margin-left: -22px;
+      flex-shrink: 0;
+      position: relative;
+    }
+  }
+/*
   &.columns-count-1 {
     flex-direction: column;
   }
@@ -162,21 +188,7 @@
     flex: 1;
   }
 
-  .columnsCell {
-    display: flex;
-    font-size: $basic-font-size;
-    margin-bottom: 16px;
-    box-sizing: border-box;
-
-    &::before {
-      display: inline-block;
-      content: "—";
-      margin-right: 10px;
-      margin-left: -22px;
-      flex-shrink: 0;
-      position: relative;
-    }
-  }
+*/
 }
 
 .requirementPair {

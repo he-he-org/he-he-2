@@ -35,7 +35,7 @@ additional_skills:
 other_conditions:
   cleaning: true
   domestic_purchases: true
-  stuff_organization: true
+  stuff_organization: false
 aids_transportation: true
 humanitarian_aid:
   building_materials: price_compensation

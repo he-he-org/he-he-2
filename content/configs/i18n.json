@@ -4,13 +4,13 @@
       "key": "layouts_index_menu_main",
       "ru": "Главная",
       "en": "Main",
-      "es": "Main"
+      "es": "Inicio"
     },
     {
       "key": "layouts_index_menu_about",
       "ru": "О нас",
       "en": "About",
-      "es": "About"
+      "es": "Quiénes somos"
     },
     {
       "key": "layouts_index_menu_blog",
@@ -22,13 +22,13 @@
       "key": "layouts_index_menu_vacancies",
       "ru": "Вакансии",
       "en": "Vacancies",
-      "es": "Vacancies"
+      "es": "Ofertas de trabajo"
     },
     {
       "key": "layouts_index_menu_volunteer",
       "ru": "Волонтеру",
       "en": "For volunteer",
-      "es": "For volunteer"
+      "es": "Información para voluntarios"
     },
     {
       "key": "pages_vacancies_group_title_guatemala",
@@ -46,67 +46,67 @@
       "key": "pages_vacancies_group_title_online",
       "ru": "Онлайн",
       "en": "Online",
-      "es": "Online"
+      "es": "En línea"
     },
     {
       "key": "pages_blog_no_posts_yet",
       "ru": "Извините, записей в блоге еще нет :(",
       "en": "No blog posts yet, sorry :(",
-      "es": "No blog posts yet, sorry :("
+      "es": "Lo sentimos. No hay entradas en este blog."
     },
     {
       "key": "pages_vacancies_no_items_yet",
       "ru": "Извините, вакансий еще нет :(",
       "en": "No vacancies yet, sorry :(",
-      "es": "No vacancies yet, sorry :("
+      "es": "Lo sentimos. No hay ofertas de empleo."
     },
     {
       "key": "pages_volunteer_no_articles_yet",
       "ru": "Извините, тут статей еще нет :(",
       "en": "There are no articles here yet, sorry :(",
-      "es": "There are no articles here yet, sorry :("
+      "es": "Lo sentimod. No hay artículos aquí."
     },
     {
       "key": "vacancies_education_label",
       "ru": "Образование",
       "en": "Education",
-      "es": "Education"
+      "es": "Educación"
     },
     {
       "key": "vacancies_education_titles_md",
       "ru": "медицинский специалист",
       "en": "medical professional",
-      "es": "medical professional"
+      "es": "especialista médico"
     },
     {
       "key": "vacancies_education_titles_nurse",
       "ru": "медицинский специалист",
       "en": "medical professional",
-      "es": "medical professional"
+      "es": "especialista médico"
     },
     {
       "key": "vacancies_education_titles_higher_education",
       "ru": "законченное высшее образование",
       "en": "higher education diploma",
-      "es": "higher education diploma"
+      "es": "título universitario"
     },
     {
       "key": "vacancies_main_requirements",
       "ru": "Основные требования",
-      "en": "Basic requirements ",
-      "es": "Basic requirements "
+      "en": "Basic requirements",
+      "es": "Requisitos básicos"
     },
     {
       "key": "vacancies_price_label",
       "ru": "Стоимость участия",
       "en": "Participation fee",
-      "es": "Participation fee"
+      "es": "Costo de participación"
     },
     {
       "key": "vacancies_age_label",
       "ru": "Ограничение по возрасту",
       "en": "Age",
-      "es": "Age"
+      "es": "Edad"
     },
     {
       "key": "vacancies_age_titles_plus_16",
@@ -124,211 +124,211 @@
       "key": "vacancies_volunteer_type_label",
       "ru": "Мы принимаем",
       "en": "We welcome",
-      "es": "We welcome"
+      "es": "Acogemos"
     },
     {
       "key": "vacancies_volunteer_type_any",
       "ru": "волонтеров из любой точки мира",
       "en": "volunteers from all over the world",
-      "es": "volunteers from all over the world"
+      "es": "voluntarios de todo el mundo"
     },
     {
       "key": "vacancies_volunteer_type_family",
       "ru": "пары/семьи",
       "en": "couples/families",
-      "es": "couples/families"
+      "es": "parejas/familias"
     },
     {
       "key": "vacancies_volunteer_type_group",
       "ru": "группы",
       "en": "groups",
-      "es": "groups"
+      "es": "grupos"
     },
     {
       "key": "vacancies_term_label",
       "ru": "Сроки приезда",
       "en": "Program duration",
-      "es": "Program duration"
+      "es": "Duración del programa"
     },
     {
       "key": "vacancies_term_titles_week",
       "ru": "короткий период (2-4 недели)",
       "en": "short period (2-4 weeks)",
-      "es": "short period (2-4 weeks)"
+      "es": "periodo corto (2-4 semanas)"
     },
     {
       "key": "vacancies_term_titles_month",
       "ru": "1-6 месяцев",
       "en": "1-6 months",
-      "es": "1-6 months"
+      "es": "1-6 meses"
     },
     {
       "key": "vacancies_term_titles_several_months",
       "ru": "6-12 месяцев",
       "en": "6-12 months",
-      "es": "6-12 months"
+      "es": "6-12 meses"
     },
     {
       "key": "vacancies_term_titles_year",
       "ru": "1 год",
       "en": "1 year",
-      "es": "1 year"
+      "es": "1 año"
     },
     {
       "key": "vacancies_term_titles_custom",
       "ru": "конкретные даты",
       "en": "dates",
-      "es": "dates"
+      "es": "fechas concretas"
     },
     {
       "key": "vacancies_work_time_label",
       "ru": "Часы работы",
       "en": "Working hours",
-      "es": "Working hours"
+      "es": "Horas de trabajo"
     },
     {
       "key": "vacancies_rest_time_label",
       "ru": "Перерыв/отпуск",
       "en": "Free hours/vacation",
-      "es": "Free hours/vacation"
+      "es": "Hora de descanso/vacaciones"
     },
     {
       "key": "vacancies_aids_transportation",
       "ru": "Провоз гуманитарной помощи в личном багаже",
       "en": "Delivering humanitarian help in personal baggage",
-      "es": "Delivering humanitarian help in personal baggage"
+      "es": "Transporte de ayuda humanitaria en el equipaje personal"
     },
     {
       "key": "vacancies_humanitarian_aid_label",
       "ru": "Гуманитарная помощь",
       "en": "Humanitarian help",
-      "es": "Humanitarian help"
+      "es": "Ayuda humanitaria"
     },
     {
       "key": "vacancies_humanitarian_aid_description",
       "ru": "Для большинства волонтеров действует правило: необходимо привезти гуманитарную помощь в личном багаже",
       "en": "Our volunteers are expected to deliver 15 kilograms of hu­man­i­tar­ian help (med­ical sup­plies and drugs):",
-      "es": "Our volunteers are expected to deliver 15 kilograms of hu­man­i­tar­ian help (med­ical sup­plies and drugs):"
+      "es": "De la mayoría de voluntarios se espera el transporte de 15 kg de ayuda humanitaria (suministros médicos y medicinas)"
     },
     {
       "key": "vacancies_humanitarian_aid_key_titles_farmacy_by_list",
       "ru": "Медикаменты[по списку от проекта H&H]",
       "en": "Drugs[the list will be given by H&H]",
-      "es": "Drugs[the list will be given by H&H]"
+      "es": "Medicinas (según la lista de H&H)"
     },
     {
       "key": "vacancies_humanitarian_aid_key_titles_supplies_by_list",
       "ru": "Медицинские расходники[по списку от проекта H&H]",
       "en": "Medical supplies[the list will be given by H&H]",
-      "es": "Medical supplies[the list will be given by H&H]"
+      "es": "Suministros médicos (según la lista de H&H)"
     },
     {
       "key": "vacancies_humanitarian_aid_key_titles_equipment_by_list",
       "ru": "Медицинское оборудование[по списку от проекта H&H]",
       "en": "Medical equipment[the list will be given by H&H]",
-      "es": "Medical equipment[the list will be given by H&H]"
+      "es": "Equipamiento médico (segun la lista de H&H)"
     },
     {
       "key": "vacancies_humanitarian_aid_key_titles_for_children",
       "ru": "Детские вещи",
       "en": "Kids goods",
-      "es": "Kids goods"
+      "es": "Objetos para niños"
     },
     {
       "key": "vacancies_humanitarian_aid_key_titles_building_materials",
       "ru": "Строительные материалы",
       "en": "Constructional materials",
-      "es": "Constructional materials"
+      "es": "Materiales de construcción"
     },
     {
       "key": "vacancies_humanitarian_aid_value_titles_will_be_given",
       "ru": "будет выдано проектом H&H, не возмещаются расходы на провоз багажа",
       "en": "will be given by H&H, baggage expenses are covered by volunteer",
-      "es": "will be given by H&H, baggage expenses are covered by volunteer"
+      "es": "será entregado por H&H, los gastos de equipaje serán cubiertos por el voluntario"
     },
     {
       "key": "vacancies_humanitarian_aid_value_titles_pack_yourself",
       "ru": "собрать самостоятельно, не возмещаются расходы на покупку и провоз багажа",
       "en": "pack yourself, transportation expenses are covered by volunteer",
-      "es": "pack yourself, transportation expenses are covered by volunteer"
+      "es": "empaca tú mismo, los gastos de transporte serán cubiertos por el voluntario"
     },
     {
       "key": "vacancies_humanitarian_aid_value_titles_price_compensation",
       "ru": "проект H&H возместит расходы на покупки",
       "en": "expenses will be reimbursed by H&H",
-      "es": "expenses will be reimbursed by H&H"
+      "es": "los gastos serán reembolsados por H&H"
     },
     {
       "key": "vacancies_humanitarian_aid_value_titles_transport_compensation",
       "ru": "проект H&H возместит расходы на провоз багажа",
       "en": "transportation expenses will be reimbursed by H&H",
-      "es": "transportation expenses will be reimbursed by H&H"
+      "es": "los gastos de transporte serán reembolsados por H&H"
     },
     {
       "key": "vacancies_languages_advantage_titles_spanish",
       "ru": "испанский",
       "en": "Spanish",
-      "es": "Spanish"
+      "es": "Español"
     },
     {
       "key": "vacancies_languages_advantage_titles_english",
-      "ru": "английский ",
+      "ru": "английский",
       "en": "English",
-      "es": "English"
+      "es": "Inglés"
     },
     {
       "key": "vacancies_languages_advantage_titles_russian",
-      "ru": "русский ",
+      "ru": "русский",
       "en": "Russian",
-      "es": "Russian"
+      "es": "Ruso"
     },
     {
       "key": "vacancies_languages_advantage_label",
       "ru": "преимущество",
       "en": "Advantage",
-      "es": "Advantage"
+      "es": "Ventaja"
     },
     {
       "key": "vacancies_languages_block_label",
       "ru": "Владения языками",
       "en": "Language skills",
-      "es": "Language skills"
+      "es": "Dominio de idiomas"
     },
     {
       "key": "vacancies_languages_block_description",
       "ru": "В клинике мы используем несколько основных языков общения, ниже приведены минимальные требования по владению ими",
       "en": "There are several languages being used at the clinic",
-      "es": "There are several languages being used at the clinic"
+      "es": "En la clínica hablamos varios idiomas"
     },
     {
       "key": "vacancies_languages_key_titles_spanish",
       "ru": "Испанский",
       "en": "Spanish",
-      "es": "Spanish"
+      "es": "Español"
     },
     {
       "key": "vacancies_languages_key_titles_english",
       "ru": "Английский",
       "en": "English",
-      "es": "English"
+      "es": "Inglés"
     },
     {
       "key": "vacancies_languages_key_titles_russian",
       "ru": "Русский",
       "en": "Russian",
-      "es": "Russian"
+      "es": "Ruso"
     },
     {
       "key": "vacancies_languages_value_titles_a",
       "ru": "Преимущество",
       "en": "Advantage",
-      "es": "Advantage"
+      "es": "Ventaja"
     },
     {
       "key": "vacancies_languages_value_titles_a1",
       "ru": "A1 (уровень выживания)",
-      "en": "A1 ",
-      "es": "A1 "
+      "en": "A1",
+      "es": "A1"
     },
     {
       "key": "vacancies_languages_value_titles_a2",
@@ -351,8 +351,8 @@
     {
       "key": "vacancies_languages_value_titles_b2",
       "ru": "B2 (пороговый продвинутый уровень)",
-      "en": "B2 ",
-      "es": "B2 "
+      "en": "B2",
+      "es": "B2"
     },
     {
       "key": "vacancies_languages_value_titles_c",
@@ -363,212 +363,212 @@
     {
       "key": "vacancies_languages_value_titles_c1",
       "ru": "C1 (уровень профессионального владения)",
-      "en": "C1 ",
-      "es": "C1 "
+      "en": "C1",
+      "es": "C1"
     },
     {
       "key": "vacancies_languages_value_titles_c2",
       "ru": "C2 (уровень владения в совершенстве)",
-      "en": "C2 ",
-      "es": "C2 "
+      "en": "C2",
+      "es": "C2"
     },
     {
       "key": "vacancies_additional_skills_block_label",
       "ru": "Дополнительные навыки",
       "en": "Additional skills",
-      "es": "Additional skills"
+      "es": "Habilidades adicionales"
     },
     {
       "key": "vacancies_additional_skills_key_titles_driving",
       "ru": "Вождение автомобиля",
       "en": "Driving a car",
-      "es": "Driving a car"
+      "es": "Conducir coche"
     },
     {
       "key": "vacancies_additional_skills_key_titles_motorcycling",
       "ru": "Вождение мотоцикла",
       "en": "Driving a motorcycle",
-      "es": "Driving a motorcycle"
+      "es": "Conducir moto"
     },
     {
       "key": "vacancies_additional_skills_key_titles_cooking",
       "ru": "Приготовление пищи",
       "en": "Cooking",
-      "es": "Cooking"
+      "es": "Preparar comida"
     },
     {
       "key": "vacancies_additional_skills_key_titles_photo_video",
       "ru": "Съемка фото и видео[на полу- или профессиональную камеру]",
       "en": "Taking photos/recording video[with professional equipment]",
-      "es": "Taking photos/recording video[with professional equipment]"
+      "es": "Tomar fotos y videos (con dispositivos profesionales)"
     },
     {
       "key": "vacancies_additional_skills_value_titles_must",
       "ru": "обязательно",
       "en": "required",
-      "es": "required"
+      "es": "se requiere"
     },
     {
       "key": "vacancies_additional_skills_value_titles_desirable",
       "ru": "желательно",
-      "en": "desirable ",
-      "es": "desirable "
+      "en": "desirable",
+      "es": "preferiblemente"
     },
     {
       "key": "vacancies_additional_skills_value_titles_advantage",
       "ru": "преимущество",
       "en": "advantage",
-      "es": "advantage"
+      "es": "ventaja"
     },
     {
       "key": "vacancies_conditions_block_label",
       "ru": "Условия",
       "en": "Conditions",
-      "es": "Conditions"
+      "es": "Condiciones"
     },
     {
       "key": "vacancies_conditions_titles_food",
       "ru": "Питание[вегетарианское] 3 раза в день",
       "en": "Hot meals[vegetarian] 3 times/day",
-      "es": "Hot meals[vegetarian] 3 times/day"
+      "es": "Comida caliente (vegetariana) 3 veces al día"
     },
     {
       "key": "vacancies_conditions_titles_place_to_stay",
       "ru": "Размещение: вместе с другими волонтерами[2-3 человека в комнате]",
       "en": "Place to stay in shared house[2-3 people in a room]",
-      "es": "Place to stay in shared house[2-3 people in a room]"
+      "es": "Vivienda (convivencia con otros voluntarios, 2 o 3 personas por habitación)"
     },
     {
       "key": "vacancies_conditions_titles_tickets_two_ways",
       "ru": "Компенсация авиабилетов в обе стороны[Более подробную информацию можно уточнить у координатора проекта]",
       "en": "Round trip travel reimbursement[Ask your coordinator]",
-      "es": "Round trip travel reimbursement[Ask your coordinator]"
+      "es": "Reembolso de billetes de ida y vuelta (pregunta a tu coordinador)"
     },
     {
       "key": "vacancies_conditions_titles_tickets_one_way",
       "ru": "Компенсация авиабилетов в одну сторону[Более подробную информацию можно уточнить у координатора проекта]",
       "en": "one-way trip travel reimbursement[Ask your coordinator]",
-      "es": "one-way trip travel reimbursement[Ask your coordinator]"
+      "es": "Reembolso de billete de ida (pregunta a tu coordinador)"
     },
     {
       "key": "vacancies_conditions_titles_travel_compensations",
       "ru": "Компенсация стоимости дорожных расходов[Более подробную информацию можно уточнить у координатора проекта]",
       "en": "Travel expenses reimbursment[Ask your coordinator]",
-      "es": "Travel expenses reimbursment[Ask your coordinator]"
+      "es": "Reembolso de los gastos de viaje"
     },
     {
       "key": "vacancies_conditions_titles_payment",
       "ru": "Денежное вознаграждение",
       "en": "Денежное вознаграждение",
-      "es": "Денежное вознаграждение"
+      "es": "Remuneración"
     },
     {
       "key": "vacancies_conditions_titles_salary",
       "ru": "Зарплата",
-      "en": "Wage ",
-      "es": "Wage "
+      "en": "Wage",
+      "es": "Salario"
     },
     {
       "key": "vacancies_conditions_titles_home",
       "ru": "Жилье индивидуальное, оплачивается волонтером[Более подробную информацию можно уточнить у координатора проекта]",
       "en": "Single apartment[Ask your coordinator]",
-      "es": "Single apartment[Ask your coordinator]"
+      "es": "Apartamento individual (pregunta a tu coordinador)"
     },
     {
       "key": "vacancies_other_conditions_block_label",
       "ru": "Дополнительные условия",
       "en": "Program include",
-      "es": "Program include"
+      "es": "Condiciones adicionales"
     },
     {
       "key": "vacancies_other_conditions_titles_night_shifts",
       "ru": "Ночная смена",
       "en": "Night shift",
-      "es": "Night shift"
+      "es": "Guardia nocturna"
     },
     {
       "key": "vacancies_other_conditions_titles_emergencies",
       "ru": "Неотложные ситуации",
       "en": "Emergency calls",
-      "es": "Emergency calls"
+      "es": "Emergencias"
     },
     {
       "key": "vacancies_other_conditions_titles_house_calls",
       "ru": "Выезд на дом",
       "en": "Home visits",
-      "es": "Home visits"
+      "es": "Visitas a domicilio"
     },
     {
       "key": "vacancies_other_conditions_titles_patient_escort_to_the_hospital",
       "ru": "Сопровождение пациентов в госпиталь",
       "en": "Escorting patients to a hospital",
-      "es": "Escorting patients to a hospital"
+      "es": "Acompañamiento de pacientes al hospital"
     },
     {
       "key": "vacancies_other_conditions_titles_stuff_organization",
       "ru": "Организация работы среднего и младшего медицинского персонала",
       "en": "Organization of nursing and ancillary medical personnel",
-      "es": "Organization of nursing and ancillary medical personnel"
+      "es": "Organización del trabajo de enfermeros y personal médico auxiliar"
     },
     {
       "key": "vacancies_other_conditions_titles_statistics_conducting",
       "ru": "Ведение медицинской документации и сбор статистики",
       "en": "Medical documentation and gathering medical data",
-      "es": "Medical documentation and gathering medical data"
+      "es": "Documentación médica y recolección de datos "
     },
     {
       "key": "vacancies_other_conditions_titles_accounting_of_medicines",
       "ru": "Учет использования и хранения медикаментов, закупки",
       "en": "Supervision of medication use and storage, ordering new medications",
-      "es": "Supervision of medication use and storage, ordering new medications"
+      "es": "Control de almacenamiento, uso y compra de medicinas"
     },
     {
       "key": "vacancies_other_conditions_titles_drugstore_logistics",
       "ru": "Логистика аптеки",
       "en": "Pharmacy logistics",
-      "es": "Pharmacy logistics"
+      "es": "Logística de la farmacia"
     },
     {
       "key": "vacancies_other_conditions_titles_providing_of_lectures",
       "ru": "Организация и проведение образовательных лекций",
       "en": "Preparing and giving educational lectures on public health for locals, both children and adults, putting together handout materials, posters",
-      "es": "Preparing and giving educational lectures on public health for locals, both children and adults, putting together handout materials, posters"
+      "es": "Organización y realización de conferencias educativas para la comunidad"
     },
     {
       "key": "vacancies_other_conditions_titles_pr_within_community",
       "ru": "Создание и поддержание благоприятного имиджа проекта в глазах коммьюнити",
       "en": "Networking within the local community, establishing and fostering existing relationships",
-      "es": "Networking within the local community, establishing and fostering existing relationships"
+      "es": "Colaboración con la comunidad y mantenimiento de imagen positiva del proyecto"
     },
     {
       "key": "vacancies_other_conditions_titles_spanish_classes",
       "ru": "Организация и проведения занятий по испанскому для волонтёров[с разными языковыми уровнями минимум 3 раза в неделю 1 час и более]",
       "en": "Spanish classes for volunteers[different levels, 3 times a week]",
-      "es": "Spanish classes for volunteers[different levels, 3 times a week]"
+      "es": "Organización y realización de clases de español para voluntarios (niveles diferentes, 3 veces a la semana)"
     },
     {
       "key": "vacancies_other_conditions_titles_cleaning",
       "ru": "Уборка личных комнат волонтеров и хозяйственного блока[мытье посуды, стирка и т.д.]",
       "en": "Уборка личных комнат волонтеров и хозяйственного блока[мытье посуды, стирка и т.д.]",
-      "es": "Уборка личных комнат волонтеров и хозяйственного блока[мытье посуды, стирка и т.д.]"
+      "es": "Limpieza en las habitaciones de los voluntarios y en el área de servicio (lavar la vajila, la ropa etc.)"
     },
     {
       "key": "vacancies_other_conditions_titles_domestic_purchases",
       "ru": "Осуществление оптовых закупок еды и хозяйственного инвентаря",
       "en": "Purchasing food and household supplies for clinic volunteers",
-      "es": "Purchasing food and household supplies for clinic volunteers"
+      "es": "Compra de comida y objetos cotidianos al por mayor para los voluntarios"
     },
     {
       "key": "vacancies_submit_form_button",
       "ru": "Заполнить анкету",
       "en": "Submit form",
-      "es": "Submit form"
+      "es": "Completar la encuesta"
     },
     {
       "key": "blog_post_is_pinned",
       "ru": "Пост закреплен",
       "en": "Post is pinned",
-      "es": "Post is pinned"
+      "es": "Publicación destacada"
     }
   ]
 }

@@ -4,7 +4,7 @@ import IntlMessageFormat from 'intl-messageformat';
 import texts from '../../content/configs/i18n.json';
 
 function translate(language, key, params) {
-  if (language !== 'ru' && language !== 'en') {
+  if (!LANGUAGE_CODES.some((x) => x === language)) {
     throw new Error(`Unknown language: ${language}`)
   }
 

@@ -148,16 +148,24 @@ collections:
         file: "content/pages/index.md"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: "Language", name: "language", widget: "select", options: [{ label: "Russian", value: "ru" }, { label: "English", value: "en" }, { label: "Spanish", value: "es" }], default: "en"}
-          - {label: "Name", name: "name", widget: "hidden", default: "index"}
+          - {label: Language, name: language, widget: hidden, default: "en"}
+          - {label: Name, name: name, widget: hidden, default: "index"}
           - {label: Body, name: body, widget: markdown}
       - label: "Index Page (ru)"
         name: "index_ru"
         file: "content/pages/index_ru.md"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Language, name: language, widget: "select", options: [{ label: "Russian", value: "ru" }, { label: "English", value: "en" }, { label: "Spanish", value: "es" }], default: "ru"}
-          - {label: Name, name: name, widget: "hidden", default: "index"}
+          - {label: Language, name: language, widget: hidden, default: "ru"}
+          - {label: Name, name: name, widget: hidden, default: "index"}
+          - {label: Body, name: body, widget: markdown}
+      - label: "Index Page (es)"
+        name: "index_es"
+        file: "content/pages/index_es.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Language, name: language, widget: hidden, default: "es"}
+          - {label: Name, name: name, widget: hidden, default: "index"}
           - {label: Body, name: body, widget: markdown}
   - label: "Config files"
     name: "config-files"

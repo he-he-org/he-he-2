@@ -3,6 +3,7 @@
 const LANGUAGES = [
   { code: 'en', title: 'English' },
   { code: 'ru', title: 'Русский' },
+  // { code: 'es', title: 'Español' },
 ];
 const LANGUAGE_CODES = LANGUAGES.map(({ code }) => code);
 const DEFAULT_LANGUAGE_CODE = 'en';

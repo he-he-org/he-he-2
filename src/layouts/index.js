@@ -9,6 +9,11 @@ import styles from './index.module.scss';
 import './globals.css';
 
 import Logo from './logo.png';
+import MediaIcon from '../components/MediaIcon';
+
+import InstagramIcon from '../../assets/icons/instagram.png';
+import FacebookIcon from '../../assets/icons/facebook.svg';
+import HeHeIcon from '../../assets/icons/he-he.png';
 
 const renderMenuItem = (route, title, isActive) => {
   return <Link key={route} className={cn(styles.menuItem, isActive && styles.isActive)} to={route}>{title}</Link>
@@ -85,6 +90,11 @@ class Index extends React.Component {
           </div>
           <div className={styles.body}>
             {children()}
+          </div>
+          <div className={styles.footer}>
+            <MediaIcon image={InstagramIcon} url={'https://www.instagram.com/health2help/'}/>
+            <MediaIcon image={FacebookIcon} url={'https://www.facebook.com/healthandhelporg/'}/>
+            <MediaIcon image={HeHeIcon} url={'https://he-he.org/'}/>
           </div>
         </div>
       </div>

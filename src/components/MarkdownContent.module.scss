@@ -8,8 +8,15 @@
     hyphens: manual;
   }
 
+  @mixin common-block-props() {
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
   h1 {
     @include font-props();
+    @include common-block-props();
 
     font-size: 24px;
     margin: 52px 0 16px;
@@ -19,6 +26,7 @@
 
   h2 {
     @include font-props();
+    @include common-block-props();
 
     font-weight: bold;
     margin: 20px 0 16px;
@@ -27,6 +35,7 @@
 
   h3 {
     @include font-props();
+    @include common-block-props();
 
     font-weight: bold;
     margin: 20px 0 16px;
@@ -34,6 +43,7 @@
 
   p {
     @include font-props();
+    @include common-block-props();
 
     margin: 16px 0;
   }
@@ -49,6 +59,7 @@
   ol,
   ul {
     @include font-props();
+    @include common-block-props();
     padding-left: 2em;
 
     li {
@@ -100,6 +111,7 @@
 
     th {
       @include font-props();
+      @include common-block-props();
 
       font-weight: 700;
       background: #f7f7f7;
@@ -107,6 +119,7 @@
 
     td {
       @include font-props();
+      @include common-block-props();
     }
 
     th,
@@ -118,6 +131,7 @@
 
   blockquote {
     @include font-props();
+    @include common-block-props();
 
     border-left: 3px solid #e1001a;
     padding: 8px 0 8px 20px;
@@ -131,6 +145,7 @@
 
   code {
     @include font-props();
+    @include common-block-props();
 
     font-family: "Courier New", Courier, monospace;
     font-size: 1.2em;

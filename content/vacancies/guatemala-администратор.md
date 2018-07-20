@@ -1,6 +1,6 @@
 ---
 language: ru
-title: Администратор
+title: Координатор
 short_description: >-
   Поддержание душевного равновесия тех, кто работает на проекте, и контроль за
   четким функционированием процессов  — это зона вашей ответственности. Помните,
@@ -47,7 +47,7 @@ humanitarian_aid:
   farmacy_by_list: will_be_given
   for_children: pack_yourself
   supplies_by_list: will_be_given
-questionnaire_link: 'https://goo.gl/forms/uT6sUtjO0ysieEml2'
+questionnaire_link: 'https://goo.gl/forms/VrenUBkxP9BePf1B3'
 is_pinned: false
 is_hidden: false
 ---

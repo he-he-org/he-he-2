@@ -48,7 +48,7 @@ humanitarian_aid:
   farmacy_by_list: pack_yourself
   for_children: pack_yourself
   supplies_by_list: pack_yourself
-questionnaire_link: 'https://goo.gl/forms/KXxtgfzL49mXeCvj2'
+questionnaire_link: 'https://goo.gl/forms/7PeULWsUrlo8tg632'
 is_pinned: false
 is_hidden: false
 ---

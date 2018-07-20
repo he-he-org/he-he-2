@@ -1,6 +1,6 @@
 ---
 language: ru
-title: Фотограф
+title: Фотограф/контент-менеджер
 short_description: >-
   Фотограф и контент-менеджер является связующим звеном между нашими читателями,
   волонтерами клиники и пациентами. То, насколько грамотно, красиво и
@@ -43,7 +43,7 @@ humanitarian_aid:
   farmacy_by_list: will_be_given
   for_children: pack_yourself
   supplies_by_list: will_be_given
-questionnaire_link: 'https://goo.gl/forms/uT6sUtjO0ysieEml2'
+questionnaire_link: 'https://goo.gl/forms/zVRiQKYvWFVykb1w2'
 is_pinned: false
 is_hidden: false
 ---

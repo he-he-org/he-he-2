@@ -7,45 +7,35 @@ topics: money
 places: nicaragua
 is_hidden: false
 ---
-![](/uploads/cordobas.jpg)
+![null](/uploads/cordobas.jpg)
 
-_**Exchange rate: 1$ = 31,2 C$ (córdoba)**_
+**_Exchange rate: 1$ = 31,2 C$ (córdoba)_**
 
-
-
-**AIRFARE**
-
-
+**AIRFARE
+**
 
 starting from $650 - a round-trip from New York to Managua
 
-
-
-**TOURIST VISA**
+**VISAS**
 
 
 
-$160 USA visa
+$160 USA transit visa
 
-$43 EU visa
+$43 EU transit visa
 
-$0 Mexican e-visa
+$0 Mexican transit e-visa
 
-$36 Mexican visa
+$36 Mexican transit visa
 
 
 
 $5 Nicaragua enter fee
 
-
-
 ## MANAGUA
 
-
-
-**FOOD**
-
-
+**FOOD
+**
 
 C$139 Lunch with drinks at a cafe in the city cen­tre
 
@@ -71,11 +61,8 @@ C$36 Coca Cola, 0.5 gal
 
 C$16 Bread
 
-
-
-**ACCOMODATION**
-
-
+**ACCOMODATION
+**
 
 C$5 942 4-star ho­tel in the city cen­tre, per night
 
@@ -85,21 +72,14 @@ C$312 Hos­tel, per night
 
 C$338 Laun­dry, 1 load
 
-
-
-**TRANSPORTATION**
-
-
+**TRANSPORTATION
+**
 
 C$30 Gaso­line, 0.26 gal
 
 C$60 Hire cab 6.4 mi
 
-
-
 **CLOTHES**
-
-
 
 C$1,277 Jeans (Levis 501)
 
@@ -107,11 +87,8 @@ C$525 Dress (Zara, H&M)
 
 C$2,401 Sneak­ers (Nike, Adi­das)
 
-
-
-**MIS­CEL­LA­NEOUS**
-
-
+**MIS­CEL­LA­NEOUS
+**
 
 C$84 Cold med­i­cine (Tylenol, Col­drex)
 

@@ -14,7 +14,7 @@ age_restrictions: plus_18
 required_languages:
   english: a2
   russian: ''
-  spanish: a2
+  spanish: a
 volunteer_type: any
 term: month
 term_custom_start: '2018-07-01'

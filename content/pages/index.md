@@ -61,6 +61,8 @@ Our work would not be possible without our sponsors. The people and companies wh
 
 ![](/uploads/002.jpg)
 
+Health&Help brought a diabetes education program to the area, which is a unique approach for the region. People diagnosed with diabetes receive extensive counseling, learn how to use glucometers to control their blood glucose levels at home, and receive life saving medications. We encourage patients to come with their family members to ensure home support and diet modification. 
+
 ## Childhood malnutrition
 
 ![](/uploads/0q4a9201.jpg)

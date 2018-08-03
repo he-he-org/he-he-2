@@ -16,8 +16,7 @@ required_languages:
   spanish: a2
 volunteer_type: any
 term: month
-term_custom_start: '2018-06-19'
-term_custom_end: '2018-06-19'
+term_custom:
 conditions:
   food: true
   place_to_stay: true
@@ -50,7 +49,8 @@ is_hidden: false
 * **Empathic and responsive.** With a caring attitude, as well as a willingness to help in a difficult situation;
 * **Willing to maintain a healthy lifestyle** as an example for the local community and other volunteers.
 
-**The responsibilities of the role include:**
+**The responsibilities of the role include:
+**
 
 * Escorting our medical volunteers and taking photos on a daily basis;
 * Editing videos on the daily life of the project in Guatemala;

@@ -22,8 +22,7 @@ required_languages:
 education: md
 volunteer_type: family
 term: week
-term_custom_start: '2018-05-08'
-term_custom_end: '2018-05-09'
+term_custom:
 work_time: ddas
 rest_time: ad
 conditions:

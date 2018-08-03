@@ -16,8 +16,7 @@ required_languages:
 education: md
 volunteer_type: any
 term: several_months
-term_custom_start: '2018-08-01'
-term_custom_end: '2018-06-11'
+term_custom:
 conditions:
   food: true
   place_to_stay: true
@@ -49,7 +48,8 @@ is_hidden: false
 ---
 You will be expected to see patients in the clinic on a daily basis, working along with volunteers, and handle paperwork. You should be comfortable making medical decisions and dealing with cases of different levels of complexity.
 
-**Personal qualities**
+**Personal qualities
+**
 
 * **Initiative.** Striving to improve business processes;
 * **Self-learning.** Able to find the necessary information and acquire new skills along with maintaining professionalism;
@@ -57,7 +57,8 @@ You will be expected to see patients in the clinic on a daily basis, working alo
 * **Diplomatic, kind, intelligent.** Able to deal with all team members and the local community, solve and prevent conflicts. Have respect for other positions and opinions, different from their own;
 * **Well-organized, responsible, punctual and diligent**;
 * **Able to perform work in a high-quality and timely manner**, as well as ready to make complex decisions;
-* **Leadership skills.** Able to guide and inspire the team in order to achieve common goals and objectives;
+* **Leadership skills.
+** Able to guide and inspire the team in order to achieve common goals and objectives;
 * **Loyal, calm and endurant.** Tolerant attitude towards people of other race, nationality, religion, sexual orientation, political views, etc.
 * **Empathic and responsive.** With a caring attitude, as well as a willingness to help in a difficult situation;
 * **Willing to maintain a healthy lifestyle** as an example for the local community and other volunteers.

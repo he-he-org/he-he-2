@@ -15,8 +15,7 @@ required_languages:
 main_language: russian
 volunteer_type: any
 term: year
-term_custom_start: '2018-06-07'
-term_custom_end: '2018-06-07'
+term_custom:
 work_time: гибкие
 rest_time: гибкие
 questionnaire_link: 'https://goo.gl/forms/b1KsCRI4amQeiSrQ2'

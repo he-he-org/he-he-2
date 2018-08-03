@@ -17,8 +17,7 @@ required_languages:
   spanish: a
 volunteer_type: any
 term: month
-term_custom_start: '2018-07-01'
-term_custom_end: '2018-06-07'
+term_custom:
 work_time: 'ПН-ПТ: 8:00-16:00; СБ: 8:00-12:00'
 rest_time: 'ПН-СБ: 13:00-14:00; ВС: выходной; Отпуск: каждые 8 недель'
 conditions:

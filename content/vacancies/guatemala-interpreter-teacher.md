@@ -16,8 +16,7 @@ required_languages:
   russian: b2
   spanish: c1
 term: several_months
-term_custom_start: '2018-06-20'
-term_custom_end: '2018-06-20'
+term_custom:
 conditions:
   food: true
   place_to_stay: true
@@ -42,7 +41,8 @@ questionnaire_link: 'https://goo.gl/forms/1g9eTg7rx4UCklf23'
 is_pinned: false
 is_hidden: false
 ---
-**The responsibilities of the role include:**
+**The responsibilities of the role include:
+**
 
 * Interpreting into Spanish and English while escorting doctors and nurses at the clinic and during house calls;
 * Teaching Spanish to volunteers at least three times a week.

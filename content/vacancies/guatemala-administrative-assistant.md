@@ -16,8 +16,7 @@ required_languages:
   spanish: a1
 volunteer_type: any
 term: week
-term_custom_start: '2018-06-19'
-term_custom_end: '2018-06-19'
+term_custom:
 conditions:
   food: true
   place_to_stay: true
@@ -39,7 +38,7 @@ questionnaire_link: 'https://goo.gl/forms/NWkfQjRThi8rQply2'
 is_pinned: false
 is_hidden: false
 ---
-In this role you will be expected to assist the Administrative Coordinator in their daily job responsibilities, working with other volunteers as well as preparing team building sessions. 
+In this role you will be expected to assist the Administrative Coordinator in their daily job responsibilities, working with other volunteers as well as preparing team building sessions.
 
 **Personal qualities
 **

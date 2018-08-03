@@ -9,8 +9,6 @@ short_description: >-
 image: /uploads/l35a2891-edit-livejournal.jpg
 date: '2018-06-11T16:18:06-05:00'
 place: guatemala
-term_custom_start: '2018-06-11'
-term_custom_end: '2018-06-11'
 other_conditions_custom: ''
 questionnaire_link: 'https://help.he-he.org/ru/vacancies/'
 is_pinned: true

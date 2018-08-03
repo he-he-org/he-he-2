@@ -15,8 +15,7 @@ required_languages:
   russian: a2
   spanish: a2
 term: month
-term_custom_start: '2018-06-20'
-term_custom_end: '2018-06-20'
+term_custom:
 work_time: '8 hours a day, 6 days a week'
 conditions:
   food: true

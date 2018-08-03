@@ -18,8 +18,7 @@ required_languages:
 education: nurse
 volunteer_type: any
 term: month
-term_custom_start: '2018-09-01'
-term_custom_end: '2018-06-19'
+term_custom:
 conditions:
   food: true
   place_to_stay: true
@@ -65,7 +64,8 @@ You will be expected to see patients in the clinic on a daily basis, working alo
 * **Empathic and responsive.** With a caring attitude, as well as a willingness to help in a difficult situation;
 * **Willing to maintain a healthy lifestyle** as an example for the local community and other volunteers.
 
-**The responsibilities include:**
+**The responsibilities include:
+**
 
 * Examining patients on site and in the field, helping the physicians to run clinic operations;
 * Escorting patients to their houses and making home visits;

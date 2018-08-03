@@ -321,13 +321,8 @@ class Vacancies extends React.Component {
     };
 
     let text;
-    if (frontmatter.term === 'custom') {
-      if (!frontmatter.term_custom_start || !frontmatter.term_custom_end) {
-        return null
-      }
-      const start = format(frontmatter.term_custom_start, language, { format: 'LL' });
-      const end = format(frontmatter.term_custom_end, language, { format: 'LL' });
-      text = `от ${start} до ${end}`
+    if (frontmatter.term === 'custom' && frontmatter.term_custom) {
+      text = frontmatter.term_custom
     } else {
       text = titles[frontmatter.term]
     }
@@ -732,8 +727,7 @@ export const query = graphql`
         education
         volunteer_type
         term
-        term_custom_start
-        term_custom_end
+        term_custom
         work_time
         rest_time
         aids_transportation

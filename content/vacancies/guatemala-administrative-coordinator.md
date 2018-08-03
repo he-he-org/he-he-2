@@ -5,7 +5,7 @@ short_description: >-
   Health&Help is a demanding project: we are responsible for our volunteers,
   patients and everything happening at the clinic. Keeping things in order and
   taking care of team members is your key focus. Your detail-oriented and loving
-  approach is essential. 
+  approach is essential.
 image: /uploads/0q4a6889.jpg
 date: '2018-06-19T11:13:30-04:00'
 place: guatemala
@@ -17,8 +17,7 @@ required_languages:
 education: higher_education
 volunteer_type: any
 term: year
-term_custom_start: '2018-06-19'
-term_custom_end: '2018-06-19'
+term_custom:
 conditions:
   food: true
   place_to_stay: true
@@ -60,7 +59,8 @@ is_hidden: false
 * **Empathic and responsive.** With a caring attitude, as well as a willingness to help in a difficult situation;
 * **Willing to maintain a healthy lifestyle** as an example for the local community and other volunteers.
 
-**The responsibilities of the role include:**
+**The responsibilities of the role include:
+**
 
 * Handling newly arrived volunteers, their schedule; assisting and working together with other volunteers;
 * Supervising volunteers, checking their discipline and adherence to the rules (prohibitions against alcohol consumption in public places, smoking and etc.)

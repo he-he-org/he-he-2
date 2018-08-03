@@ -18,8 +18,7 @@ required_languages:
   english: b
   spanish: a2
 term: week
-term_custom_start: '2018-06-19'
-term_custom_end: '2018-06-19'
+term_custom:
 conditions:
   food: true
   place_to_stay: true
@@ -49,7 +48,8 @@ Health&Help believes anybody can make this world a better place, even if there i
 
 Health&Help’s medical students are not afraid to take responsibility on, finding the strength to provide medical attention 24/7. Your actions and professionalism affect our patients’ loyalty to the clinic and course of treatment. Their well-being is in your hands.
 
-**Personal qualities**
+
+**Personal qualities**
 
 * **Initiative.** Striving to improve business processes;
 * **Self-learning.** Able to find the necessary information and acquire new skills along with maintaining professionalism;
@@ -63,7 +63,8 @@ Health&Help’s medical students are not afraid to take responsibility on, findi
 * **Empathic and responsive.** With a caring attitude, as well as a willingness to help in a difficult situation;
 * **Willing to maintain a healthy lifestyle** as an example for the local community and other volunteers.
 
-**The responsibilities of the role include:**
+**The responsibilities of the role include:
+**
 
 * Patients’ examinations on-site and in field, assisting doctors during consultations (general practice, gynaecology, obstetrics, pediatrics, endocrinology, dermatology, otolaryngology infectious diseases);
 * Escorting patients to their houses and making home visits;
@@ -78,7 +79,8 @@ Health&Help’s medical students are not afraid to take responsibility on, findi
 * Preparing and giving educational lectures on public healthcare among local citizens, both children and adults, putting up together handout materials, collaterals, posters;
 * Working on infectious and other diseases prevention methods by educating local communities.
 
-**We offer:**
+**We offer:
+**
 
 * A place to stay and hot meals to eat free of charge;
 * A letter of recommendation upon request;
@@ -88,4 +90,5 @@ Health&Help’s medical students are not afraid to take responsibility on, findi
 
 
 
-Being a part of Health&Help team is an exceptional experience, which gives you the opportunity to make this world a better place at this exact moment. Don’t wait another day, apply now!
+Being a part of Health&Help team is an exceptional experience, which gives you the opportunity to make this world a better place at this exact moment. Don’t wait another day
+, apply now!

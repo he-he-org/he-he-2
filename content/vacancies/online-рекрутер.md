@@ -4,7 +4,7 @@ title: Рекрутер
 short_description: >-
   Срочно ищем в нашу команду самого лучшего рекрутера для работы по гибкому
   графику не выходя из дома!
-image: /uploads/dsc_0279.jpg
+image: /uploads/_aws2372.jpg
 date: '2018-08-03T09:48:25-04:00'
 place: online
 age_restrictions: plus_18

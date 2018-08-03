@@ -12,7 +12,7 @@ required_languages:
   english: b2
   russian: c2
   spanish: ''
-main_language: russian
+main_language: spanish
 education: higher_education
 volunteer_type: any
 term: several_months

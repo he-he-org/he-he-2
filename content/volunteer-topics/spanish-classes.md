@@ -1,7 +1,7 @@
 ---
-name: spanish-classes
-title: Spanish classes
-title_ru: Уроки испанского
+name: spanish
+title: Spanish
+title_ru: Испанский
 order: 8
 ---
 

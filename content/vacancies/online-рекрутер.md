@@ -15,8 +15,8 @@ required_languages:
 main_language: spanish
 education: higher_education
 volunteer_type: any
-term: several_months
-term_custom:
+term: custom
+term_custom: на длительное время
 work_time: гибкое
 rest_time: гибкое
 questionnaire_link: 'https://goo.gl/forms/u2XG2HYreVRy6MIB3'

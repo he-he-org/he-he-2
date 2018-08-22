@@ -21,7 +21,7 @@ work_time: гибкое
 rest_time: гибкое
 questionnaire_link: 'https://goo.gl/forms/u2XG2HYreVRy6MIB3'
 is_pinned: false
-is_hidden: false
+is_hidden: true
 ---
 **НАШ ИДЕ­АЛЬ­НЫЙ ВО­ЛОН­ТЕР:**
 

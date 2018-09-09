@@ -5,33 +5,32 @@ title: What to pack for Guatemala
 image: /uploads/15748955_920788031354432_1391100833_o.jpg
 topics: baggage
 places: guatemala
-is_pinned: false
 is_hidden: false
 ---
 ![null](/uploads/15748955_920788031354432_1391100833_o.jpg)
 
-Almost every airline offers 20-25 kilograms of luggage per person as well as 5-10  kilograms of carry-on luggage included in the price of the ticket. You should double  check the terms and conditions when buying the ticket. Of course, you can always  choose the pre-purchase excess baggage option.
+Almost every airline offers 20-25 kilograms of luggage per person as well as 5-10  kilograms of carry-on luggage included in the price of the ticket. You should double check the airline Terms & Conditions when buying the ticket. Of course, you can always choose the pre-purchase excess baggage option.
 
 **15 KILOGRAMS OF DONATIONS**
 
-Every volunteer is obligated to bring 15 kilograms of humanitarian help. Each parcel is  put together individually. Normally, it includes medical supplies (no restricted items and  liquids), children’s wear, toys, household goods. Each volunteer is provided with a cover  letter from Health&amp;Help, explaining the contents of your donation cargo.
+Every volunteer is obligated to bring 15 kilograms of humanitarian help. Each parcel is put together individually. Normally, it includes medicine, medical supplies (no restricted items and liquids), children’s wear, toys, household goods. Each volunteer is provided with a cover letter from Health&Help, explaining the contents of your donation cargo.
 
 ![null](/uploads/45177_800.jpg)
 
 **10-15 KILOGRAMS OF PERSONAL BELONGINGS**
 
-You can always buy necessary clothes in Guatemala or use the clothes, left by other  volunteers. Clothes can be bought at affordable prices ($1-5) at charity shops or at the  mall. Cosmetics and personal hygiene products are accessible at the local supermarket  or at the farmer’s market. It makes sense to bring practical and comfortable clothes  only.
+You can always buy necessary clothes in Guatemala or use clothes left by past volunteers. Clothes can be bought for affordable prices ($1-5) at second-hand shops or at the mall. Cosmetics and personal hygiene products are accessible at the local supermarket or at the twice-weekly farmer’s market. It is recommended that you bring practical and comfortable clothes only.
 
 **WINTER SEASON (OCTOBER-MARCH)**
 
 ![null](/uploads/l35a3716-fb-1-.jpg)
 
-It’s chilly in winter, +15…+5C, rain can be expected.
+It’s chilly in winter, +15…+5C, rain is to be expected.
 
 We recommend bringing the following essentials:
 
 * Ultra-light down jacket (Uniqlo)
-* Water proof jacket
+* Water-proof jacket
 * Hat
 * Sweater
 * Thermal underwear
@@ -45,7 +44,7 @@ We recommend bringing the following essentials:
 
 ![null](/uploads/l35a4021-fb-1-.jpg)
 
-It’s hot in summer, +20…+35C. It’s barely raining, no mosquitos though.
+It’s hot in summer, +20…+35C. There is little rain and no mosquitos.
 
 We recommend bringing the following essentials:
 
@@ -57,7 +56,7 @@ We recommend bringing the following essentials:
 * Sandals
 * Beach wear
 * Underwear
-* Socks, warm socks especially
+* Socks
 * Sun hat
 * Sunglasses
 
@@ -65,7 +64,7 @@ We recommend bringing the following essentials:
 
 ![null](/uploads/l35a4052-fb.jpg)
 
-It’s warm in autumn, +15…+20C. It’s constantly raining though.
+It’s warm in autumn, +15…+20C. It is constantly raining.
 
 We recommend bringing the following essentials:
 
@@ -80,7 +79,7 @@ We recommend bringing the following essentials:
 
 **MISCELLANEOUS**
 
-* Phone
+* Cellphone
 * Charger
 * Kindle
 * Toothbrush
@@ -89,24 +88,26 @@ We recommend bringing the following essentials:
 * First aid kit
 * Feminine care products (can be also bought at the supermarket)
 * Travel electrical EU-US adapter
-* Condoms (can be bought at the supermarket; expectations vs reality in terms of the size   may be disappointing)
+* Condoms (can be bought at the supermarket; expectations vs. reality in terms of available size may be disappointing)
 
 **MUST-HAVES**
 
 * Airplane tickets
-* Travel document
-* Copy of the travel document
+* Passport
+* Related travel documents
+* Copies of passport and travel documents
 * Medical insurance (if applicable)
 * Driving license (if applicable)
 * Cover letter from Health&Help
-* Credit cards
-* Not more than $100 in cash
+* Credit/debit cards
+* No more than $100 in cash
 * ‘How to get to the clinic’ instructions, project managers’ contact information, other useful info
-* Black&white passport photos (in case you are planning to stay more than 90 days in Guatemala)
+
+
 
 **WHAT NOT TO PACK FOR GUATEMALA**
 
-It’s sensible not to bring unnecessary stuff you can always buy at the local supermarket  or find at the clinic. Being a volunteer means to respect local traditions and lifestyle, so  please don’t bring any provoking or revealing clothes. There is no need in party dresses  and designer gowns. It makes absolutely no sense to bring clothes you are barely  using.
+It’s sensible not to bring unnecessary stuff you can always buy at the local supermarket or find at the clinic. Being a volunteer means to respect local traditions and lifestyles, so please don’t bring any provoking or revealing clothes. There is no need for party dresses and designer gowns. It makes absolutely no sense to bring clothes you are barely using.
 
 ![null](/uploads/clinica-6-из-165-.jpg)
 
@@ -119,24 +120,23 @@ It’s sensible not to bring unnecessary stuff you can always buy at the local s
 * More than one jacket
 * Scrubs (there are plenty at the clinic)
 * Laptop (one at the clinic can always be used)
-* More than $100 in cash (those might be lost or stolen)
-* Personal hygiene products (those may be bought at the local shops)
+* More than $100 in cash (that might be lost or stolen)
+* Personal hygiene products (that can be bought at local shops)
 * Insect repellents (there are no mosquitoes here)
-* Camera (there is one at the clinic; besides, your phone camera is more practical)
+* Camera (besides, your phone camera is more practical)
 * Rain boots (they are heavy and may be bought at the local shop)
-* Paper books
+* Paper books (though you can bring one for our library!)
 * Stationary
-* Flashlight
 * Umbrella
 * Raincoat
 * Hairdryer/hair styler
 * Tent, camping accessories
 * Food
 
-Plan carefully before packing. Make a list of things you need to bring and decide who takes what in case you are travelling with a friend. Pack a mini capsule wardrobe to make your outfits look creative and fresh every day. Pack your stuff, folding, rolling and spreading them to occupy all the space inside the bag. Bring multipurpose items: shampoo can be used as soap and detergent at the same time.
+Plan carefully before packing. Make a list of things you need to bring and decide who will take what in case you are traveling with a friend. Pack your stuff, folding, rolling and spreading them to occupy all the space inside the bag. Bring multi-purpose items. 
 
 ![null](/uploads/luggage-packing-f.jpg)
 
 Watch some Youtube videos for tips how to pack your bag.
 
-Have a nice trip!
+Have a nice trip! See you soon :)

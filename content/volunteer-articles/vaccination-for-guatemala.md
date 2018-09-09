@@ -17,9 +17,7 @@ Check the vaccines and medicines list and visit your doctor (ideally, 6 months) 
 
 ## Eat and drink safely
 
-Unclean food and water can cause travelers' diarrhea and other diseases. Reduce your risk by sticking to safe food and water habits.
-
-
+Unclean food and water can cause traveler's diarrhea and other diseases. Reduce your risk by sticking to safe food and water consumption habits.
 
 **Eat**
 
@@ -40,7 +38,7 @@ Unclean food and water can cause travelers' diarrhea and other diseases. Reduce 
 
 **Drink**
 
-* Bottled water that is sealed
+* Bottled water with unbroken seal
 * Water that has been disinfected
 * Ice made with bottled or disinfected water
 * Carbonated drinks

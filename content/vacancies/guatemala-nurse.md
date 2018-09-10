@@ -18,7 +18,6 @@ required_languages:
 education: nurse
 volunteer_type: any
 term: month
-term_custom:
 conditions:
   food: true
   place_to_stay: true
@@ -43,7 +42,7 @@ humanitarian_aid:
   equipment_by_list: will_be_given
   farmacy_by_list: will_be_given
   supplies_by_list: will_be_given
-questionnaire_link: 'https://goo.gl/forms/mKwXL7IAmKxmMfgV2'
+questionnaire_link: 'https://goo.gl/forms/baFMmnEinSg64Qpy2'
 is_pinned: false
 is_hidden: false
 ---

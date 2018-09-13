@@ -81,22 +81,20 @@ You will have to stay in Chinandega if you arrive there after 1 pm. You can spen
 
 Having arrived to [El Rosario](https://goo.gl/maps/Vd5HgJgs8JG2), you get off the bus near the cow farm.
 
-```
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1jWaNMqHY0Nr1xHCKRKsjjH7Ls5UY18Jv" width="640" height="480"></iframe>
-```
 
 You have three options how to get to the site.
 
 1. Walk there 13 kilometers - it’ll take two hours; go straight to the village of Las Salvias. 
 
-![](/uploads/h-h-19-из-206-.jpg)
+![null](/uploads/h-h-19-из-206-.jpg)
 
 2. Rent a horse for $3 (C$90) - it’ll take 40-60 minutes. Luckily, there is also a good chance to catch a wagon. 
 
-![](/uploads/h-h-36-из-206-.jpg)
+![null](/uploads/h-h-36-из-206-.jpg)
 
 3. Catch a motorcycle for $5 (C$150) - it’ll take 30 minutes. You can negotiate a better price though. 
 
-![](/uploads/h-h-69-из-206-.jpg)
+![null](/uploads/h-h-69-из-206-.jpg)
 
 Welcome home!

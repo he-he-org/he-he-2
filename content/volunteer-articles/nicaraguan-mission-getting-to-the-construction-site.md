@@ -19,8 +19,7 @@ The trip to Nicaragua will take around 18 hours. You’ll be offered soft drinks
 
 ![null](/uploads/1.jpg)
 
-**Option 1. Tran­sportes del Sol Guatemala - Chinandega via Salvador
-**
+**Option 1. Tran­sportes del Sol Guatemala - Chinandega via Salvador**
 
 Schedule: Tue, Thu, Sat
 
@@ -34,8 +33,7 @@ You will be charged an entry fee in the amount of $18. One-way ticket costs $75,
 
 That bus goes directly to Chinandega, so go to paragraph #3
 
-**Option 2. Guatemala - Managua
-**
+**Option 2. Guatemala - Managua**
 
 Departure: 2:00 am
 

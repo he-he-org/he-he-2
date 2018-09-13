@@ -10,11 +10,11 @@ place: online
 age_restrictions: plus_18
 main_language: russian
 education: higher_education
-term: 'custom'
-term_custom: 'С 29.06.2018 по 01.08.2018'
+term: custom
+term_custom: С 29.06.2018 по 01.08.2018
 work_time: 2-3 дня в неделю
 is_pinned: false
-is_hidden: false
+is_hidden: true
 ---
 **Обязанности:** расчет конструктивной схемы здания, разработка узлов несущих конструкций и их соединений (фундаменты, несущий каркас, крыша).
 

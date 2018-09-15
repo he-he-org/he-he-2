@@ -18,7 +18,6 @@ required_languages:
   english: b
   spanish: a2
 term: week
-term_custom:
 conditions:
   food: true
   place_to_stay: true
@@ -38,7 +37,8 @@ humanitarian_aid:
   equipment_by_list: will_be_given
   farmacy_by_list: will_be_given
   supplies_by_list: will_be_given
-questionnaire_link: 'https://goo.gl/forms/0H9tplblCGQ2wn4c2'
+questionnaire_link: >-
+  https://docs.google.com/forms/d/e/1FAIpQLSfzXeMkrLduZA0vj9OdO2Y_BR0ZgAUw7bY1az538x3aOPgJcg/viewform
 is_pinned: false
 is_hidden: false
 ---

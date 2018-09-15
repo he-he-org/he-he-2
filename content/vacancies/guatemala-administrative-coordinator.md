@@ -17,7 +17,6 @@ required_languages:
 education: higher_education
 volunteer_type: any
 term: year
-term_custom:
 conditions:
   food: true
   place_to_stay: true
@@ -40,7 +39,8 @@ humanitarian_aid:
   equipment_by_list: will_be_given
   farmacy_by_list: will_be_given
   supplies_by_list: will_be_given
-questionnaire_link: 'https://goo.gl/forms/NWkfQjRThi8rQply2'
+questionnaire_link: >-
+  https://docs.google.com/forms/d/e/1FAIpQLSfrWAl_zpqMT55qrQwgg58iZU1-nTT3GtTcCzGVFVkQcIRw4w/viewform
 is_pinned: false
 is_hidden: false
 ---

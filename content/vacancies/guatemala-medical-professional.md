@@ -16,7 +16,6 @@ required_languages:
 education: md
 volunteer_type: any
 term: several_months
-term_custom:
 conditions:
   food: true
   place_to_stay: true
@@ -43,7 +42,9 @@ humanitarian_aid:
   equipment_by_list: will_be_given
   farmacy_by_list: will_be_given
   supplies_by_list: will_be_given
-questionnaire_link: 'https://goo.gl/forms/ol9XHitL5rv9c8AQ2'
+questionnaire_link: >-
+  https://docs.google.com/forms/d/e/1FAIpQLSdraU1UNGYseNZfKuWcCWQCHOmax3WeBOFXDBGI1HxcHxksOw/viewform
+is_pinned: true
 is_hidden: false
 ---
 You will be expected to see patients in the clinic on a daily basis, working along with volunteers, and handle paperwork. You should be comfortable making medical decisions and dealing with cases of different levels of complexity.

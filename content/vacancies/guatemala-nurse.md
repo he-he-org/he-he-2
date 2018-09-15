@@ -42,7 +42,8 @@ humanitarian_aid:
   equipment_by_list: will_be_given
   farmacy_by_list: will_be_given
   supplies_by_list: will_be_given
-questionnaire_link: 'https://goo.gl/forms/baFMmnEinSg64Qpy2'
+questionnaire_link: >-
+  https://docs.google.com/forms/d/e/1FAIpQLSd1tsv78q7guz2i3xDpC8-FNFPLwfeDJmOkOhgqxLG_9rFojw/viewform
 is_pinned: false
 is_hidden: false
 ---

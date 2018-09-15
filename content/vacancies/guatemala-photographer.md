@@ -16,7 +16,6 @@ required_languages:
   spanish: a2
 volunteer_type: any
 term: month
-term_custom:
 conditions:
   food: true
   place_to_stay: true
@@ -31,7 +30,9 @@ other_conditions:
   house_calls: true
   night_shifts: true
   patient_escort_to_the_hospital: true
-questionnaire_link: 'https://goo.gl/forms/Qij4HIVoXfGWWtA93'
+questionnaire_link: >-
+  https://docs.google.com/forms/d/e/1FAIpQLSfZnUd7kKWCjkkizoxlVByh8TIhQCx_kzuZoBGWYp3uUNavpA/viewform
+is_pinned: true
 is_hidden: false
 ---
 **Personal qualities

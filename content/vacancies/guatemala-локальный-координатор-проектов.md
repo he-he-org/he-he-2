@@ -35,7 +35,7 @@ other_conditions:
   statistics_conducting: true
   stuff_organization: true
 is_pinned: false
-is_hidden: true
+is_hidden: false
 ---
 Главными задачами координатора локальных проектов являются обеспечение бесперебойной работы клиник проекта Health&Help в Гватемале и Никарагуа, а также осуществление разработки и внедрения рабочих процессов и контроль за их выполнением.
 

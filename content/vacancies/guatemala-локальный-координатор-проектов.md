@@ -4,7 +4,7 @@ title: Локальный координатор проектов
 short_description: >-
   Мы ищем ответственного и профессионального координатора для контроля работы
   клиник Health&Help в Гватемале и Никарагуа
-image: /uploads/_aws2372.jpg
+image: /uploads/whatsapp-image-2018-09-19-at-00.44.11-4-.jpeg
 date: '2018-09-17T13:05:53-04:00'
 place: guatemala
 price: no fee

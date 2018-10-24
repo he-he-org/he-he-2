@@ -13,9 +13,9 @@ age_restrictions: plus_16
 required_languages:
   english: b2
   russian: c2
-  spanish: a2
+  spanish: ''
 main_language: russian
-education: higher_education
+education: ''
 volunteer_type: any
 term: custom
 term_custom: постоянная

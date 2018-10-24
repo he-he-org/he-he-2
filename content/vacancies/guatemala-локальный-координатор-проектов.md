@@ -34,6 +34,7 @@ other_conditions:
   providing_of_lectures: true
   statistics_conducting: true
   stuff_organization: true
+questionnaire_link: 'https://goo.gl/forms/9TyeYux1N2YhnUra2'
 is_pinned: false
 is_hidden: false
 ---

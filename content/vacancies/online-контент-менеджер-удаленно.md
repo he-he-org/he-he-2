@@ -9,9 +9,9 @@ image: /uploads/www.lexiehc.com-20180916_1755170222guatemala_.jpg
 date: '2018-10-19T15:53:22-04:00'
 place: online
 price: бесплатно
-age_restrictions: plus_16
+age_restrictions: plus_18
 required_languages:
-  english: b2
+  english: c1
   russian: c2
   spanish: ''
 main_language: russian

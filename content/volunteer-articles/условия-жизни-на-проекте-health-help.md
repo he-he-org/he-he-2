@@ -81,7 +81,7 @@ is_hidden: false
 
 Благодаря вашим донациям в клинике функционирует аптека, в которой вы сможете найти самые необходимые лекарства:
 
-<iframe width="1300" height= "1540" src="https://docs.google.com/document/d/e/2PACX-1vSyzJnQ4cEHn_I2GlTG_EeMpmm2mz5hJ_W5xZ25oxC7rP1P1-h5dtUnRD8Mz9pr0B4IPSSDlnu8Ot_K/pub?embedded=true"></iframe>
+<iframe width="1100" height= "1540" src="https://docs.google.com/document/d/e/2PACX-1vSyzJnQ4cEHn_I2GlTG_EeMpmm2mz5hJ_W5xZ25oxC7rP1P1-h5dtUnRD8Mz9pr0B4IPSSDlnu8Ot_K/pub?embedded=true"></iframe>
 
 ## Дом волонтеров
 

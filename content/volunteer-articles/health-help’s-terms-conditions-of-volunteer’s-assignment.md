@@ -1,54 +1,117 @@
 ---
 language: en
 date: '2018-05-16T09:11:24-04:00'
-title: Health&Help’s Terms&Conditions of Volunteer’s Assignment
-image: /uploads/001.jpg
+title: Terms&Conditions
+image: /uploads/plo_6793.jpg
 topics: clinic
 places: guatemala
 is_hidden: false
 ---
-![null](/uploads/001.jpg)
+![null](/uploads/plo_6793.jpg)
 
-Health&Help seeks to maintain a friendly atmosphere among its volunteers, always striving to make it better. Our offered Term&Conditions are designed to support volunteers through good and hard times. We aim to maintain a healthy clinic environment and keep you informed regarding daily work activities and standards.
+Health&Help seeks to maintain a friendly atmosphere among its volunteers, striving to make it only better. Our offered Term&Conditions are nurtured through good and hard times, aiming to keep the environment at the clinic as healthy as it can be as well as to get you familiar with the line of work we do here every day.
 
-Our mission at Health&Help is to deliver medical services to the poorest communities by providing affordable and effective healthcare as well as education on public healthcare basics.
 
-**We provide volunteers with:**
 
-* An invitation letter, cover letter for humanitarian assistance, and/or letter of recommendation upon completion of volunteer contract commitment;
-* Free accommodation at Health&Help clinic site throughout volunteer mission;
-* Cash compensation for purchase of communal food items during stay (all shared meals are cooked by volunteers);
-* Uncompensated leave for up to seven calendar days following each eight-week period worked on site. Dates of leave must be agreed upon with coordinating staff in advance. In the absence of clinic staff members and volunteers, allowed leave schedule may be changed to earlier or later periods;
+A Health&Help volunteer is a leader, deprived of micromanagement and constant control. Being successful at their job, they understand that it is essential to follow certain rules.
 
-**A successful candidate is expected to:**
+![](/uploads/x83a3303-2.jpg)
 
-* Deliver 15 kilograms of humanitarian help (medical supplies and drugs). Depending on circumstance, Health&Help will assist in accruing donations for eventual volunteer delivery. In other instances, volunteers will be required to collect their own humanitarian supplies and deliver them to the project. Logistics will be coordinated with Health&Help staff before volunteer departure;
-* Attain Spanish fluency level appropriate to volunteer position. Requirements will be communicated by managing staff;
-* Adhere to the following clinic schedule: Monday to Friday, 8:00 - 16:00, with lunch break from 13:00 - 14:00/Saturday, 8:00 - 12:00, Sunday as day off;
-* Actively participate in household duties: cleaning, cooking, etc.;
-* Be available 24/7 to assist in any matter that may occur, including medical emergencies or sudden clinic needs;
-* Accompany patients in need of hospitalization to the nearest facility, taking care of any necessary manipulations, making sure medical assistance is offered;
-* Wear medical scrubs or H&H corporate T-shirts during work hours;
-* Maintain a healthy lifestyle as an example for locals and representative of the organization;
+
+
+##  A successful candidate is expected to:
+
+* Deliver 15 kilograms of humanitarian help (medical supplies and drugs);
+
+
+
+* Learn Spanish before the mission, being able to speak at the level required for your job;
+
+
+
+* Confirm their travelling route to the clinic with Health&Help’s Coordinator in advance;
+
+
+
+* Stick to the following schedule: Monday to Friday, 8:00 to 16:00/Saturday, 8:00 to 12:00, with a lunch break from 13:00 to 14:00 and Sunday as a day off;
+
+
+
+* Participate in household activities: cleaning, cooking etc.;
+
+
+
+* Be ready to assist on any matter may occur on equal terms side by side with other volunteers;
+
+
+
+* Keep up the healthy lifestyle, being an example for locals;
+
+
+
+* Wear a scrubs and/or branded T-shirts with Heath&Help logo during work hours;
+
+
+
 * Be tolerant and accepting of foreign cultures and lifestyles;
-* Be detail and goal-oriented;
-* Be an emerging leader, a true team player, a communicator, and an innovator; 
 
-**Volunteers are required not to:**
+
+
+* Be an emerging leader, true team player, a sharer rather than a protector; has the ability to juggle with several matters at one time.
+
+![](/uploads/copy-of-1-2-1-.jpg)
+
+## A volunteer is required to:
+
+* Provide medical assistance at all times as well as be prepared to take emergency calls 24/7;
+* Accompany patients in need of hospitalization to the nearest facility, making sure they are taken care of;
+
+![](/uploads/plo_6835.jpg)
+
+## A volunteer is supposed not to:
 
 * Start discussions on the following topics: religion, politics, terrorism, sexual orientation, propaganda;
+
+
+
 * Take drugs;
-* Smoke tobacco;
-* Consume alcohol in public places, on work days, or in the case that there are no sober volunteers;
-
-Please be advised that the contract does not offer reimbursement for travel or any other unspecified expenses. The contract offers you a six-day working week, eight hours every day. Periods of leave are subject to discussion in cases where volunteers sign short-term contracts. Any vacation expenses are covered by the volunteer. Please note that the mission is carried out in a region distant from urban areas; five to seven people tend to participate in the project simultaneously.
-
-**Additional information for Medical volunteers**
-
-Please be advised that our Terms&Conditions offer reimbursement of travel expenses for volunteers who have signed contracts for one-year or longer. Before purchasing your flight tickets or incurring any other travel-related expenses, please contact your Health&Help Volunteer Coordinator. 
 
 
 
-We are always here to assist you with any inquiries at: 
+* Smoke;
 
-<a href="mailto:mailbox@he-he.org">mailbox@he-he.org</a>
+
+
+* Consume alcohol in public places, on work days or in case there are no other sober volunteers;
+
+
+
+* Post pictures with cigarettes and alcohol on social media, using Health&Help logo or the clinic as the background.
+
+![](/uploads/5.jpg)
+
+## Each volunteer is entitled to:
+
+* Vegetarian meals three times a day;
+
+
+
+* Accomodation at the Volunteer House;
+
+
+
+* A letter of recommendation at the end of an at least 3-month mission;
+
+
+
+* A 7-day leave after each 8 weeks of service;
+
+
+
+* Medical volunteers are offered travel expenses reimbursement option under a 12-month contract. 
+
+![](/uploads/kd3ldkugdcc.jpg)
+
+For more information, please contact the Health&Help’s Coordinator. 
+
+We are always here to assist you with any queries at **mailbox@he-he.org**.

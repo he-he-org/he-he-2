@@ -62,7 +62,7 @@ The clinic is equipped with:
 
 We did our homework and supplied our pharmacy with various medication drugs. The worst thing that could happen to a doctor when he/she needs to choose who will get the treatment and live. This is the reason why we ask all our onsite volunteers to bring medicine donations with them. Thanks to them, a rather wide range of drugs can be found at the clinic pharmacy.
 
-<iframe width="900" height="1490" src="https://docs.google.com/document/d/e/2PACX-1vSOSLUYXoLP6skFf5GiFUadMdFjyr6CYUEEe_Pju8e5Z__98hnBRe-lHswCeKFLCvv8aqJZnj5O-A2B/pub?embedded=true"></iframe>
+<iframe width="900" height="900" src="https://docs.google.com/document/d/e/2PACX-1vSOSLUYXoLP6skFf5GiFUadMdFjyr6CYUEEe_Pju8e5Z__98hnBRe-lHswCeKFLCvv8aqJZnj5O-A2B/pub?embedded=true"></iframe>
 
 ## Volunteer house
 

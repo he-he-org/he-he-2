@@ -9,23 +9,23 @@ is_hidden: false
 ---
 ![null](/uploads/plo_6793.jpg)
 
-Health&Help seeks to maintain a friendly atmosphere among its volunteers, striving to make it only better. Our offered Term&Conditions are nurtured through good and hard times, aiming to keep the environment at the clinic as healthy as it can be as well as to get you familiar with the line of work we do here every day.
+Health&Help seeks to maintain a friendly atmosphere among its volunteers and strives make it better each day. Our offered Terms & Conditions are nurtured through good and hard times. We aim to keep the environment at the clinic as healthy as it can be. We also hope to help you become familiarized with the line of work we do here every day.
 
 
 
 A Health&Help volunteer is a leader, deprived of micromanagement and constant control. Being successful at their job, they understand that it is essential to follow certain rules.
 
-![](/uploads/x83a3303-2.jpg)
 
 
+![null](/uploads/x83a3303-2.jpg)
 
-##  A successful candidate is expected to:
+## A successful candidate is expected to:
 
 * Deliver 15 kilograms of humanitarian help (medical supplies and drugs);
 
 
 
-* Learn Spanish before the mission, being able to speak at the level required for your job;
+* Learn Spanish before the mission, being able to speak at a B1 level;
 
 
 
@@ -41,15 +41,15 @@ A Health&Help volunteer is a leader, deprived of micromanagement and constant co
 
 
 
-* Be ready to assist on any matter may occur on equal terms side by side with other volunteers;
+* Be ready to assist on any matter and work on equal terms side-by-side with other volunteers;
 
 
 
-* Keep up the healthy lifestyle, being an example for locals;
+* Keep up a healthy lifestyle and be an example for locals;
 
 
 
-* Wear a scrubs and/or branded T-shirts with Heath&Help logo during work hours;
+* Wear scrubs and/or branded T-shirts with the Heath&Help logo during work hours;
 
 
 
@@ -57,16 +57,29 @@ A Health&Help volunteer is a leader, deprived of micromanagement and constant co
 
 
 
-* Be an emerging leader, true team player, a sharer rather than a protector; has the ability to juggle with several matters at one time.
+* Be detail and goal-oriented;
 
-![](/uploads/copy-of-1-2-1-.jpg)
+
+
+* Show professionalism and aptitude in his/her own field;
+
+
+
+* Be an emerging leader, true team player, a sharer rather than a protector; have the ability to juggle several matters at one time.
+
+
+
+![null](/uploads/copy-of-1-2-1-.jpg)
 
 ## A volunteer is required to:
 
 * Provide medical assistance at all times as well as be prepared to take emergency calls 24/7;
+
+
+
 * Accompany patients in need of hospitalization to the nearest facility, making sure they are taken care of;
 
-![](/uploads/plo_6835.jpg)
+![null](/uploads/plo_6835.jpg)
 
 ## A volunteer is supposed not to:
 
@@ -82,36 +95,40 @@ A Health&Help volunteer is a leader, deprived of micromanagement and constant co
 
 
 
-* Consume alcohol in public places, on work days or in case there are no other sober volunteers;
+* Consume alcohol in public places, on work days, or in instances where there are no other sober volunteers;
 
 
 
-* Post pictures with cigarettes and alcohol on social media, using Health&Help logo or the clinic as the background.
+* To post pictures with cigarettes and alcohol on social media, using Health&Help logo or the clinic as the background.
 
-![](/uploads/5.jpg)
+
+
+
+
+![null](/uploads/5.jpg)
 
 ## Each volunteer is entitled to:
 
-* Vegetarian meals three times a day;
+* Eat vegetarian meals three times a day;
 
 
 
-* Accomodation at the Volunteer House;
+* Use accommodations provided at the clinic;
 
 
 
-* A letter of recommendation at the end of an at least 3-month mission;
+* Receive a letter of recommendation at the end of an at least 3-month mission;
 
 
 
-* A 7-day leave after each 8 weeks of service;
+* Take 7-day leave following each 8-week period of service;
 
 
 
-* Medical volunteers are offered travel expenses reimbursement option under a 12-month contract. 
+![null](/uploads/kd3ldkugdcc.jpg)
 
-![](/uploads/kd3ldkugdcc.jpg)
+For more information, please contact the Health&Help Coordinator. 
 
-For more information, please contact the Health&Help’s Coordinator. 
 
-We are always here to assist you with any queries at **mailbox@he-he.org**.
+
+We are always here to assist you with any inquiries at** mailbox@he-he.org.**

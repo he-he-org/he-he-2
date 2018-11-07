@@ -2,129 +2,125 @@
 language: en
 date: '2018-05-21T14:05:26-05:00'
 title: How to get to the clinic
-image: /uploads/001.jpg
+image: /uploads/38982_900.jpg
 topics: road
 places: guatemala
 is_hidden: false
 ---
-# After landing in Guatemala City International La Aurora Airport
+![](/uploads/38982_900.jpg)
 
-![null](/uploads/img_6148-1190x712.jpg)
+¡Bienvenidos a Guatemala! The plane has just landed at the Guatemala City International La Aurora Airport. Your adventure has begun!
 
-**Clear the passport control** (there is no visa fee to be paid). You will be informed that you are allowed to stay in Guatemala for 3 months; an entry stamp will be put into your passport.
 
-![null](/uploads/0_e9653_f58b8c76_x5l.jpeg)
 
-In the aircraft or at the airport, you will be given a **customs declaration** where information on donations (‘donaciones’) and/or medical supplies (‘medicamentos’) is supposed to be disclosed. You need to check those points if you are carrying any of the above mentioned items. Here is an example:
 
-![null](/uploads/arrival-customs.png)
 
-You need to give this document to the customs officer when leaving the airport. Your luggage is likely to be checked and x-rayed.
+## At the airport
 
-## You need to
 
-**State your name** (My name is… - Mi nombre es.../ I am from… - Soy de...);
 
-**Inform the officers that you are with Health&Help NGO** (I am a volunteer with Health&Help - Soy voluntario de la organización Health&Help);
+You will need to move through passport control - an entry stamp will be put into your travel document. The customs officer will inform you that you are allowed to stay in Guatemala for 90 days. The customs officer is unlikely to be interested in your return ticket, but, just in case, you should have it printed out ahead of time.
 
-**Confirm that you are carrying donations for the clinic** (I have donations for the clinic - Tengo donaciones para nuestra clínica);
+![](/uploads/airport-amsterdam-arrival-2069.jpg)
 
-**Show the letter from Health&Help** (This is a letter from our organization - Esta es la carta de nuestra organización).
+In the aircraft or at the airport, you will be given a customs declaration where information on donations and/or medical supplies must be disclosed and given to the customs officer before leaving the airport. You need to check the ‘donaciones’ and/or ‘medicamentos’ boxes if you are carrying any. Your luggage is likely to be checked, but don’t worry - it’s not illegal to carry humanitarian aid. 
 
-![null](/uploads/снимок-экрана-2017-12-21-в-12.16.25.png)
 
-# In case your luggage is held by the customs
 
-![null](/uploads/1024x1024.jpg)
+In case your luggage is held by the customs - first of all, don’t panic. Inform the officers that you are a Health&Help volunteer and show the humanitarian aid cover letter explaining you are receiving no money for your work. Assure the officers you are giving the donations away, helping the Guatemalan citizens pro bono. To seal the deal, show them pictures of the clinic on you phone.
 
-**Don’t panic;**
+![](/uploads/0_e9653_f58b8c76_x5l.jpeg)
 
-**Inform the officers that you are a volunteer and helping the Guatemalan citizens pro bono** (Please, I am helping citizens of Guatemala pro bono - Por favor. Soy voluntario y ayudo a la gente de Guatemala sin ganar dinero);
+Under no circumstances should you leave donations at the airport. If the officer is relentless, try bribing him/her - we will reimburse these expenses. They usually expect $50 per 25 kilos, but be prepared to be asked for more. Try insisting on not having more money. If an understanding can’t be reached, call the Health&Help Coordinator.
 
-**Assure the officers that you are giving the donations away, not selling them** (We will give the medicine to our patients; we don’t sell them - Nosotros no vendemos las donaciones. Las damos a la gente enferma);
 
-**Try hard to stay calm and assure the officers you came with good intentions** (Please, it’s for a good cause - Por favor, es por una buena causa);
 
-**If it doesn’t work, please contact your coordinator;**
+If you are Health&Help’s new medical volunteer or coordinator, our Spanish tutors will prepare you for such situations.
 
-**Under no circumstances leave donations at the airport. Insist on having no money and being a volunteer, working pro bono** (I am a volunteer. I don’t have money - Soy voluntario. No tengo más dinero).
 
-# Money exchange
 
-![null](/uploads/mw-ev219_nerd_b_20160901180208_zh-1-.jpg)
+Here are some phrases which might come in handy when negotiating with the officer:
 
-You need to **exchange dollars into quetzales** (local currency) in order to hail a taxi or take the bus to Momostenango. Please note that the exchange rate at the airport is not as good as at the bank. Look online for the current exchange rate as it is subject to frequent change.
 
-# Buying a SIM card
 
-![null](/uploads/efv-4072.jpg)
+<iframe width="800" height= "900" src="https://docs.google.com/document/d/e/2PACX-1vTUpHIrIDxyJ5QCPRv3mzucDRd-FjqoB0fpV7133CrYVgA9-_SrgaKf9ffLVb01NPwrpoWOG2pEriCP/pub?embedded=true"></iframe>
 
-**Find the nearest Tigo office (tienda Tigo)**, using Google maps. Get there by foot or take a taxi. Double check the opening hours.
+After you are done with customs, you need to exchange your American dollars for Guatemalan Quetzales (the local currency, named after the national bird of Guatemala) in order to hail a taxi or take the bus to Momostenango. Please note that the exchange rate at the airport is not as good as at the bank. 
 
-The sim card costs 5Q (I need a sim card - Nesesito un chip);
 
-Fill it with with data for 100Q (3Gb+whatsapp and facebook free of charge) (I need to fill it with 100Q of data - Quiero poner cien quetzales de saldo);
 
-Dial *123#. Choose Paquetigos para Navegar 2 - Siguiente 0 - and choose 99Q plan.
+The exchange rate is normally 1$ = 7.5Q, but it is often subject to change so, to be on the safe side, double check this information before travelling.
 
-Reboot your phone and check if the Internet is working.
+![](/uploads/кетцали.jpg)
 
-# In case our volunteers pick you up at the airport
+It is advisable to buy a SIM card at the airport. We recommend the Q99 plan with Tigo (3Gb+whatsapp and Facebook free of charge). Fill it with 100Q, dial *123#, choose ‘Paquetigos para Navegar’, add the 99Q plan and press ‘Comprar’. The mobile connection and Internet should be working now.
 
-When exiting the airport, a crowd of people will make it hard for you to find the volunteers. We are using a café, situated 20 meters away from the airport entrance.
 
-# In case you are traveling to the site on your own
 
-**Please inform your coordinator about your late night flight in advance**. There is a slim chance you will catch a bus after 3pm, so you need to go to the hotel. There is an option to book a room at [Dai Nonni Hotel](https://goo.gl/maps/Pgm5urVnLHK2) near the airport; accommodation is free of charge for volunteers. There are limitations of the number of stays per month - please contact your coordinator to find out more. In case there are no rooms, you need to book a room in any hotel of your choice.
 
-You will see taxis, parked on the opposite side from the airport. Tell the driver you need to get to your hotel. Tell your driver the address or show it on the map.
 
-“I need to get to ...” - “Me necesito ir al…”
 
-The taxi costs around 50Q (cincuenta). You need to insist on 50Q as taxi drivers tend to overcharge white tourists.
 
-In case you are successfully connected to the wi-fi network, call an Uber: you will save more.
+## Getting to the Clinic
 
-## Direct connection before 3 pm
 
-![null](/uploads/_aws1790.jpg)
 
-You will see taxis, parked on the opposite side from the airport. Tell the driver you need to get to the bus stop [“Trebol” (El Trebol)](https://goo.gl/maps/5vBULU2QsD82).
+As the clinic is operating at full capacity now and serving many patients daily, we are not able to pick you up directly from Guatemala City. 
 
-«I need to get to the “Trebol”» - «Me necesito ir para el trebol»;
+There are three options:
 
-«The bus to Momostenango» - «Autobús para Momostenango».
+* In case you arrive before 2 p.m., you can take a direct bus to the clinic; 
 
-The taxi costs around 50Q (cincuenta). You need to insist on 50Q as taxi drivers tend to overcharge white tourists.
 
-After arriving at the “Trebol” bus station, you will see a lot of buses with destination signs under the front window. You need to find the bus going to[ Momostenango](https://goo.gl/maps/YsmqZCwqgBo).
 
-Your luggage must be placed right next to you or under the seat. You will be offered to put the luggage on the rooftop; do not agree as it might be stolen.
+* In case you arrive between 2 p.m. and 4pm, the only option is indirect connection;
 
-![null](/uploads/dsc02603.jpg)
 
-# Indirect connection after 3pm
 
-There are no direct buses to Momostenango after 3pm. You need to take the bus to “cuatro caminos”. It costs around 15-20Q.
+* In case you arrive after 4 p.m., you will have to spend the night at a hotel. 
 
-After arriving at the [“cuatro caminos”](https://goo.gl/maps/ZotXzdy8D3m) bus stop, you need to find a bus to Momostenango. The drivers will help you find the necessary bus. Please make sure to double check the destination sign on the bus you take.
+![](/uploads/action-asphalt-auto-1210622.jpg)
 
-In case you are not able to carry your luggage, you may ask the drivers to help you; be careful and double check that the luggage has been placed inside your bus. It might be stolen if placed on the rooftop.
+You need to get to the El Trebol bus stop by hailing a taxi or ordering an Uber. It takes around 30 minutes and 50Q to get there. You need to insist on 50Q as taxi drivers tend to overcharge white tourists.
 
-# How to get to the clinic
 
-After arriving in Momostenango, you need to find ["Lool's Pizza"](https://goo.gl/maps/WAYjhpqy2mv)  or ["Momostipan Cafe"](https://goo.gl/maps/KRUMbgcyYq52). Using the free wi-fi, call our volunteers or coordinating staff in the clinic.
 
-«Where is Lool's Pizza»?» - «Donde esta Lool's pizza?»
+## Direct connection before 2 pm
 
-The wi-fi password can be asked from the waiter.
+When at the “El Trebol” bus station, you need to find the bus going to Momostenango. The ticket costs around 35Q.
 
-«Can I have the wi-fi password?» - «Dame la contraseña a Internet?»
+The transportation system in Guatemala is rather peculiar so don’t even try to find a schedule or a ticket office. The buses leave the station every hour, but even the driver hardly knows when exactly. Try to keep in mind that the last bus to Momostenango departs around 3pm.
 
-«Can I call my friend?» - «Puedo llamar a un amigo?»
+Your luggage must be placed right next to you or under your seat. You will be offered to put the luggage on the rooftop: do not agree as it might be stolen. 
 
-![null](/uploads/plo_7413.jpg)
+![](/uploads/_aws2158.jpg)
 
-Please contact us at the number your coordinator gave you.
+## Indirect Connection Between 2 p.m. and 4 p.m.
 
-Depending on our work schedule, we will be there in around 45 minutes. It will take us about 45 minutes to reach the clinic.
+There are no direct buses to Momostenango after 3pm. You need to take the bus to “Cuatro Caminos”. It costs around 15-20Q.
+
+When at the “Cuatro Caminos” bus stop, you need to find a bus to Momostenango (~7-10Q). The drivers will help you find the necessary bus. Double check the destination sign on the front of the bus.
+
+In case you are not able to carry your luggage, you may ask the drivers to help you; but always be careful and double check that the luggage has been placed inside the bus. 
+
+![](/uploads/asphalt-automobile-bus-996954.jpg)
+
+## Staying at the hotel
+
+
+
+In case you are arriving after 4pm, there is a slim chance you will catch a bus to the clinic the same day. There is an option to book a room at Dai Nonni Hotel near the airport; it is a free-of-charge accomodation for volunteers. However, there are limitations on the number of stays per month - please contact us in advance to find out more. 
+
+
+
+In case there are no rooms at Dai Nonni, you need to book any other hotel of your choice. We are always here to assist you; a spare coach might also be available at our friend’s apartment.
+
+![](/uploads/dai-nonni.jpg)
+
+When in Momostenango, you need to find “Lool’s Pizza” restaurant or the “Momostepan” restaurant/cafe. Using the free wi-fi, call one of our volunteers. You will get their contact number a month prior to your trip. We will be there soon to pick you up and in 30 minutes you will arrive at the clinic. 
+
+
+
+
+
+![](/uploads/001.jpg)

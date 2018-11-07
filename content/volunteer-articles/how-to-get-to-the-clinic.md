@@ -43,7 +43,7 @@ Here are some phrases which might come in handy when negotiating with the office
 
 
 
-<iframe width="800" height= "900" src="https://docs.google.com/document/d/e/2PACX-1vTUpHIrIDxyJ5QCPRv3mzucDRd-FjqoB0fpV7133CrYVgA9-_SrgaKf9ffLVb01NPwrpoWOG2pEriCP/pub?embedded=true"></iframe>
+<iframe width="800" height= "800" src="https://docs.google.com/document/d/e/2PACX-1vTUpHIrIDxyJ5QCPRv3mzucDRd-FjqoB0fpV7133CrYVgA9-_SrgaKf9ffLVb01NPwrpoWOG2pEriCP/pub?embedded=true"></iframe>
 
 After you are done with customs, you need to exchange your American dollars for Guatemalan Quetzales (the local currency, named after the national bird of Guatemala) in order to hail a taxi or take the bus to Momostenango. Please note that the exchange rate at the airport is not as good as at the bank. 
 

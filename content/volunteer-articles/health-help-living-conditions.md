@@ -11,25 +11,41 @@ is_hidden: false
 
 Here you can find a lot of useful information about clinic facilities and accommodation conditions.
 
+
+
 ## Facilities
 
-The clinic has three units: the medical wing, the volunteer house and the pantry. They are connected with a passage.
 
-The clinic is electrified, however, there are outages during hurricanes and earthquakes. But don’t worry, we are equipped with emergency flashlights and candles. There is no need to bring them with you, however, we’d appreciate if you could donate AA and AAA batteries, preferably Eneloop.
+
+The clinic has three units: the medical wing, the volunteer house, and the pantry. They are connected with a passage.
+
+
+
+The clinic is electrified. Unfortunately, there are power outages outages especially during wind and rain storms. But don’t worry, we are equipped with emergency flashlights and candles. Though we have these available, we recommend you bring your own flashlight or headlamp. We would greatly appreciate if you did donate AA and AAA batteries, preferably Eneloop, as safety measures in case we are without power for a long period of time.
+
+
 
 ![null](/uploads/r29.jpg)
 
-We are taking care of the environment as well as of our budget, so we save energy by switching the lights off and plugging the devices out of the sockets whenever we are not in the room. Every little helps - money will be spent on medication for our patients.
+We are taking care of our budget as well as the environment, so we save energy by switching the lights off and plugging the devices out of the sockets whenever we are not in the room. Every little thing helps - money will be spent on medication for our patients.
 
-The clinic has a water supply system, but it might not be working from time to time for the same reasons the electricity doesn’t. We are filling tanks with water to be prepared for the shortage. Before using it for cooking, it needs to be filtered or boiled. There is a UV filter in the kitchen, however, you need to remember it doesn’t work during the outage. 
+
+
+The clinic has a water supply system, but it might not be working from time to time for the same reasons affecting our electricity. We fill tanks with water to be prepared for a shortage. Before using it for cooking, the water needs to be filtered or boiled. There is a UV and sediment filter for the water on tap in the kitchen, though you need to remember the UV light will not work during an outage. 
+
+
 
 ![null](/uploads/l35a3868-fb.jpg)
 
 ## Medical wing
 
-The medical unit is the largest one, having with five rooms to be used: waiting room, pharmacy, laboratory, OR/delivery room, patient room, as well as separate WCs for visitors and volunteers. 
+The medical unit is our largest space in the clinic. There are five rooms to be used: waiting room, pharmacy, laboratory, OR/delivery room, patient room, as well as separate WCs for visitors and volunteers. 
 
-The clinic is well-equipped with stethoscopes, pulse oximeters, blood pressure meters, thermometers, otoscopes. However, we are always open for surgical instruments donations.
+
+
+The clinic is well-equipped with stethoscopes, pulse oximeters, blood pressure meters, thermometers, otoscopes. However, we are always open to donations of surgical instruments.
+
+
 
 ![null](/uploads/0q4a6293.jpg)
 
@@ -60,80 +76,130 @@ The clinic is equipped with:
 
 ![null](/uploads/www.lexiehc.com-20180913_1552320015guatemala_.jpg)
 
-We did our homework and supplied our pharmacy with various medication drugs. The worst thing that could happen to a doctor when he/she needs to choose who will get the treatment and live. This is the reason why we ask all our onsite volunteers to bring medicine donations with them. Thanks to them, a rather wide range of drugs can be found at the clinic pharmacy.
+We did our homework and supplied our pharmacy with various medication drugs. We ask all our onsite volunteers to bring medicine donations with them. Thanks to them, a rather wide range of drugs can be found at the clinic pharmacy.
 
 <iframe width="900" height="900" src="https://docs.google.com/document/d/e/2PACX-1vSOSLUYXoLP6skFf5GiFUadMdFjyr6CYUEEe_Pju8e5Z__98hnBRe-lHswCeKFLCvv8aqJZnj5O-A2B/pub?embedded=true"></iframe>
 
 ## Volunteer house
 
-The volunteer house has three rooms with all the bare essentials you’ll ever need: beds, shelves, tables, linens, towels and other amenities.
+The volunteer living quarters consist of three rooms with all the bare essentials you will need: beds, shelves, tables, linens, towels and other amenities.
 
-Normally, each room accommodates 2 or 3 people. Being respectful of other people’s private space is key: try relieving your roommates from loud conversations or any other noises, always analyse if they are ok with what you are doing in the room, always be positive and avoid conflicts. Keeping the room clean and doing laundry regularly will help build a healthy atmosphere. The floor and windows cleaning schedule is usually put up in advance. 
 
-Each volunteer has their own bed with a nice cushy mattress. We provide our volunteers with linens, pillows, a blanket and a personal towel. 
 
-![](/uploads/clinica-77-из-165-.jpg)
+Normally, each room accommodates 2 or 3 people. Being respectful of other people’s private space is key: respect your roommates by refraining from loud conversations or any other noises, always analyse if they are ok with what you are doing in the room, always be positive, and avoid conflicts. Keeping the room clean and doing laundry regularly will help build a healthy atmosphere. The floor and windows cleaning schedule is usually put up in advance. 
 
-The area is not that infested with insects, however, we need to be aware of scorpions and spiders, which tend to hide indoor during the rainy season. If required, the bed can be equipped with a mosquito net. 
 
-Rooms have shelves and cabinets at your disposal. Tables, a mirror, hangers, shoe racks are spread evenly between the rooms.
 
-The bathroom is communal which means each volunteer is responsible for its cleanliness. The toilet flushes, however, toilet paper cannot be thrown in it. To avoid clogging, please put used toilet paper in the bin.
+Each volunteer has their own bed with a nice cushy mattress. We provide our volunteers with linens, pillows, a blanket, and a personal towel. 
 
-The shower is electric, with an electric current heating the water up. We strongly advise to limit your showering to 10 minutes as the electric bills are high. Beware of scorpions and snakes, crawling around. To avoid unpleasant surprises use showering slippers.
+![null](/uploads/clinica-77-из-165-.jpg)
 
-![](/uploads/clinica-80-из-165-.jpg)
+The area is not that infested with insects, however, we need to be aware of scorpions and spiders, which tend to hide indoors during the rainy season. If required, the bed can be equipped with a mosquito net. 
 
-Like the shower, the washing machine is a luxury - it burns tons of energy. Therefore, Sunday is laundry day. Please, however, keep in mind that your clothes will be washed together with others’ - so be mindful when changing.
+
+
+
+
+Rooms have shelves and cabinets at your disposal. Tables, a mirror, hangers, and shoe racks are spread evenly between the rooms.
+
+
+
+The bathroom is communal, which means each volunteer is responsible for its cleanliness. Though the toilet flushes properly, toilet paper cannot be thrown in it. To avoid clogging, please put used toilet paper in the adjacent bin.
+
+
+
+
+
+The shower is electric and has a solar powered heating system to provide hot water. We strongly advise to limit your showering to 10 minutes as the electric bills are high. Beware of scorpions and snakes crawling around. To avoid unpleasant surprises use showering slippers.
+
+
+
+![null](/uploads/clinica-80-из-165-.jpg)
+
+Like the shower, the washing machine is a luxury - it burns tons of energy. Therefore, Sunday is laundry day. Please, keep in mind that your clothes will be washed together with those of other volunteers - so, be mindful when handling all laundry.
+
+
 
 Tidying up is done at least once a week: gutters, toilets, floors and the mirror are washed.
 
 Taking care of your roommates’ wellbeing means taking care of your own comfort.
 
+
+
 Recycling is an important part of the daily routine at the clinic. Biodegradable waste is composted; plastic and paper is burnt; glass, metal and other rubbish is stored to be taken out to a landfill; medical waste is kept in special containers to be utilized by a certified company in Momostenango. The volunteer on duty checks the premises on a daily basis, recycling garbage.
 
-![](/uploads/dscn0275.jpg)
+![null](/uploads/dscn0275.jpg)
 
 ## Pantry
 
-Pantry is where we keep the food, clothes, building materials, tools, medical supplies, stored in marked containers, easy to access. You can find clothes of any sizes and types left behind by other volunteers. All pieces are washed and ready to be worn again.
+The pantry is where we keep food, clothes, building materials, tools, and medical supplies stored in marked containers, easy to access. You can find clothes of any sizes and types left behind by other volunteers. All clothing items have been washed and are ready to be worn again.
 
-Here you can also find kitchen and dining room. This part of the building does not have windows, therefore it’s rather chilly in there.
 
-These rooms are kept tidy by two volunteers on duty, who are doing the dishes, cleaning the table and the stove. It’s highly important to put away the food as there is a risk of it going bad or being eaten by insects and rodents. Groceries must be stored in containers to stop the mice and flies from becoming our neighbours.
 
-![](/uploads/_mg_0088.jpg)
+Here you can also find the kitchen and dining room. This part of the building does have windows, therefore it can be rather chilly in there.
 
-There is a gas stove powered by natural gas in the kitchen. We recommend using it mindfully as gas is costly and hard to deliver. You can also prepare food in the slow cooker; always cook for several servings to save energy.
 
-Plenty of kitchen ware, both glass and plastic, a mixer as well as furniture can be found in the dining room. 
+
+These rooms are kept tidy by two volunteers on duty, who are doing the dishes, cleaning the table and the stove. It is highly important to put away the food as there is a risk of it going bad or being eaten by insects and rodents. Groceries must be stored in containers to stop the mice and flies from becoming our housemates.
+
+
+
+![null](/uploads/_mg_0088.jpg)
+
+There is a gas stove powered by natural gas in the kitchen. We recommend using it mindfully as gas is costly and hard to deliver. You can also prepare food in the slow cooker; always cook for several servings to save energy. Plenty of kitchenware, both glass and plastic, a mixer as well as furniture can be found in the dining room. 
+
+
+
+
 
 We keep food and medicine in the fridge - it is cleaned out and washed regularly. In case there is an outage, all drugs must be relocated to a safe place. 
 
-We keep our pick-up truck under the tent. The truck is used for both emergency patients and grocery shopping in Momostenango and it is strictly prohibited to use it for personal purposes.
 
-We also take care of our backyard, watering the flowers, cleaning it from old leaves and weed. Children usually take turns on the swing at the backyard after the movie night. 
 
-![](/uploads/www.lexiehc.com-20180913_1555170018guatemala_.jpg)
+
+
+We keep our pick-up truck under the tent. The truck is used for both emergency patients and grocery shopping in Momostenango. It is strictly prohibited to use it for personal purposes.
+
+
+
+We also take care of our backyard, watering the flowers, cleaning it from old leaves and weeds. Children usually take turns on the swing in our courtyard after movie night on Saturdays. 
+
+
+
+![null](/uploads/www.lexiehc.com-20180913_1555170018guatemala_.jpg)
 
 ## Free time
 
-After business hours you have some time to yourself. Feel free to read, walk or watch a movie. However, you are still expected to do your part of daily chores.
+After business hours you have some time to yourself. Feel free to read, walk, or watch a movie. However, you are still expected to do your part of daily chores.
 
-We have a laptop at the clinic for general purposes. There are plenty of movies, music and educational materials downloaded onto it. Normally, we show cartoons to local children in the evening, giving them a chance to know the world better. There is a projector used for holding movie nights.
 
-![](/uploads/www.lexiehc.com-20180914_1208100272guatemala_.jpg)
 
-There are several books in Spanish, English and Russian at your disposal. 
+We have a laptop at the clinic for general purposes. There are plenty of movies, music, and educational materials downloaded onto it. Normally, we show cartoons to local children in the evening, giving them a chance to know the world better. There is a projector used for holding movie nights.
 
-Wi-Fi or wired Internet connection is not an option at the clinic, however, you should be able to use the mobile one. The signal is not that strong, but it’s enough for texting only.
+![null](/uploads/www.lexiehc.com-20180914_1208100272guatemala_.jpg)
 
-There is also an outdoor barbeque used frequently to have parties. Please always be respectful towards other volunteers’ and patients’ needs; make sure everybody else are ok with activities you are doing. While you are free to enjoy yourself, we expect you to take emergency patients whenever they come in.
+There are several books in Spanish, English, and Russian at your disposal. 
 
-![](/uploads/12.jpg)
 
-As we live in a Mormon village, alcohol consumption and smoking are prohibited in public places. All alcoholic beverages must be consumed out of mugs; bottles must be stored in dark trash bags till the next visit to the landfill. One doctor and one driver must always be sober in case of an emergency.
 
-**_It is important to acknowledge that everything inside the clinic is acquired with hard work. Please be careful with the equipment and furniture. If you break something accidently, please let the management know by paying the damages. Together, we can make the Health&Help clinic a cozy and likeable place to live and work in._**
+Wi-Fi or wired Internet connection is not an option at the clinic, however, you should be able to use the mobile internet. The signal is not that strong, but it is enough for texting.
 
-![](/uploads/www.lexiehc.com-20180918_1138250260guatemala_.jpg)
+
+
+
+
+There is also an outdoor barbeque used frequently to have parties. Please always be respectful towards other volunteers’ and patients’ needs; make sure everybody else is ok with the activities you are doing. While you are free to enjoy yourself, we expect you to take emergency patients whenever they come in.
+
+
+
+![null](/uploads/12.jpg)
+
+As we live in a predominantly Mormon and Evangelical village, alcohol consumption and smoking are prohibited in public places. All alcoholic beverages must be consumed out of mugs; bottles must be stored in dark trash bags until the next visit to the landfill. One doctor and one driver must always be sober in case of an emergency.
+
+
+
+**_It is important to acknowledge that everything inside the clinic is acquired with hard work. Please be careful with the equipment and furniture. If you break something accidently, please let the management know and then pay for the damage. Together, we can make the Health&Help clinic a cozy and likeable place to live and work in. _**
+
+
+
+![null](/uploads/www.lexiehc.com-20180918_1138250260guatemala_.jpg)

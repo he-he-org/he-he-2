@@ -14,7 +14,7 @@ required_languages:
   english: c1
   russian: c2
   spanish: ''
-main_language: russian
+main_language: spanish
 education: ''
 volunteer_type: any
 term: custom

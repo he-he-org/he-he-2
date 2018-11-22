@@ -7,7 +7,7 @@ topics: road
 places: nicaragua
 is_hidden: false
 ---
-![](/uploads/h-h-43-из-206-.jpg)
+![null](/uploads/h-h-43-из-206-.jpg)
 
 ¡Bienvenidos a Nicaragua! Tu avión aterrizó en el aeropuerto internacional. Augusto Sandino en Managua: aquí es donde comienza tu aventura latinoamericana.
 
@@ -19,7 +19,7 @@ Prepárate para que te pidan un boleto de regreso, así que asegúrate de no ten
 
 En el avión, el asistente de vuelo te dará una declaración de aduanas; debe rellenarse y entregarse a los guardias de fronteras a la salida del área de llegada. No te alarmes si te piden que abras una maleta con ayuda humanitaria para la clínica: no estás tomando nada prohibido, no eres deportado y, por supuesto, no estás en una prisión nicaragüense.
 
-![](/uploads/airport-amsterdam-arrival-2069.jpg)
+![null](/uploads/airport-amsterdam-arrival-2069.jpg)
 
 Desafortunadamente, a los guardias fronterizos de Nicaragua no les gustan los voluntarios, por lo que tienes que crear una leyenda en caso de que te detengan en la frontera. Diles que planeas viajar por el país durante aproximadamente tres meses y dibuja una ruta de los destinos turísticos más populares de Nicaragua: Managua, Isla Ometepe, Isla Corn, Granada, Estelí, León y otros.
 
@@ -27,7 +27,7 @@ Si te preguntan sobre el contenido de tu maleta, diles que llevas medicamentos p
 
 Si, como donaciones, tú llevas cosas o juguetes para niños, di que esos son regalos para los hijos de tus amigos nicaragüenses. No olvidas sacar todas las cosas del empaque de la fábrica y formar el equipaje para que las cosas nuevas en la maleta se mezclen con las viejas; haz todo lo posible para que los guardias de fronteras no piensen que estás llevando mercancías a la venta.
 
-![](/uploads/adorable-bears-child-357309.jpg)
+![null](/uploads/adorable-bears-child-357309.jpg)
 
 ¡De ninguna manera aceptes dejar la medicina! Si el guardia fronterizo se niega a dejar pasar las donaciones, ofrécele resolver el problema con dinero; te reembolsaremos estos costos. Por lo general, los guardias de fronteras piden un soborno de 50 USD por 25 kg de productos médicos, pero es posible que deba pagar una cantidad mayor.
 
@@ -39,8 +39,6 @@ Lo último que debes hacer antes de salir del aeropuerto es comprar una tarjeta 
 
 ## Cómo llegar a la obra de la clínica.
 
-
-
 **Desde el aeropuerto de Managua**
 
 Desde el aeropuerto, tomar un taxi hasta la parada de autobús [Mercado Israel Lewites](https://www.google.com/maps/place/Mercado+Israel+Lewites,+Managua,+Nicaragua/@12.127086,-86.3026183,17z/data=!3m1!4b1!4m7!3m6!1s0x8f715432768d5d11:0xe890a7cbea45d562!5m1!1s2018-09-14!8m2!3d12.127086!4d-86.3004296?hl=es&shorturl=1). Costo: 250 NIO, tiempo de viaje: 45 minutos, 1 hora, según los atascos.
@@ -51,7 +49,7 @@ En Chinandega, tomar el bus a[ El Rosario ](https://www.google.ru/maps/place/El+
 
 Desde El Rosario hasta Las Salvias, puede caminar (13 km), alquilar un caballo (90 NIO) o pedir a una persona local que te lleve en una motocicleta (150 NIO).
 
-![](/uploads/h-h-36-из-206-.jpg)
+![null](/uploads/h-h-36-из-206-.jpg)
 
 ## De Guatemala
 
@@ -71,7 +69,7 @@ En Chinandega, tomar el bus a El Rosario. El costo es de 58 90 NIO, el tiempo de
 
 Desde El Rosario hasta Las Salvias, puede caminar (13 km), alquilar un caballo (90 NIO) o pedir a un local que lo lleve en una motocicleta (150 NIO).
 
-![](/uploads/mga2.jpg)
+![null](/uploads/mga2.jpg)
 
 **Autobús a Chinandega vía El Salvador (martes, jueves, sábado)**
 
@@ -83,4 +81,4 @@ En Chinandega, tomar el bus a El Rosario (El Rosario). El costo es de 58 90 NIO,
 
 Desde El Rosario hasta Las Salvias, puedes caminar (13 km), alquilar un caballo (90 NIO) o pedir a un local que lo lleve en una motocicleta (150 NIO).
 
-![](/uploads/h-h-148-из-206-.jpg)
+![null](/uploads/h-h-148-из-206-.jpg)

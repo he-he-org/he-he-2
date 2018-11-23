@@ -2,10 +2,10 @@
 language: en
 title: Photographer
 short_description: >-
-  Photographer and Content Manager are the link between our followers and the
-  clinic. Your technique and creativity in showing the world the project’s
-  everyday life is the key to success of Health&Help.  Your hard work today is
-  medical donations for the clinic tomorrow.
+  Photographer Is the link between our followers and the clinic. Your technique
+  and creativity in showing the world the project’s everyday life is the key to
+  success of Health&Help.  Your hard work today is medical donations for the
+  clinic tomorrow.
 image: /uploads/_aws3800.jpg
 date: '2018-06-19T11:01:56-04:00'
 place: guatemala
@@ -15,7 +15,7 @@ required_languages:
   english: a2
   spanish: a2
 volunteer_type: any
-term: month
+term: week
 conditions:
   food: true
   place_to_stay: true

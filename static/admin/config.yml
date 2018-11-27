@@ -31,7 +31,7 @@ collections:
       - {label: "Short description", name: "short_description", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Place", name: "place", widget: "select", options: [{ label: "Guatemala", value: "guatemala" }, { label: "Nicaragua", value: "nicaragua" }, { label: "On-line", value: "online" }]}
+      - {label: "Place", name: "place", widget: "select", options: [{ label: "Guatemala", value: "guatemala" }, { label: "Nicaragua", value: "nicaragua" }, { label: "Guatemala / Nicaragua", value: "guatemala-nicaragua" }, { label: "On-line", value: "online" }]}
       - {label: "Participation price", name: "price", widget: "string", required: false}
       - {label: "Age restrictions", name: "age_restrictions", widget: "select", options: [{ label: "+16", value: "plus_16" }, { label: "+18", value: "plus_18" }], required: false}
       - label: "Languages"

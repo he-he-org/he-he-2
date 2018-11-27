@@ -200,6 +200,7 @@ class Vacancies extends React.Component {
     switch (place) {
       case 'guatemala': placeTitle = t('pages_vacancies_group_title_guatemala'); break;
       case 'nicaragua': placeTitle = t('pages_vacancies_group_title_nicaragua'); break;
+      case 'guatemala-nicaragua': placeTitle = t('pages_vacancies_group_title_guatemala_nicaragua'); break;
       case 'online': placeTitle = t('pages_vacancies_group_title_online'); break;
       default:
     }

@@ -15,6 +15,7 @@ class Vacancies extends React.Component {
     switch (key) {
       case 'guatemala': return t('pages_vacancies_group_title_guatemala');
       case 'nicaragua': return t('pages_vacancies_group_title_nicaragua');
+      case 'guatemala-nicaragua': return t('pages_vacancies_group_title_guatemala_nicaragua');
       case 'online': return t('pages_vacancies_group_title_online');
       default:
         return key;

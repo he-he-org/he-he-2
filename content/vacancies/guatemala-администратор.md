@@ -7,7 +7,7 @@ short_description: >-
   что ваш труд сегодня  — это счастливые волонтеры и здоровые пациенты завтра.
 image: /uploads/0q4a6889.jpg
 date: '2018-06-07T10:24:37-04:00'
-place: guatemala
+place: guatemala-nicaragua
 price: бесплатно
 age_restrictions: plus_18
 required_languages:

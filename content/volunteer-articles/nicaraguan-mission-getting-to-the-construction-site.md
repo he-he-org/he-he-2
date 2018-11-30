@@ -31,7 +31,7 @@ If you are Health&Help’s new medical volunteer or coordinator, our Spanish tut
 
 Here are some phrases which might come in handy when negotiating with the officer.
 
-<iframe width= "100%" height="750px"  src="https://docs.google.com/document/d/e/2PACX-1vRkmLDNaGpYnnlhekF2M05pXugOsKUoZgGZ9qqyFpBDLmJ_pWGGtruZe08cDAstlz8TAdqJw77ey7AQ/pub?embedded=true"></iframe>
+<iframe width= "100%" height="900px"  src="https://docs.google.com/document/d/e/2PACX-1vRkmLDNaGpYnnlhekF2M05pXugOsKUoZgGZ9qqyFpBDLmJ_pWGGtruZe08cDAstlz8TAdqJw77ey7AQ/pub?embedded=true"></iframe>
 
 After you are done with the customs, you need to exchange dollars into cordobas in order to get to Health&Help clinic in Las Salvias and buy bare essentials. Please note that the exchange rate at the airport is not as good as at the bank. 
 
@@ -95,4 +95,4 @@ You have to find a bus to El Rosario and follow the instructions described above
 
 ![null](/uploads/h-h-148-из-206-.jpg)
 
-**_Let’s build our new home together!_**
+_**Let’s build our new home together!**_

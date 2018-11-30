@@ -37,7 +37,11 @@ La moneda local de Nicaragua es Córdoba. Dependiendo del curso, 1 dólar cuesta
 
 Lo último que debes hacer antes de salir del aeropuerto es comprar una tarjeta SIM local. Recomendamos elegir el operador móvil Claro: la conexión funcionará en todos los países CA-4 (Nicaragua, Guatemala, Honduras, El Salvador).
 
+
+
 ## Cómo llegar a la obra de la clínica.
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1jWaNMqHY0Nr1xHCKRKsjjH7Ls5UY18Jv" width="640" height="480"></iframe>
 
 **Desde el aeropuerto de Managua**
 

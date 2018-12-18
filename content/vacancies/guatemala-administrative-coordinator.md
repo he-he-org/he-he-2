@@ -8,7 +8,7 @@ short_description: >-
   approach is essential.
 image: /uploads/0q4a6889.jpg
 date: '2018-06-19T11:13:30-04:00'
-place: guatemala
+place: guatemala-nicaragua
 price: no fee
 age_restrictions: plus_18
 required_languages:

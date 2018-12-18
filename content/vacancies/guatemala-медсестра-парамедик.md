@@ -8,7 +8,7 @@ short_description: >-
   консультации.
 image: /uploads/0q4a1542.jpg
 date: '2018-06-05T09:40:53-04:00'
-place: guatemala
+place: guatemala-nicaragua
 price: бесплатно
 age_restrictions: plus_18
 required_languages:
@@ -17,7 +17,6 @@ required_languages:
 education: nurse
 volunteer_type: any
 term: several_months
-term_custom:
 work_time: 'ПН-ПТ: 8:00-16:00; СБ: 8:00-12:00'
 rest_time: 'ПН-СБ: 13:00-14:00; ВС: выходной; Отпуск: каждые 8 недель'
 conditions:

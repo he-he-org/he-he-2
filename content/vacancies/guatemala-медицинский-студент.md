@@ -8,7 +8,7 @@ short_description: >-
   медицинских специальностей для работы под присмотром опытных врачей.
 image: /uploads/clinica-3-из-119-.jpg
 date: '2018-06-07T11:21:33-04:00'
-place: guatemala
+place: guatemala-nicaragua
 price: $600 в месяц
 age_restrictions: plus_18
 required_languages:
@@ -16,7 +16,6 @@ required_languages:
   spanish: a1
 volunteer_type: any
 term: month
-term_custom:
 work_time: 'ПН-ПТ: 8:00-16:00; СБ: 8:00-12:00'
 rest_time: >-
   ПН-СБ: 13:00-14:00; ВС: выходной; Отпуск: обговаривается индивидуально с

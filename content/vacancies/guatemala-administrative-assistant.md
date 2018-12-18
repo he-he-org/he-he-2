@@ -8,7 +8,7 @@ short_description: >-
   responsibility for decision making is a part of your job.
 image: /uploads/clinica-18-из-119-1-.jpg
 date: '2018-06-19T11:23:40-04:00'
-place: guatemala
+place: guatemala-nicaragua
 price: $600/month
 age_restrictions: plus_16
 required_languages:
@@ -16,7 +16,6 @@ required_languages:
   spanish: a1
 volunteer_type: any
 term: week
-term_custom:
 conditions:
   food: true
   place_to_stay: true

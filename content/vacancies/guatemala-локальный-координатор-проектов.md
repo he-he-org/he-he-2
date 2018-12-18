@@ -6,7 +6,7 @@ short_description: >-
   клиник Health&Help в Гватемале и Никарагуа
 image: /uploads/whatsapp-image-2018-09-19-at-00.44.11-4-.jpeg
 date: '2018-09-17T13:05:53-04:00'
-place: guatemala
+place: guatemala-nicaragua
 price: бесплатно
 age_restrictions: plus_18
 required_languages:

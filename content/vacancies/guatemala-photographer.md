@@ -8,7 +8,7 @@ short_description: >-
   clinic tomorrow.
 image: /uploads/_aws3800.jpg
 date: '2018-06-19T11:01:56-04:00'
-place: guatemala
+place: guatemala-nicaragua
 price: no fee
 age_restrictions: plus_18
 required_languages:

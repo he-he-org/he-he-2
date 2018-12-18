@@ -9,7 +9,7 @@ short_description: >-
   provide medical attention 24/7.
 image: /uploads/0q4a1542.jpg
 date: '2018-06-19T10:45:33-04:00'
-place: guatemala
+place: guatemala-nicaragua
 price: no fee
 age_restrictions: plus_18
 required_languages:

@@ -7,7 +7,7 @@ short_description: >-
   выполнять свою работу, напрямую влияет на стабильное функционирование проекта.
 image: /uploads/clinica-18-из-119-1-.jpg
 date: '2018-06-07T09:53:18-04:00'
-place: guatemala
+place: guatemala-nicaragua
 price: бесплатно
 age_restrictions: plus_18
 required_languages:

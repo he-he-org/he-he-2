@@ -8,7 +8,7 @@ short_description: >-
   чувствовать после консультации.
 image: /uploads/clinica-10-из-55-.jpg
 date: '2018-05-18T19:03:25-05:00'
-place: guatemala
+place: guatemala-nicaragua
 price: бесплатно
 age_restrictions: plus_18
 required_languages:
@@ -18,7 +18,6 @@ required_languages:
 education: md
 volunteer_type: any
 term: several_months
-term_custom:
 work_time: 'ПН-ПТ: 8:00-16:00; СБ: 8:00-12:00'
 rest_time: 'ПН-СБ: 13:00-14:00; ВС: выходной; Отпуск: каждые 8 недель'
 conditions:

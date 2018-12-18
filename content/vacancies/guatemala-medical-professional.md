@@ -7,7 +7,7 @@ short_description: >-
   at the village Chuinajtajuyup, Totonicapan area (Guatemala).
 image: /uploads/0q4a1644.jpg
 date: '2018-06-11T11:17:43-04:00'
-place: guatemala
+place: guatemala-nicaragua
 price: no fee
 age_restrictions: plus_18
 required_languages:

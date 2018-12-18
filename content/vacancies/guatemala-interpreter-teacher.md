@@ -8,7 +8,7 @@ short_description: >-
   the language differences is your key focus.
 image: /uploads/clinica-8-из-119-.jpg
 date: '2018-06-20T10:15:15-04:00'
-place: guatemala
+place: guatemala-nicaragua
 price: no fee
 age_restrictions: plus_16
 required_languages:
@@ -16,7 +16,6 @@ required_languages:
   russian: b2
   spanish: c1
 term: several_months
-term_custom:
 conditions:
   food: true
   place_to_stay: true

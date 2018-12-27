@@ -47,19 +47,42 @@ is_hidden: false
 ---
 Se espera que vea a los pacientes en la clínica diariamente, trabajando junto con voluntarios y manejando el papeleo. Debe sentirse cómodo tomando decisiones médicas y lidiando con casos de diferentes niveles de complejidad.
 
-**Cualidades personales:**
+**Cualidades personales:
+**
 
-* Entender que la salud del paciente es lo más importante y estar dispuesto a hacer todo lo necesario por la salud del paciente;
-* Exactitud, atención y orden;
-* Ser responsable, ser capaz de tomar decisiones y de dar ordenes a los voluntarios;
-* No tener miedo del "trabajo sucio", trabajar junto a los voluntarios para un mejor funcionamiento del proyecto.
+* 
+
+Entender que la salud del paciente es lo más importante y estar dispuesto a hacer todo lo necesario por la salud del paciente;
+
+* 
+
+Exactitud, atención y orden;
+
+* 
+
+Ser responsable, ser capaz de tomar decisiones y de dar ordenes a los voluntarios;
+
+* 
+
+No tener miedo del "trabajo sucio", trabajar junto a los voluntarios para un mejor funcionamiento del proyecto.
 
 **Funciones principales:**
 
 * Realizar consultas médicas (terapias, ginecología y obstetricia, pediatría, endocrinología, otorrinolaringología, dermatología y venereología, enfermedades infecciosas);
-* Realizar operaciones quirúrgicas pequeñas (tratar abscesos, poner y retirar puntos, eliminar lipomas y uñas encarnadas);
-* Realizar los análisis médicos disponibles en la clínica (glucosa, pruebas de embarazo, hemoglobina, enfermedades infecciosas —sífilis, VIH, hepatitis A y B—);
-* Realizar los exámenes médicos disponibles en la clínica (electrocardiogramas, ecografías y espirometría);
-* Acompañar a los pacientes al hospital más cercano en casos de emergencia, cuando la clínica no está en capacidad de ayudar (traumas severos, intervenciones quirúrgicas, cesáreas, trasplantes).
+* 
+
+Realizar operaciones quirúrgicas pequeñas (tratar abscesos, poner y retirar puntos, eliminar lipomas y uñas encarnadas);
+
+* 
+
+Realizar los análisis médicos disponibles en la clínica (glucosa, pruebas de embarazo, hemoglobina, enfermedades infecciosas —sífilis, VIH, hepatitis A y B—);
+
+* 
+
+Realizar los exámenes médicos disponibles en la clínica (electrocardiogramas, ecografías y espirometría);
+
+* 
+
+Acompañar a los pacientes al hospital más cercano en casos de emergencia, cuando la clínica no está en capacidad de ayudar (traumas severos, intervenciones quirúrgicas, cesáreas, trasplantes).
 
 **Ser parte del equipo médico de Health & Help es una experiencia excepcional, que le brinda la oportunidad de hacer de este mundo un lugar mejor en este momento.**

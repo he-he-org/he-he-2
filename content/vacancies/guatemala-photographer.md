@@ -35,6 +35,17 @@ questionnaire_link: >-
 is_pinned: true
 is_hidden: false
 ---
+
+
+**The responsibilities of the role include:
+**
+
+* Escorting our medical volunteers and taking photos on a daily basis;
+* Editing videos on the daily life of the project in Guatemala;
+* Creating appropriate products;
+* Handling the material daily and posting it on social media with a caption (50-60 words), following a certain schedule;
+* Preparing and writing articles once a week (appr. 600 words).
+
 **Personal qualities
 **
 
@@ -49,14 +60,5 @@ is_hidden: false
 * **Loyal, calm and endurant.** Tolerant attitude towards people of other race, nationality, religion, sexual orientation, political views, etc.
 * **Empathic and responsive.** With a caring attitude, as well as a willingness to help in a difficult situation;
 * **Willing to maintain a healthy lifestyle** as an example for the local community and other volunteers.
-
-**The responsibilities of the role include:
-**
-
-* Escorting our medical volunteers and taking photos on a daily basis;
-* Editing videos on the daily life of the project in Guatemala;
-* Creating appropriate products;
-* Handling the material daily and posting it on social media with a caption (50-60 words), following a certain schedule;
-* Preparing and writing articles once a week (appr. 600 words);
 
 **Being a part of Health&Help team is an exceptional experience, which gives you the opportunity to make this world a better place at this exact moment. Don’t wait another day, apply now!**

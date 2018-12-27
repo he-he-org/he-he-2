@@ -49,21 +49,21 @@ is_hidden: false
 ---
 Se espera que vea a los pacientes en la clínica diariamente, trabajando junto con voluntarios y manejando el papeleo. Debe sentirse cómodo tomando decisiones médicas y lidiando con casos de diferentes niveles de complejidad.
 
-**Cualidades personales:**
+**Cualidades personales:**
 
-•	Entender que la salud del paciente es lo más importante y estar dispuesto a hacer todo lo necesario por la salud del paciente;
+•	Entender que la salud del paciente es lo más importante y estar dispuesto a hacer todo lo necesario por la salud del paciente; 
 
-•	Caridad y benevolencia;
+•	Caridad y benevolencia; 
 
-•	Exactitud, atención y orden;
+•	Exactitud, atención y orden; 
 
-•	Tranquilidad y calma (en situaciones extremas se debe calmar al paciente y a sus familiares, siendo un apoyo para ellos);
+•	Tranquilidad y calma (en situaciones extremas se debe calmar al paciente y a sus familiares, siendo un apoyo para ellos); 
 
-•	Llevar una vida saludable y ser un ejemplo para la comunidad y los voluntarios;
+•	Llevar una vida saludable y ser un ejemplo para la comunidad y los voluntarios; 
 
-•	Estar preparado para realizar cualquier trabajo para el correcto funcionamiento de la clínica (entender que el trabajo en el proyecto va más allá de las tareas de enfermería y la interacción con los pacientes)
+•	Estar preparado para realizar cualquier trabajo para el correcto funcionamiento de la clínica (entender que el trabajo en el proyecto va más allá de las tareas de enfermería y la interacción con los pacientes) 
 
-•	Continuar creciendo como profesional, aprendiendo y mejorando cada día.
+•	Continuar creciendo como profesional, aprendiendo y mejorando cada día. 
 
 **Funciones principales:**
 

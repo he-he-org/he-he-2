@@ -15,6 +15,7 @@ required_languages:
   spanish: c1
 education: md
 volunteer_type: any
+term: several_months
 conditions:
   food: true
   place_to_stay: true

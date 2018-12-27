@@ -49,7 +49,7 @@ is_hidden: false
 ---
 Se espera que vea a los pacientes en la clínica diariamente, trabajando junto con voluntarios y manejando el papeleo. Debe sentirse cómodo tomando decisiones médicas y lidiando con casos de diferentes niveles de complejidad.
 
-**Cualidades personales:**
+Cualidades personales:
 
 •	Entender que la salud del paciente es lo más importante y estar dispuesto a hacer todo lo necesario por la salud del paciente; 
 

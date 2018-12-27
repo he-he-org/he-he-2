@@ -48,7 +48,8 @@ is_hidden: false
 ---
 You will be expected to see patients in the clinic on a daily basis, working along with volunteers, and handle paperwork. You should be comfortable making medical decisions and dealing with cases of different levels of complexity.
 
-**The responsibilities of the role include: **
+**Main responsibilities:
+**
 
 •	Patients’ examinations on-site and in field, assisting doctors during consultations (general practice, gynecology, obstetrics, pediatrics, endocrinology, dermatology, otolaryngology infectious diseases);
 
@@ -73,8 +74,6 @@ You will be expected to see patients in the clinic on a daily basis, working alo
 •	Preparing and giving educational lectures on public healthcare among local citizens, both children and adults, putting up together handout materials, collaterals, posters;
 
 •	Improving prevention methods of infectious and other diseases by educating local communities.
-
-
 
 **Personal qualities**
 

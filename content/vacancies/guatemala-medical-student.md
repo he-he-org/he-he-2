@@ -46,8 +46,7 @@ Health&Help takes medical care to another level: we do whatever we can to change
 
 Health&Help believes anybody can make this world a better place, even if there is not much experience or a yet completed degree. That’s why we are always eager to welcome medical students to our mentoring program.
 
-Health&Help’s medical students are not afraid to take responsibility on, finding the strength to provide medical attention 24/7. Your actions and professionalism affect our patients’ loyalty to the clinic and course of treatment. Their well-being is in your hands.
-
+Health&Help’s medical students are not afraid to take responsibility on, finding the strength to provide medical attention 24/7. Your actions and professionalism affect our patients’ loyalty to the clinic and course of treatment. 
 
 **Personal qualities**
 
@@ -63,21 +62,7 @@ Health&Help’s medical students are not afraid to take responsibility on, findi
 * **Empathic and responsive.** With a caring attitude, as well as a willingness to help in a difficult situation;
 * **Willing to maintain a healthy lifestyle** as an example for the local community and other volunteers.
 
-**The responsibilities of the role include:
-**
 
-* Patients’ examinations on-site and in field, assisting doctors during consultations (general practice, gynaecology, obstetrics, pediatrics, endocrinology, dermatology, otolaryngology infectious diseases);
-* Escorting patients to their houses and making home visits;
-* Performing necessary procedures, such as injections, vaccinations, CPR, suture, ingrown nails’ removal, abscess drainage;
-* Carrying out tests, such as pregnancy, blood sugar, hemoglobin, STDs, HIV, Type A and B Hepatitis;
-* Reading vitals by using EKG, doppler, spirometry;
-* Prescribing drugs and purchasing medical supplies;
-* Handling medicine and medical instruments (accounting, sterilizing, donation management);
-* Triaging patients, providing pre-examination assistance if needed;
-* Keeping the papers in order;
-* Being a facilitator between the volunteers and local communities, dissolving problems and neutralizing conflicts;
-* Preparing and giving educational lectures on public healthcare among local citizens, both children and adults, putting up together handout materials, collaterals, posters;
-* Working on infectious and other diseases prevention methods by educating local communities.
 
 **We offer:
 **
@@ -88,7 +73,4 @@ Health&Help’s medical students are not afraid to take responsibility on, findi
 * An opportunity to develop your skills and find out more about yourself and other people and cultures;
 * Endless love and gratitude from all the locals, fellow volunteers and all over the world;
 
-
-
-Being a part of Health&Help team is an exceptional experience, which gives you the opportunity to make this world a better place at this exact moment. Don’t wait another day
-, apply now!
+**Being a part of Health&Help team is an exceptional experience, which gives you the opportunity to make this world a better place at this exact moment. Don’t wait another day, apply now!**

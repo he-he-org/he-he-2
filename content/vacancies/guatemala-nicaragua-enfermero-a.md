@@ -44,7 +44,7 @@ humanitarian_aid:
   farmacy_by_list: will_be_given
   supplies_by_list: will_be_given
 questionnaire_link: 'https://goo.gl/forms/XF9jLm3ueUbNREtD2'
-is_pinned: true
+is_pinned: false
 is_hidden: false
 ---
 Se espera que vea a los pacientes en la clínica diariamente, trabajando junto con voluntarios y manejando el papeleo. Debe sentirse cómodo tomando decisiones médicas y lidiando con casos de diferentes niveles de complejidad.

@@ -48,21 +48,37 @@ is_hidden: false
 ---
 You will be expected to see patients in the clinic on a daily basis, working along with volunteers, and handle paperwork. You should be comfortable making medical decisions and dealing with cases of different levels of complexity.
 
-**Main responsibilities:**
+**The responsibilities of the role include: **
 
-• Provide medical consultations to the patients (therapy, gynecology and obstetrics, pediatrics, endocrinology, otorhinolaryngology, dermatology and venereology, infectious diseases);
+•	Patients’ examinations on-site and in field, assisting doctors during consultations (general practice, gynecology, obstetrics, pediatrics, endocrinology, dermatology, otolaryngology infectious diseases);
 
-• Perform small surgical operations (treat abscesses, put and remove stitches, remove lipomas and ingrown toenails);
+•	Escorting patients to their houses and making home visits;
 
-• Carry out the medical tests available in the clinic (glucose, pregnancy tests, hemoglobin, infectious diseases - syphilis, HIV, hepatitis A and B);
+•	Performing necessary procedures, such as injections, vaccinations, CPR, suture, ingrown nails’ removal, abscess drainage;
 
-• Work with equipment available at the clinic (electrocardiograph, ultrasound and spirometer);
+•	Carrying out tests, such as pregnancy, blood sugar, hemoglobin, STDs, HIV, Type A and B Hepatitis tests;
 
-• Accompany patients to the nearest hospital in cases of emergency, when the clinic is not able to help (severe trauma, surgical interventions, cesareans, transplants).
+•	Reading vitals by using EKG, doppler, spirometry;
 
-**Personal qualities
-Initiative.** Striving to improve business processes;
+•	Prescribing drugs and purchasing medical supplies;
 
+•	Handling medicine and medical instruments (accounting, sterilizing, donation management);
+
+•	Triaging patients, providing pre-examination assistance if needed;
+
+•	Keeping the papers in order;
+
+•	Being a facilitator between the volunteers and local communities, dissolving problems and neutralizing conflicts;
+
+•	Preparing and giving educational lectures on public healthcare among local citizens, both children and adults, putting up together handout materials, collaterals, posters;
+
+•	Improving prevention methods of infectious and other diseases by educating local communities.
+
+
+
+**Personal qualities**
+
+* **Initiative.** Striving to improve business processes;
 * **Self-learning.** Able to find the necessary information and acquire new skills along with maintaining professionalism;
 * **Adaptable.** Able to feel comfortable and confident in various situations, with new people and in unusual life and work conditions;
 * **Diplomatic, kind, intelligent.** Able to deal with all team members and the local community, solve and prevent conflicts. Have respect for other positions and opinions, different from their own;

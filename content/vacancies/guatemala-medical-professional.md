@@ -2,9 +2,8 @@
 language: en
 title: Medical professional
 short_description: >-
-  We are looking for Medical Professionals, such as physicians (OBGYNs,
-  infectious disease specialists, pediatricians), midwives, nurses, to volunteer
-  at the village Chuinajtajuyup, Totonicapan area (Guatemala).
+  We are looking for volunteers who are certified Medical Professionals, such as
+  physicians (OBGYNs, infectious disease specialists, pediatricians), midwives
 image: /uploads/0q4a1644.jpg
 date: '2018-06-11T11:17:43-04:00'
 place: guatemala-nicaragua
@@ -49,17 +48,28 @@ is_hidden: false
 ---
 You will be expected to see patients in the clinic on a daily basis, working along with volunteers, and handle paperwork. You should be comfortable making medical decisions and dealing with cases of different levels of complexity.
 
-**Personal qualities
-**
+**Main responsibilities:**
 
-* **Initiative.** Striving to improve business processes;
+• Provide medical consultations to the patients (therapy, gynecology and obstetrics, pediatrics, endocrinology, otorhinolaryngology, dermatology and venereology, infectious diseases);
+
+• Perform small surgical operations (treat abscesses, put and remove stitches, remove lipomas and ingrown toenails);
+
+• Carry out the medical tests available in the clinic (glucose, pregnancy tests, hemoglobin, infectious diseases - syphilis, HIV, hepatitis A and B);
+
+• Work with equipment available at the clinic (electrocardiograph, ultrasound and spirometer);
+
+• Accompany patients to the nearest hospital in cases of emergency, when the clinic is not able to help (severe trauma, surgical interventions, cesareans, transplants).
+
+**Personal qualities
+Initiative.** Striving to improve business processes;
+
 * **Self-learning.** Able to find the necessary information and acquire new skills along with maintaining professionalism;
 * **Adaptable.** Able to feel comfortable and confident in various situations, with new people and in unusual life and work conditions;
 * **Diplomatic, kind, intelligent.** Able to deal with all team members and the local community, solve and prevent conflicts. Have respect for other positions and opinions, different from their own;
 * **Well-organized, responsible, punctual and diligent**;
 * **Able to perform work in a high-quality and timely manner**, as well as ready to make complex decisions;
 * **Leadership skills.
-** Able to guide and inspire the team in order to achieve common goals and objectives;
+  ** Able to guide and inspire the team in order to achieve common goals and objectives;
 * **Loyal, calm and endurant.** Tolerant attitude towards people of other race, nationality, religion, sexual orientation, political views, etc.
 * **Empathic and responsive.** With a caring attitude, as well as a willingness to help in a difficult situation;
 * **Willing to maintain a healthy lifestyle** as an example for the local community and other volunteers.

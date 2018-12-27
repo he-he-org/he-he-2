@@ -62,7 +62,7 @@ Se espera que vea a los pacientes en la clínica diariamente, trabajando junto c
 
 •	Realizar consultas médicas (terapias, ginecología y obstetricia, pediatría, endocrinología, otorrinolaringología, dermatología y venereología, enfermedades infecciosas);
 
-•	Realizar operaciones quirúrgicas pequeñas (tratar abscesos, poner y retirar puntos, eliminar lipomas y uñas encarnadas);
+•	Realizar operaciones quirúrgicas pequeñas (tratar abscesos, poner y retirar puntos de sutura, eliminar lipomas y uñas encarnadas);
 
 •	Realizar los análisis médicos disponibles en la clínica (glucosa, pruebas de embarazo, hemoglobina, enfermedades infecciosas —sífilis, VIH, hepatitis A y B—);
 

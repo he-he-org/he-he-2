@@ -49,21 +49,6 @@ is_hidden: false
 ---
 You will be expected to see patients in the clinic on a daily basis, working along with volunteers, and handle paperwork. You should be comfortable making medical decisions and dealing with cases of different levels of complexity.
 
-**Personal qualities
-**
-
-* **Initiative.** Striving to improve business processes;
-* **Self-learning.** Able to find the necessary information and acquire new skills along with maintaining professionalism;
-* **Adaptable.** Able to feel comfortable and confident in various situations, with new people and in unusual life and work conditions;
-* **Diplomatic, kind, intelligent.** Able to deal with all team members and the local community, solve and prevent conflicts. Have respect for other positions and opinions, different from their own;
-* **Well-organized, responsible, punctual and diligent**;
-* **Able to perform work in a high-quality and timely manner**, as well as ready to make complex decisions;
-* **Leadership skills.
-  ** Able to guide and inspire the team in order to achieve common goals and objectives;
-* **Loyal, calm and endurant.** Tolerant attitude towards people of other race, nationality, religion, sexual orientation, political views, etc.
-* **Empathic and responsive.** With a caring attitude, as well as a willingness to help in a difficult situation;
-* **Willing to maintain a healthy lifestyle** as an example for the local community and other volunteers.
-
 **The responsibilities include:
 **
 
@@ -77,5 +62,20 @@ You will be expected to see patients in the clinic on a daily basis, working alo
 * Keeping documentation in order;
 * Being a facilitator between the volunteers and local communities, solving problems and neutralizing conflicts;
 * Preparing and giving educational lectures on public health for locals, both children and adults, putting together handout materials, posters.
+
+**Personal qualities:
+**
+
+* **Initiative.** Striving to improve business processes;
+* **Self-learning.** Able to find the necessary information and acquire new skills along with maintaining professionalism;
+* **Adaptable.** Able to feel comfortable and confident in various situations, with new people and in unusual life and work conditions;
+* **Diplomatic, kind, intelligent.** Able to deal with all team members and the local community, solve and prevent conflicts. Have respect for other positions and opinions, different from their own;
+* **Well-organized, responsible, punctual and diligent**;
+* **Able to perform work in a high-quality and timely manner**, as well as ready to make complex decisions;
+* **Leadership skills.
+  ** Able to guide and inspire the team in order to achieve common goals and objectives;
+* **Loyal, calm and endurant.** Tolerant attitude towards people of other race, nationality, religion, sexual orientation, political views, etc.
+* **Empathic and responsive.** With a caring attitude, as well as a willingness to help in a difficult situation;
+* **Willing to maintain a healthy lifestyle** as an example for the local community and other volunteers.
 
 **Being a part of Health&Help medical team is an exceptional experience, which gives you the opportunity to make this world a better place at this exact moment. Don’t wait another day, apply now!**

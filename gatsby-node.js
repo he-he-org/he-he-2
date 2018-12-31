@@ -130,6 +130,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                 name
                 title
                 title_ru
+                title_es
               }
               fields {
                 slug,
@@ -163,6 +164,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                 name
                 title
                 title_ru
+                title_es
               }
               fields {
                 slug,

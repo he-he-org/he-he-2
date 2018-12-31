@@ -123,6 +123,7 @@ export const query = graphql`
             name
             title
             title_ru
+            title_es
           }
           fields {
             slug

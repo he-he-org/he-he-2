@@ -32,7 +32,7 @@ other_conditions:
   patient_escort_to_the_hospital: true
 questionnaire_link: >-
   https://docs.google.com/forms/d/e/1FAIpQLSfZnUd7kKWCjkkizoxlVByh8TIhQCx_kzuZoBGWYp3uUNavpA/viewform
-is_pinned: true
+is_pinned: false
 is_hidden: false
 ---
 

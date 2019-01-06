@@ -49,7 +49,7 @@ humanitarian_aid:
   supplies_by_list: will_be_given
 other_conditions_custom: ''
 questionnaire_link: 'https://goo.gl/forms/UOXKmBLs89ZLYgn13'
-is_pinned: false
+is_pinned: true
 is_hidden: false
 ---
 ## Опыт

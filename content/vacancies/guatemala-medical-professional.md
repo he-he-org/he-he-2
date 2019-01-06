@@ -1,6 +1,6 @@
 ---
 language: en
-title: Medical professional
+title: Medical Specialist
 short_description: >-
   We are looking for volunteers who are certified Medical Professionals, such as
   physicians (OBGYNs, infectious disease specialists, pediatricians), midwives

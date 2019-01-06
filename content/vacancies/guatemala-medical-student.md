@@ -17,7 +17,7 @@ age_restrictions: plus_18
 required_languages:
   english: b
   spanish: a2
-term: week
+term: several_months
 conditions:
   food: true
   place_to_stay: true

@@ -2,7 +2,7 @@
 name: other
 title: Other
 title_ru: Другое
-title_es: Other
+title_es: 'Otra información '
 order: 9
 ---
 

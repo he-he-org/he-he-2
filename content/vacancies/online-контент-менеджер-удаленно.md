@@ -1,6 +1,6 @@
 ---
 language: ru
-title: Контент-менеджер удаленно
+title: Менеджер по коммуникациям (удаленная вакансия)
 short_description: >-
   Ты держишь под контролем соцсети, успеваешь дать комментарии трём СМИ,
   договориться о четырёх интервью и видеосъемке? Наша крутая международная
@@ -22,6 +22,7 @@ term_custom: постоянная
 work_time: гибкий график
 conditions:
   salary: true
+  travel_compensations: true
 additional_skills:
   photo_video: advantage
 questionnaire_link: >-

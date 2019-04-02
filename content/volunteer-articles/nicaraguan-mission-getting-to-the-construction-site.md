@@ -57,7 +57,7 @@ The last bus to El Rosario (58 NIO) departs at 1:00 pm. You will have to stay in
 
 > [Ho­tel Doña Mer­cedes](https://www.google.com/maps/place/Hotel+Do%C3%B1a+Mercedes/@12.6255029,-87.1336181,15z/data=!4m7!3m6!1s0x0:0x55b25bf184e926a7!5m1!1s2018-09-14!8m2!3d12.6255029!4d-87.1336181?shorturl=1),
 >
->   Av Cen­tral, Chi­nan­dega, What­sApp: +505 8528 0357, Mario Flo­res.
+>   Av Cen­tral, Chi­nan­dega, What­sApp: +505 7709 2039, Mario Flo­res.
 
 Having arrived to El Rosario, you’ll find yourself in front of a cow farm.
 
@@ -95,4 +95,4 @@ You have to find a bus to El Rosario and follow the instructions described above
 
 ![null](/uploads/h-h-148-из-206-.jpg)
 
-_**Let’s build our new home together!**_
+**_Let’s build our new home together!_**

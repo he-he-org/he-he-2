@@ -7,6 +7,7 @@ class MediaIcon extends React.Component {
     return (
       <a
         className={styles.root}
+        target="_blank"
         href={this.props.url}
       >
         <img

@@ -64,8 +64,7 @@ Health&Help’s medical students are not afraid to take responsibility on, findi
 
 
 
-**We offer:
-**
+**We offer:**
 
 * A place to stay and hot meals to eat free of charge;
 * A letter of recommendation upon request;

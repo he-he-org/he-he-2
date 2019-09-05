@@ -28,7 +28,7 @@ additional_skills:
 questionnaire_link: >-
   https://docs.google.com/forms/d/e/1FAIpQLSdPtKLiPb365R6ivlKzXAghzcydWeohSF_sE6ehNMEAFrmObQ/viewform
 is_pinned: false
-is_hidden: false
+is_hidden: true
 ---
 ## Обязанности
 

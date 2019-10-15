@@ -47,7 +47,7 @@ humanitarian_aid:
   supplies_by_list: will_be_given
 questionnaire_link: 'https://goo.gl/forms/VrenUBkxP9BePf1B3'
 is_pinned: false
-is_hidden: false
+is_hidden: true
 ---
 ## Опыт:
 

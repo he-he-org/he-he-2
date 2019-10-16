@@ -49,8 +49,7 @@ is_hidden: false
 ---
 You will be expected to see patients in the clinic on a daily basis, working along with volunteers, and handle paperwork. You should be comfortable making medical decisions and dealing with cases of different levels of complexity.
 
-**The responsibilities include:
-**
+**The responsibilities include:**
 
 * Examining patients on site and in the field, helping the physicians to run clinic operations;
 * Escorting patients to their houses and making home visits;
@@ -63,8 +62,7 @@ You will be expected to see patients in the clinic on a daily basis, working alo
 * Being a facilitator between the volunteers and local communities, solving problems and neutralizing conflicts;
 * Preparing and giving educational lectures on public health for locals, both children and adults, putting together handout materials, posters.
 
-**Personal qualities:
-**
+**Personal qualities:**
 
 * **Initiative.** Striving to improve business processes;
 * **Self-learning.** Able to find the necessary information and acquire new skills along with maintaining professionalism;

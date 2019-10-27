@@ -1,7 +1,6 @@
 ---
 tags:
   - aaas
-  - cccc
   - fffff
 version: '2'
 title: dasda

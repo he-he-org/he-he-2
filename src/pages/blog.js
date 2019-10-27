@@ -1,13 +1,13 @@
-import React from "react"
+import React from "react";
 import { Link } from "gatsby";
-import { graphql } from 'gatsby'
-import { withI18n } from '../i18n';
-import routes from '../helpers/routes';
-import { format } from '../helpers/date';
+import { graphql } from "gatsby";
+import { withI18n } from "../i18n";
+import routes from "../helpers/routes";
+import { format } from "../helpers/date";
 
-import Layout from '../components/layouts/default'
-import styles from './blog.module.scss';
-import ItemPreview from '../components/ItemPreview';
+import Layout from "../components/layouts/default";
+import styles from "./blog.module.scss";
+import ItemPreview from "../components/ItemPreview";
 
 class Blog extends React.Component {
   renderItems() {
@@ -16,7 +16,11 @@ class Blog extends React.Component {
     const edges = data.allMarkdownRemark ? data.allMarkdownRemark.edges : [];
 
     if (edges.length === 0) {
-      return <div className={styles.noItemsMessage}>{t('pages_blog_no_posts_yet')}</div>
+      return (
+        <div className={styles.noItemsMessage}>
+          {t("pages_blog_no_posts_yet")}
+        </div>
+      );
     }
 
     // Sort items manually, because gatsby doesn't support sorting by multiple fields :(
@@ -35,7 +39,7 @@ class Blog extends React.Component {
       return 0;
     });
 
-    return sortedEdges.map((edge) => {
+    return sortedEdges.map(edge => {
       const { node } = edge;
       const { fields, frontmatter } = node;
       return (
@@ -47,7 +51,7 @@ class Blog extends React.Component {
         >
           <div className={styles.itemDate}>
             {frontmatter.is_pinned
-              ? t('blog_post_is_pinned')
+              ? t("blog_post_is_pinned")
               : format(frontmatter.date, language)}
           </div>
           <div className={styles.itemShortDescription}>
@@ -61,27 +65,20 @@ class Blog extends React.Component {
   render() {
     return (
       <Layout location={this.props.location}>
-        <div className={styles.root}>
-          {this.renderItems()}
-        </div>
+        <div className={styles.root}>{this.renderItems()}</div>
       </Layout>
     );
   }
 }
 
-export default withI18n(Blog)
+export default withI18n(Blog);
 
 export const query = graphql`
   query BlogQuery($language: String!) {
     allMarkdownRemark(
       filter: {
-        fields: {
-          collection: {eq: "blog"}
-        }
-        frontmatter: {
-          language: {eq: $language}
-          is_hidden: {ne: true}
-        }
+        fields: { collection: { eq: "blog" } }
+        frontmatter: { language: { eq: $language }, is_hidden: { ne: true } }
       }
     ) {
       edges {

@@ -1,15 +1,11 @@
-import React from "react"
-import styles from './MediaIcon.module.scss';
+import React from "react";
+import styles from "./MediaIcon.module.scss";
 import { Link } from "gatsby";
 
 class MediaIcon extends React.Component {
   render() {
     return (
-      <a
-        className={styles.root}
-        target="_blank"
-        href={this.props.url}
-      >
+      <a className={styles.root} target="_blank" href={this.props.url}>
         <img
           alt={this.props.image}
           width="32"
@@ -18,8 +14,8 @@ class MediaIcon extends React.Component {
           src={this.props.image}
         />
       </a>
-    )
+    );
   }
 }
 
-export default MediaIcon
+export default MediaIcon;

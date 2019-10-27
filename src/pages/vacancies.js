@@ -1,24 +1,27 @@
-import React from "react"
-import { graphql } from 'gatsby'
+import React from "react";
+import { graphql } from "gatsby";
 import { Link } from "gatsby";
-import { withI18n } from '../i18n';
-import routes from '../helpers/routes';
+import { withI18n } from "../i18n";
+import routes from "../helpers/routes";
 
-import styles from './vacancies.module.scss';
-import { format } from '../helpers/date';
-import ItemPreview from '../components/ItemPreview';
-import Layout from '../components/layouts/default';
-
+import styles from "./vacancies.module.scss";
+import { format } from "../helpers/date";
+import ItemPreview from "../components/ItemPreview";
+import Layout from "../components/layouts/default";
 
 class Vacancies extends React.Component {
   renderPlace(key) {
     const { t } = this.props;
 
     switch (key) {
-      case 'guatemala': return t('pages_vacancies_group_title_guatemala');
-      case 'nicaragua': return t('pages_vacancies_group_title_nicaragua');
-      case 'guatemala-nicaragua': return t('pages_vacancies_group_title_guatemala_nicaragua');
-      case 'online': return t('pages_vacancies_group_title_online');
+      case "guatemala":
+        return t("pages_vacancies_group_title_guatemala");
+      case "nicaragua":
+        return t("pages_vacancies_group_title_nicaragua");
+      case "guatemala-nicaragua":
+        return t("pages_vacancies_group_title_guatemala_nicaragua");
+      case "online":
+        return t("pages_vacancies_group_title_online");
       default:
         return key;
     }
@@ -30,7 +33,11 @@ class Vacancies extends React.Component {
     const edges = data.allMarkdownRemark ? data.allMarkdownRemark.edges : [];
 
     if (edges.length === 0) {
-      return <div className={styles.noItemsMessage}>{t('pages_vacancies_no_items_yet')}</div>
+      return (
+        <div className={styles.noItemsMessage}>
+          {t("pages_vacancies_no_items_yet")}
+        </div>
+      );
     }
 
     // Sort items manually, because gatsby doesn't support sorting by multiple fields :(
@@ -49,8 +56,7 @@ class Vacancies extends React.Component {
       return 0;
     });
 
-
-    return sortedEdges.map((edge) => {
+    return sortedEdges.map(edge => {
       const { node } = edge;
       const { fields, frontmatter } = node;
 
@@ -61,38 +67,34 @@ class Vacancies extends React.Component {
           url={routes.vacanciesItem({ language, slug: node.fields.slug })}
           image={fields.image_thumbnail}
         >
-          <div className={styles.itemPlace}>{this.renderPlace(frontmatter.place)}</div>
-          <div className={styles.itemShortDescription}>{frontmatter.short_description}</div>
+          <div className={styles.itemPlace}>
+            {this.renderPlace(frontmatter.place)}
+          </div>
+          <div className={styles.itemShortDescription}>
+            {frontmatter.short_description}
+          </div>
         </ItemPreview>
-      )
+      );
     });
   }
 
   render() {
     return (
       <Layout location={this.props.location}>
-        <div>
-          {this.renderItems()}
-        </div>
+        <div>{this.renderItems()}</div>
       </Layout>
-    )
+    );
   }
 }
 
-export default withI18n(Vacancies)
-
+export default withI18n(Vacancies);
 
 export const query = graphql`
   query VacanciesQuery($language: String!) {
     allMarkdownRemark(
       filter: {
-        fields: {
-          collection: {eq: "vacancies"},
-        }
-        frontmatter: {
-          language: {eq: $language}
-          is_hidden: {ne: true}
-        }
+        fields: { collection: { eq: "vacancies" } }
+        frontmatter: { language: { eq: $language }, is_hidden: { ne: true } }
       }
     ) {
       edges {

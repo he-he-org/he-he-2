@@ -1,5 +1,5 @@
-import React from "react"
-import styles from './ItemPreview.module.scss';
+import React from "react";
+import styles from "./ItemPreview.module.scss";
 import { Link } from "gatsby";
 
 class ItemPreview extends React.Component {
@@ -15,7 +15,7 @@ class ItemPreview extends React.Component {
       >
         <span>{this.props.title}</span>
       </div>
-    )
+    );
   }
 
   render() {
@@ -23,13 +23,11 @@ class ItemPreview extends React.Component {
       <Link className={styles.root} to={this.props.url}>
         {this.renderImage()}
         {this.props.children && (
-          <div className={styles.body}>
-            {this.props.children}
-          </div>
+          <div className={styles.body}>{this.props.children}</div>
         )}
       </Link>
-    )
+    );
   }
 }
 
-export default ItemPreview
+export default ItemPreview;

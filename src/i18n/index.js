@@ -1,7 +1,7 @@
-import React from 'react';
 import { DEFAULT_LANGUAGE_CODE, LANGUAGE_CODES } from '../constants';
 import IntlMessageFormat from 'intl-messageformat';
 import texts from '../../content/configs/i18n.json';
+import React from 'react';
 
 function translate(language, key, params) {
   if (!LANGUAGE_CODES.some((x) => x === language)) {

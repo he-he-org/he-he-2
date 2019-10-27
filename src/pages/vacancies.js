@@ -1,11 +1,13 @@
 import React from "react"
-import Link from "gatsby-link";
+import { graphql } from 'gatsby'
+import { Link } from "gatsby";
 import { withI18n } from '../i18n';
 import routes from '../helpers/routes';
 
 import styles from './vacancies.module.scss';
 import { format } from '../helpers/date';
 import ItemPreview from '../components/ItemPreview';
+import Layout from '../components/layouts/default';
 
 
 class Vacancies extends React.Component {
@@ -68,9 +70,11 @@ class Vacancies extends React.Component {
 
   render() {
     return (
-      <div>
-        {this.renderItems()}
-      </div>
+      <Layout location={this.props.location}>
+        <div>
+          {this.renderItems()}
+        </div>
+      </Layout>
     )
   }
 }

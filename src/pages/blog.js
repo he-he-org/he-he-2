@@ -1,9 +1,11 @@
 import React from "react"
-import Link from "gatsby-link";
+import { Link } from "gatsby";
+import { graphql } from 'gatsby'
 import { withI18n } from '../i18n';
 import routes from '../helpers/routes';
 import { format } from '../helpers/date';
 
+import Layout from '../components/layouts/default'
 import styles from './blog.module.scss';
 import ItemPreview from '../components/ItemPreview';
 
@@ -58,9 +60,11 @@ class Blog extends React.Component {
 
   render() {
     return (
-      <div className={styles.root}>
-        {this.renderItems()}
-      </div>
+      <Layout location={this.props.location}>
+        <div className={styles.root}>
+          {this.renderItems()}
+        </div>
+      </Layout>
     );
   }
 }

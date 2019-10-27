@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "gatsby-link";
+import { Link } from "gatsby";
 import cn from 'classnames';
 import MarkdownContent from '../components/MarkdownContent';
 
@@ -8,6 +8,7 @@ import { withI18n } from '../i18n';
 import routes from '../helpers/routes';
 import ItemPreview from '../components/ItemPreview';
 import { DEFAULT_LANGUAGE_CODE } from '../constants';
+import Layout from '../components/layouts/default';
 
 class VolunteerTemplate extends React.Component {
   renderTopics() {
@@ -65,10 +66,12 @@ class VolunteerTemplate extends React.Component {
 
   render() {
     return (
-      <div className={styles.root}>
-        {this.renderTopics()}
-        {this.renderArticles()}
-      </div>
+      <Layout location={this.props.location}>
+        <div className={styles.root}>
+          {this.renderTopics()}
+          {this.renderArticles()}
+        </div>
+      </Layout>
     );
   }
 }

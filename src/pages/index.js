@@ -1,16 +1,20 @@
-import React from "react"
-import Link from "gatsby-link";
+import React from 'react'
+import { graphql } from 'gatsby'
 
 import MarkdownContent from '../components/MarkdownContent';
 
-import styles from "./index.module.scss";
+import styles from './index.module.scss';
+import Layout from '../components/layouts/default';
 
-export default ({ data }) => {
+export default ({ location, data }) => {
   const post = data.markdownRemark;
+
   return (
-    <div className={styles.styles}>
-      <MarkdownContent html={post.html}/>
-    </div>
+    <Layout location={location}>
+      <div className={styles.styles}>
+        <MarkdownContent html={post.html}/>
+      </div>
+    </Layout>
   );
 }
 

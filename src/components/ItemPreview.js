@@ -1,6 +1,6 @@
 import React from "react"
 import styles from './ItemPreview.module.scss';
-import Link from "gatsby-link";
+import { Link } from "gatsby";
 
 class ItemPreview extends React.Component {
   renderImage() {

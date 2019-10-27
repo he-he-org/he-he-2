@@ -1,6 +1,6 @@
 import React from "react"
 import styles from './MediaIcon.module.scss';
-import Link from "gatsby-link";
+import { Link } from "gatsby";
 
 class MediaIcon extends React.Component {
   render() {

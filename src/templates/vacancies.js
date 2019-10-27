@@ -1,10 +1,12 @@
 import React from "react";
+import { graphql } from 'gatsby'
 import MarkdownContent from '../components/MarkdownContent';
 import cn from 'classnames';
 
 import styles from './vacancies.module.scss';
 import { withI18n } from '../i18n';
 import { format } from '../helpers/date';
+import Layout from '../components/layouts/default';
 
 function prepareMap(map) {
   if (!map) {
@@ -670,20 +672,22 @@ class Vacancies extends React.Component {
 
   render() {
     return (
-      <div className={styles.root}>
-        {this.renderTitle()}
-        {this.renderPlace()}
-        {this.renderShortDescription()}
-        {this.renderImage()}
-        {this.renderMainRequirements()}
-        {this.renderLanguages()}
-        {this.renderAdditionalSkills()}
-        {this.renderConditions()}
-        {this.renderOtherConditions()}
-        {this.renderAids()}
-        {this.renderBody()}
-        {this.renderSubmitButton()}
-      </div>
+      <Layout location={this.props.location}>
+        <div className={styles.root}>
+          {this.renderTitle()}
+          {this.renderPlace()}
+          {this.renderShortDescription()}
+          {this.renderImage()}
+          {this.renderMainRequirements()}
+          {this.renderLanguages()}
+          {this.renderAdditionalSkills()}
+          {this.renderConditions()}
+          {this.renderOtherConditions()}
+          {this.renderAids()}
+          {this.renderBody()}
+          {this.renderSubmitButton()}
+        </div>
+      </Layout>
     );
   }
 }

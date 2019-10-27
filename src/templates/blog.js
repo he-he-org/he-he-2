@@ -1,18 +1,22 @@
 import React from "react";
+import { graphql } from 'gatsby'
 
 import styles from './blog.module.scss';
 import { format } from '../helpers/date';
 import { withI18n } from '../i18n';
 import MarkdownContent from '../components/MarkdownContent';
+import Layout from '../components/layouts/default';
 
-export default withI18n(({ data, language }) => {
+export default withI18n(({ data, language, location }) => {
   const post = data.markdownRemark;
   return (
-    <div className={styles.root}>
-      <div className={styles.title}>{post.frontmatter.title}</div>
-      <div className={styles.date}>{format(post.frontmatter.date, language, { format: 'LL' })}</div>
-      <MarkdownContent html={post.html}/>
-    </div>
+    <Layout location={location}>
+      <div className={styles.root}>
+        <div className={styles.title}>{post.frontmatter.title}</div>
+        <div className={styles.date}>{format(post.frontmatter.date, language, { format: 'LL' })}</div>
+        <MarkdownContent html={post.html}/>
+      </div>
+    </Layout>
   );
 });
 

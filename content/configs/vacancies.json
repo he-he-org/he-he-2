@@ -1,6 +1,7 @@
 {
   "advantages": [
     {
+      "name": "test_name",
       "english": "test",
       "russian": "теуые",
       "spanish": "la teste"

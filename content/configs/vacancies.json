@@ -1,3 +1,9 @@
 {
-  "title": "афыафа"
+  "advantages": [
+    {
+      "english": "test",
+      "russian": "теуые",
+      "spanish": "la teste"
+    }
+  ]
 }

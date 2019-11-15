@@ -15,16 +15,16 @@ required_languages:
   spanish: a1
 term_custom: 3-12 months
 conditions:
-  food: true
-  place_to_stay: true
-  travel_compensations: true
+  food: false
+  place_to_stay: false
+  travel_compensations: false
 additional_skills:
   cooking: must
   driving: must
 other_conditions:
-  cleaning: true
-  domestic_purchases: true
-aids_transportation: true
+  cleaning: false
+  domestic_purchases: false
+aids_transportation: false
 questionnaire_link: 'https://forms.gle/x2f7iwgSXeJvW3nh8'
 is_pinned: false
 is_hidden: false

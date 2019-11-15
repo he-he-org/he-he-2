@@ -56,9 +56,8 @@ is_hidden: false
 
 * Strict compliance with project rules: (<https://help.he-he.org/ru/guatemala/pravila-proekta-health-help-v-gvatemale/>)
 * Flexible working hours at the clinic. Readiness to work in the evenings and on the weekends according to the schedule. 
-* Cleaning the clinic, common area and rooms, scheduling, segregation of duties, controlling and personal engagement
-  .
-* Cooking by yourself or along with other volunteers according to the schedule.
+* Cleaning the clinic, common area and rooms (scheduling and supervising along with personal engagement).
+* Cooking for the team by yourself or along with other volunteers according to the schedule.
 * Wholesale and retail purchase of products, household items and medical supplies.
 * Petty cash management and reporting.
 * Environment awareness, carrying for the clinic backyard and the garden.

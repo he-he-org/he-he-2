@@ -19,8 +19,8 @@ conditions:
   place_to_stay: false
   travel_compensations: false
 additional_skills:
-  cooking: must
-  driving: must
+  cooking: ''
+  driving: ''
 other_conditions:
   cleaning: false
   domestic_purchases: false
@@ -76,5 +76,4 @@ is_hidden: false
 * Readiness to live and work far away from the cities, with poor internet connection, in a small  rural clinic with multinational team
 * Support Health&Help values and mission.
 
-**To become Health&Help volunteer is not easy but pretty awesome! Apply now and your life will never be the same again!
-**
+**To become Health&Help volunteer is not easy but pretty awesome! Apply now and your life will never be the same again!**

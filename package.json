@@ -31,6 +31,7 @@
     "less": "^3.10.3",
     "lodash": "^4.17.15",
     "netlify-cms": "^2.9.7",
+    "netlify-cms-widget-string": "^2.2.3",
     "node-sass": "^4.13.0",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",

@@ -85,6 +85,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
               }
               frontmatter {
                 language
+                version
               }
             }
           }
@@ -96,12 +97,14 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         if (['blog', 'vacancies'].some((x) => x === node.fields.collection)) {
           let pagePath = `${node.fields.collection}/${node.fields.slug}`;
           let language = node.frontmatter.language;
+          let version = node.frontmatter.version;
+          let versionSuffix = version ? `-${version}` : '';
           if (language !== DEFAULT_LANGUAGE_CODE) {
             pagePath = `${language}/` + pagePath;
           }
           createPage({
             path: pagePath,
-            component: path.resolve(`./src/templates/${node.fields.collection}.js`),
+            component: path.resolve(`./src/templates/${node.fields.collection}${versionSuffix}.js`),
             context: {
               // Data passed to context is available in page queries as GraphQL variables.
               slug: node.fields.slug,

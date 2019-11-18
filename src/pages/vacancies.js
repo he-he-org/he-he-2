@@ -70,9 +70,6 @@ class Vacancies extends React.Component {
           <div className={styles.itemPlace}>
             {this.renderPlace(frontmatter.place)}
           </div>
-          <div className={styles.itemShortDescription}>
-            {frontmatter.short_description}
-          </div>
         </ItemPreview>
       );
     });

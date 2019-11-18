@@ -1,0 +1,153 @@
+@import "../variables";
+
+.plainText {
+  font-size: 18px;
+  margin: 1rem 0;
+  line-height: 1.5em;
+}
+
+.image {
+  max-width: $body-width;
+  width: calc(100vw - #{$body-padding * 2});
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.4em;
+  text-align: left;
+}
+
+:root {
+  .shortDescription {
+  }
+
+  .value {
+    font-weight: 500;
+  }
+
+  .place {
+    .value {
+      color: #e1001a;
+    }
+  }
+
+  .term {
+  }
+
+  .cost {
+  }
+
+  .subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+
+  .subsubtitle {
+    font-weight: 500;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .submitFormButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0 60px;
+
+    > a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 3px solid #e1001a;
+      padding: 24px;
+      font-size: 24px;
+      border-radius: 8px;
+      font-weight: 500;
+
+      &,
+      &:hover,
+      &:visited,
+      &:active {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .finalText {
+    margin: 3rem 0;
+    //padding: 60px 0;
+    //font-size: 24px;
+    //line-height: 1.3em;
+    //text-align: left;
+    //font-style: italic;
+
+    //font-weight: 400;
+    //font-size: 1.5em;
+    //text-align: center;
+    //padding: 60px 132px;
+  }
+
+  .featureList {
+    > li {
+      margin: 0.5rem 0 0.5rem 2rem;
+      line-height: 1.3em;
+      text-indent: -0.67em;
+
+      &::before {
+        display: inline-block;
+        content: "—";
+        margin-right: 10px;
+        flex-shrink: 0;
+        position: relative;
+      }
+
+      &::after {
+        content: ";";
+      }
+
+      &:last-child {
+        &::after {
+          content: ".";
+        }
+      }
+    }
+  }
+
+  // Special tags
+  .note {
+    color: #e1001a;
+    font-weight: 300;
+    cursor: default;
+    position: relative;
+    top: -5px;
+    left: 1px;
+    margin-left: -1px;
+
+    &:hover {
+      > div {
+        display: block;
+      }
+    }
+
+    > div {
+      display: none;
+      position: absolute;
+      transform: translateY(-100%);
+      top: 0;
+      left: 5px;
+      color: black;
+      background: white;
+      font-size: 13px;
+      width: 150px;
+      border: 1px solid #e8e8e8;
+      text-align: left;
+      padding: 4px 12px;
+      border-radius: 4px;
+      /* box-shadow: 1px 1px 4px #00000017; */
+      line-height: 1.2;
+    }
+  }
+}

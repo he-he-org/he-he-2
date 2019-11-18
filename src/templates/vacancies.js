@@ -1,11 +1,9 @@
 import React from "react";
 import { graphql } from "gatsby";
 import MarkdownContent from "../components/MarkdownContent";
-import cn from "classnames";
 
 import styles from "./vacancies.module.scss";
 import { withI18n } from "../i18n";
-import { format } from "../helpers/date";
 import Layout from "../components/layouts/default";
 
 function prepareMap(map) {

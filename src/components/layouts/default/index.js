@@ -46,7 +46,6 @@ class DefaultLayout extends React.Component {
   }
 
   renderLanguageSwitch() {
-    console.log("this", this);
     const { location, language } = this.props;
 
     const pathnameParts = location.pathname.split("/").filter(part => !!part);

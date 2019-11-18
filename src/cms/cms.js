@@ -6,6 +6,20 @@ import "netlify-cms/dist/cms.css";
 // gallery widget in separate files
 import I18nWidget from "./I18nWidget";
 import I18nPreview from "./I18nPreview";
-
-// Register the imported widget:
+import StringListWidget from "./StringListWidget.js";
+import StringListPreview from "./StringListPreview.js";
+//
+// // Register the imported widget:
 CMS.registerWidget("i18n", I18nWidget, I18nPreview);
+CMS.registerWidget("string_list", StringListWidget, StringListPreview);
+
+const backend = {
+  name: "git-gateway",
+  branch: "master"
+};
+
+CMS.init({
+  config: {
+    backend
+  }
+});

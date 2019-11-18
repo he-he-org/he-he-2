@@ -105,6 +105,40 @@ collections:
       - {label: "Is pinned", name: "is_pinned", widget: "boolean", default: false}
       - {label: "Is hidden", name: "is_hidden", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "vacancy-2"
+    label: "Vacancy (v. 2)"
+    folder: "content/vacancies-2"
+    create: true
+    slug: "{{place}}-{{slug}}"
+    fields:
+      - {label: "Version", name: "version", widget: "hidden", default: 2}
+      - {label: "Language", name: "language", widget: "select", options: [{ label: "Russian", value: "ru" }, { label: "English", value: "en" }, { label: "Spanish", value: "es" }]}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Place", name: "place", widget: "select", options: [{ label: "Guatemala", value: "guatemala" }, { label: "Nicaragua", value: "nicaragua" }, { label: "Guatemala / Nicaragua", value: "guatemala-nicaragua" }, { label: "On-line", value: "online" }]}
+      - {label: "Time period", name: "term", widget: "select", options: [{ label: "Week", value: "week" }, { label: "Month", value: "month" }, { label: "Several months", value: "several_months" }, { label: "Year", value: "year" }, { label: "Date interval", value: "custom_interval" }, { label: "Custom", value: "custom" }], required: false}
+      - {label: "Time period (custom)", name: "term_custom", widget: "string", required: false, hint: "To show this field select 'Custom' option in dropdown above"}
+      - {label: "Cost", name: "cost", widget: "string", required: false, hint: "Left empty for 'free'"}
+      - {label: "Short description", name: "short_description", widget: "string"}
+      - label: "Custom advantages"
+        name: "custom_advantages"
+        widget: "string_list"
+        required: false
+      - label: "Custom supplies"
+        name: "custom_supplies"
+        widget: "string_list"
+        required: false
+      - label: "Custom duties"
+        name: "custom_duties"
+        widget: "string_list"
+        required: false
+      - label: "Professional requirements"
+        name: "professional_requirements"
+        widget: "string_list"
+        required: false
+      - {label: "Link to questionnaire", name: "questionnaire_link", widget: "string", required: false}
+      - {label: "Is pinned", name: "is_pinned", widget: "boolean", default: false}
+      - {label: "Is hidden", name: "is_hidden", widget: "boolean", default: false}
   - name: "volunteer-place"
     label: "For volunteer - Place"
     folder: "content/volunteer-places"
@@ -177,3 +211,26 @@ collections:
         file: "content/configs/i18n.json"
         fields:
           - {label: Data, name: data, widget: i18n}
+  - label: "Vacancies config files"
+    name: "vacancies-config-files"
+    format: "json"
+    files:
+      - label: "Vacancies config"
+        name: "index"
+        file: "content/configs/vacancies.json"
+        fields:
+          - label: "Common advantages"
+            name: "advantages"
+            widget: "list"
+            fields:
+              - {label: "English", name: "english", widget: "string"}
+              - {label: "Russian", name: "russian", widget: "string"}
+              - {label: "Spanish", name: "spanish", widget: "string"}
+          - label: "Common supplies"
+            name: "supplies"
+            widget: "list"
+            fields:
+              - {label: "English", name: "english", widget: "string"}
+              - {label: "Russian", name: "russian", widget: "string"}
+              - {label: "Spanish", name: "spanish", widget: "string"}
+

@@ -137,6 +137,7 @@ collections:
         widget: "string_list"
         required: false
       - {label: "Link to questionnaire", name: "questionnaire_link", widget: "string", required: false}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Is pinned", name: "is_pinned", widget: "boolean", default: false}
       - {label: "Is hidden", name: "is_hidden", widget: "boolean", default: false}
   - name: "volunteer-place"

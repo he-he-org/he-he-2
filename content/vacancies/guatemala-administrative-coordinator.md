@@ -42,7 +42,7 @@ humanitarian_aid:
 questionnaire_link: >-
   https://docs.google.com/forms/d/e/1FAIpQLSfrWAl_zpqMT55qrQwgg58iZU1-nTT3GtTcCzGVFVkQcIRw4w/viewform
 is_pinned: false
-is_hidden: false
+is_hidden: true
 ---
 **Personal qualities
 **

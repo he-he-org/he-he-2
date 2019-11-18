@@ -227,7 +227,7 @@ collections:
               - {label: "Name", name: "name", widget: "string"}
               - {label: "English", name: "en", widget: "string"}
               - {label: "Russian", name: "ru", widget: "string"}
-              - {label: "Spanish", name: "sp", widget: "string"}
+              - {label: "Spanish", name: "es", widget: "string"}
           - label: "Common supplies"
             name: "supplies"
             widget: "list"

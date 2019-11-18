@@ -119,6 +119,7 @@ collections:
       - {label: "Time period", name: "term", widget: "select", options: [{ label: "Week", value: "week" }, { label: "Month", value: "month" }, { label: "Several months", value: "several_months" }, { label: "Year", value: "year" }, { label: "Date interval", value: "custom_interval" }, { label: "Custom", value: "custom" }], required: false}
       - {label: "Time period (custom)", name: "term_custom", widget: "string", required: false, hint: "To show this field select 'Custom' option in dropdown above"}
       - {label: "Cost", name: "cost", widget: "string", required: false, hint: "Left empty for 'free'"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Short description", name: "short_description", widget: "string"}
       - label: "Custom advantages"
         name: "custom_advantages"
@@ -137,7 +138,6 @@ collections:
         widget: "string_list"
         required: false
       - {label: "Link to questionnaire", name: "questionnaire_link", widget: "string", required: false}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Is pinned", name: "is_pinned", widget: "boolean", default: false}
       - {label: "Is hidden", name: "is_hidden", widget: "boolean", default: false}
   - name: "volunteer-place"

@@ -1,6 +1,6 @@
 ---
 language: ru
-title: Ассистент администратора/помощник
+title: Помощник
 short_description: >-
   Разделить обязанности администратора проекта, уметь в нужный момент прийти на
   выручку любому другому волонтеру, оценить ситуацию и принять мгновенное
@@ -17,22 +17,38 @@ required_languages:
   spanish: a1
 volunteer_type: any
 term: week
-term_custom:
 work_time: 'ПН-ПТ: 8:00-16:00; СБ: 8:00-12:00'
 rest_time: >-
   ПН-СБ: 13:00-14:00; ВС: выходной; Отпуск: обговаривается индивидуально с
   организаторами проекта
 conditions:
   food: true
+  home: true
+  payment: true
   place_to_stay: true
+  salary: true
+  tickets_one_way: true
+  tickets_two_ways: true
+  travel_compensations: true
 additional_skills:
   cooking: must
   driving: desirable
   motorcycling: advantage
   photo_video: desirable
 other_conditions:
+  accounting_of_medicines: true
   cleaning: true
   domestic_purchases: true
+  drugstore_logistics: true
+  emergencies: true
+  house_calls: true
+  night_shifts: true
+  patient_escort_to_the_hospital: true
+  pr_within_community: true
+  providing_of_lectures: true
+  spanish_classes: true
+  statistics_conducting: true
+  stuff_organization: true
 aids_transportation: true
 humanitarian_aid:
   equipment_by_list: pack_yourself

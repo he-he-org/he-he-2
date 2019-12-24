@@ -15,23 +15,40 @@ required_languages:
   russian: a2
   spanish: a2
 term: month
-term_custom:
 work_time: '8 hours a day, 6 days a week'
 conditions:
   food: true
+  home: true
+  payment: true
   place_to_stay: true
+  salary: true
+  tickets_one_way: true
+  tickets_two_ways: true
+  travel_compensations: true
 additional_skills:
   cooking: ''
   driving: desirable
   motorcycling: ''
 other_conditions:
+  accounting_of_medicines: true
+  cleaning: true
   domestic_purchases: true
+  drugstore_logistics: true
+  emergencies: true
+  house_calls: true
+  night_shifts: true
+  patient_escort_to_the_hospital: true
+  pr_within_community: true
+  providing_of_lectures: true
+  spanish_classes: true
+  statistics_conducting: true
+  stuff_organization: true
 aids_transportation: true
 humanitarian_aid:
   building_materials: will_be_given
 questionnaire_link: 'https://goo.gl/forms/1dHppXPQIC8qZxkw2'
 is_pinned: false
-is_hidden: false
+is_hidden: true
 ---
 In this role you will be expected **to work on buildings, roads and other construction projects.** You will be the one to help the plans of architects and engineers come to life and become full and solid structures.
 

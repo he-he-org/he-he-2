@@ -18,22 +18,37 @@ required_languages:
 main_language: ''
 volunteer_type: any
 term: several_months
-term_custom:
 work_time: 'ПН-СБ: 8:00-16:00; '
 rest_time: >-
   ПН-СБ: 13:00-14:00; ВС: выходной; Отпуск: обговаривается индивидуально с
   организаторами проекта
 conditions:
   food: true
+  home: true
+  payment: true
   place_to_stay: true
+  salary: true
+  tickets_one_way: true
+  tickets_two_ways: true
+  travel_compensations: true
 additional_skills:
   cooking: desirable
   driving: must
   motorcycling: desirable
   photo_video: desirable
 other_conditions:
+  accounting_of_medicines: true
   cleaning: true
   domestic_purchases: true
+  drugstore_logistics: true
+  emergencies: true
+  house_calls: true
+  night_shifts: true
+  patient_escort_to_the_hospital: true
+  pr_within_community: true
+  providing_of_lectures: true
+  spanish_classes: true
+  statistics_conducting: true
   stuff_organization: false
 aids_transportation: true
 humanitarian_aid:
@@ -45,7 +60,7 @@ humanitarian_aid:
 other_conditions_custom: Желателен опыт в строительстве
 questionnaire_link: 'https://goo.gl/forms/4V0qnRxll3QcNDmN2'
 is_pinned: false
-is_hidden: false
+is_hidden: true
 ---
 ## опыт
 

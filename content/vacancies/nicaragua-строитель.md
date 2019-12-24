@@ -24,13 +24,13 @@ rest_time: >-
   организаторами проекта
 conditions:
   food: true
-  home: true
-  payment: true
+  home: false
+  payment: false
   place_to_stay: true
-  salary: true
-  tickets_one_way: true
-  tickets_two_ways: true
-  travel_compensations: true
+  salary: false
+  tickets_one_way: false
+  tickets_two_ways: false
+  travel_compensations: false
 additional_skills:
   cooking: desirable
   driving: must

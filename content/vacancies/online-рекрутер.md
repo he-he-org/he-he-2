@@ -19,9 +19,32 @@ term: custom
 term_custom: на длительное время
 work_time: гибкое
 rest_time: гибкое
+conditions:
+  food: true
+  home: true
+  payment: true
+  place_to_stay: true
+  salary: true
+  tickets_one_way: true
+  tickets_two_ways: true
+  travel_compensations: true
+other_conditions:
+  accounting_of_medicines: true
+  cleaning: true
+  domestic_purchases: true
+  drugstore_logistics: true
+  emergencies: true
+  house_calls: true
+  night_shifts: true
+  patient_escort_to_the_hospital: true
+  pr_within_community: true
+  providing_of_lectures: true
+  spanish_classes: true
+  statistics_conducting: true
+  stuff_organization: true
 questionnaire_link: 'https://goo.gl/forms/u2XG2HYreVRy6MIB3'
 is_pinned: false
-is_hidden: true
+is_hidden: false
 ---
 **НАШ ИДЕ­АЛЬ­НЫЙ ВО­ЛОН­ТЕР:**
 

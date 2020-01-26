@@ -20,28 +20,28 @@ term_custom: на длительное время
 work_time: гибкое
 rest_time: гибкое
 conditions:
-  food: true
-  home: true
-  payment: true
-  place_to_stay: true
-  salary: true
-  tickets_one_way: true
-  tickets_two_ways: true
-  travel_compensations: true
+  food: false
+  home: false
+  payment: false
+  place_to_stay: false
+  salary: false
+  tickets_one_way: false
+  tickets_two_ways: false
+  travel_compensations: false
 other_conditions:
-  accounting_of_medicines: true
-  cleaning: true
-  domestic_purchases: true
-  drugstore_logistics: true
-  emergencies: true
-  house_calls: true
-  night_shifts: true
-  patient_escort_to_the_hospital: true
-  pr_within_community: true
-  providing_of_lectures: true
-  spanish_classes: true
-  statistics_conducting: true
-  stuff_organization: true
+  accounting_of_medicines: false
+  cleaning: false
+  domestic_purchases: false
+  drugstore_logistics: false
+  emergencies: false
+  house_calls: false
+  night_shifts: false
+  patient_escort_to_the_hospital: false
+  pr_within_community: false
+  providing_of_lectures: false
+  spanish_classes: false
+  statistics_conducting: false
+  stuff_organization: false
 questionnaire_link: 'https://goo.gl/forms/u2XG2HYreVRy6MIB3'
 is_pinned: false
 is_hidden: false
